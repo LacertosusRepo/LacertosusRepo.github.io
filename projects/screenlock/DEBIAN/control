@@ -1,4 +1,4 @@
-Package: com.LacertosusRepo.screenlock
+Package: com.lacertosusrepo.screenlock
 Name: ScreenLock
 Depends: mobilesubstrate
 Version: 0.0.1-31
