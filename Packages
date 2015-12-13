@@ -1,16 +1,16 @@
 Package: com.lacertosusrepo.customreach
-Version: 0.0.1
+Version: 0.1.2-14
 Architecture: iphoneos-arm
-Maintainer: Lacertosus
+Maintainer: Lacertosus <LacertosusThemes@gmail.com>
 Depends: mobilesubstrate
-Filename: ./debs/com.lacertosusrepo.customreach_0.0.1_iphoneos-arm.deb
-Size: 610
-MD5sum: f0d8c622462d22c2de148b509465851f
-SHA1: bb2633f41437a653ad036ceaa3d2704645ebf0ef
-SHA256: bc4083637407dae5e70aabd047e2b8bcb54dad7e721302071930be9231ed3b9b
+Filename: ./debs/com.lacertosusrepo.customreach_0.1.2-14_iphoneos-arm.deb
+Size: 28248
+MD5sum: 617258363a172b8583051fddf00a1df8
+SHA1: d39a4ed9a8407cb0ba0fdd3e7af628b92d8f0043
+SHA256: 1900a13bcd81db6a37ff074a786d8e6448b79d31e274812b7bb352bd5c3f193c
 Section: Tweaks
-Description: An awesome MobileSubstrate tweak!
-Author: Lacertosus
+Description: Tweak that allows you to customize Reachability to whatever you want!
+Author: Lacertosus <LacertosusThemes@gmail.com>
 Name: CustomReach
 
 Package: com.lacertosusrepo.screenlock
@@ -20,9 +20,9 @@ Maintainer: Lacertosus <LacertosusThemes@gmail.com>
 Depends: mobilesubstrate
 Filename: ./debs/com.lacertosusrepo.screenlock_0.0.1-33_iphoneos-arm.deb
 Size: 13762
-MD5sum: 543c862e7dc172f073d15e7e3044d52f
-SHA1: 060648909b4e977449d9aee1296b2c0bb12e764e
-SHA256: e9d88d7c0f85f7fce7da700683338f42043795efcd311d7b37f0a2d5f628bec9
+MD5sum: 7e02c30bea4c0a8dbec527037bf2f146
+SHA1: 5ac9a7fcf3e60ef4c6efd669d4ddfb0db4fe1702
+SHA256: 96887793e893ba911ad5b2b911b4b088c6cc5b7d113b421da2ead2ff23ee9f7c
 Section: Tweaks
 Description: Tweak that locks your screen via Activator Action
 Author: Lacertosus <LacertosusThemes@gmail.com>

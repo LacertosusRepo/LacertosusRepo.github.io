@@ -1,9 +1,9 @@
 Package: com.lacertosusrepo.customreach
 Name: CustomReach
 Depends: mobilesubstrate
-Version: 0.0.1
+Version: 0.1.2-14
 Architecture: iphoneos-arm
-Description: An awesome MobileSubstrate tweak!
-Maintainer: Lacertosus
-Author: Lacertosus
+Description: Tweak that allows you to customize Reachability to whatever you want!
+Maintainer: Lacertosus <LacertosusThemes@gmail.com>
+Author: Lacertosus <LacertosusThemes@gmail.com>
 Section: Tweaks
