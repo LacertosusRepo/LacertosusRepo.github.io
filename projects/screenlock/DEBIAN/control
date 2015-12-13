@@ -1,0 +1,9 @@
+Package: com.lacertosus.screenlock
+Name: ScreenLock
+Depends: mobilesubstrate
+Version: 0.0.1-31
+Architecture: iphoneos-arm
+Description: Tweak that locks your screen via Activator Action
+Maintainer: Lacertosus <LacertosusThemes@gmail.com>
+Author: Lacertosus <LacertosusThemes@gmail.com>
+Section: Tweaks

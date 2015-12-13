@@ -1,2 +1,1 @@
-# LacertosusRepo.github.io
-My Private Repository
+# LacertosusRepo.GitHub.io
