@@ -5,9 +5,9 @@ Maintainer: Lacertosus <LacertosusThemes@gmail.com>
 Depends: mobilesubstrate
 Filename: ./debs/com.lacertosusrepo.screenlock_0.0.1-31_iphoneos-arm.deb
 Size: 6282
-MD5sum: ac74661327a1a3d31841d87b509db098
-SHA1: bcb49a1267633d744131d3f55b6ae24381b4b428
-SHA256: 91f54589b7157d46c07bd57a2eadce9bf261f6d1742abbf985f1693f86b3d679
+MD5sum: e718dbd8b820bb97ba0a1b1b4fb82b95
+SHA1: 7de23aa8ccd5d42366ecc23b8d6b9fdccea6d8e1
+SHA256: 37c8fbca5ea25fe01b7802c7ac9ee517213eb2a2c83b4f3119b6f9af02acfade
 Section: Tweaks
 Description: Tweak that locks your screen via Activator Action
 Author: Lacertosus <LacertosusThemes@gmail.com>
