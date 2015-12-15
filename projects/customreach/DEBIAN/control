@@ -3,11 +3,13 @@ Name: CustomReach
 Depends: mobilesubstrate
 Version: 0.1.2-14
 Architecture: iphoneos-arm
-Description: [i]Compatible with iOS 8 and 9[/i]
+Description: Customize Reachability
+ <i>Compatible with iOS 8 and 9</i>
  Tweak that allows you to customize Reachability to whatever you want!
- [b]CHANGELOG[/b]
+ .
+ <b>CHANGELOG
  - Added Icon
- - Reduced Code
+ - Reduced Code</b>
 Maintainer: Lacertosus <LacertosusThemes@gmail.com>
 Author: Lacertosus <LacertosusThemes@gmail.com>
 Section: Tweaks
