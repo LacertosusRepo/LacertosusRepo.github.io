@@ -4,18 +4,19 @@ Architecture: iphoneos-arm
 Maintainer: Lacertosus <LacertosusThemes@gmail.com>
 Depends: mobilesubstrate
 Filename: ./debs/com.lacertosusrepo.customreach_0.1.2-14_iphoneos-arm.deb
-Size: 28324
-MD5sum: b238cb099d94517c925846ee823c8abd
-SHA1: b4ca08877a00caf774acf8b3ee34e0c58e279d6b
-SHA256: 541facd3017611ba87b8a5a621b71acb7866fb9999eaa823b0a109d2b8a71494
+Size: 28318
+MD5sum: f498370b6cfa737efeb279533e62b49b
+SHA1: ece5f9e44f35cfaed8ee560da4441070066727c4
+SHA256: 650724824abbef1bd2c251d4ad9664f8e12b1d36ccb2b908e34339613553d9e8
 Section: Tweaks
 Description: Customize Reachability
- <i>Compatible with iOS 8 and 9</i>
+ Compatible with iOS 8 and 9
+ -------------------
  Tweak that allows you to customize Reachability to whatever you want!
- .
- <b>CHANGELOG
- - Added Icon
- - Reduced Code</b>
+ -------------------
+ CHANGELOG:
+ - Fixed Preferences
+ - Reduced Code
 Author: Lacertosus <LacertosusThemes@gmail.com>
 Name: CustomReach
 
@@ -25,12 +26,19 @@ Architecture: iphoneos-arm
 Maintainer: Lacertosus <LacertosusThemes@gmail.com>
 Depends: mobilesubstrate
 Filename: ./debs/com.lacertosusrepo.screenlock_0.0.1-33_iphoneos-arm.deb
-Size: 13762
-MD5sum: 22112397bb51f5cb14d092d77bb429c9
-SHA1: 35ca5c480abc804603172130fec91e6f992b892c
-SHA256: e272df5851f69d4646d57371fc22d321ab8e1c2467997248930cde34f82908e8
+Size: 13836
+MD5sum: 3c1a61f9897c18b9a63daff0d056ad88
+SHA1: 5903ce107e2a22db074012c5750b7fe5a6b6bede
+SHA256: 934ce0801fb68361470c8afea8405f98b36c36a8ba6e1fbcad37c9aa40db3e89
 Section: Tweaks
-Description: Tweak that locks your screen via Activator Action
+Description: Lock your screen!
+ Compatible with iOS 8 and 9
+ -------------------
+ Tweak that locks your screen via Activator Action
+ -------------------
+ CHANGELOG:
+ - Reduced Code
+ - Added Icon
 Author: Lacertosus <LacertosusThemes@gmail.com>
 Name: ScreenLock
 

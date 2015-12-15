@@ -3,7 +3,14 @@ Name: ScreenLock
 Depends: mobilesubstrate
 Version: 0.0.1-33
 Architecture: iphoneos-arm
-Description: Tweak that locks your screen via Activator Action
+Description: Lock your screen!
+ Compatible with iOS 8 and 9
+ -------------------
+ Tweak that locks your screen via Activator Action
+ -------------------
+ CHANGELOG:
+ - Reduced Code
+ - Added Icon
 Maintainer: Lacertosus <LacertosusThemes@gmail.com>
 Author: Lacertosus <LacertosusThemes@gmail.com>
 Section: Tweaks

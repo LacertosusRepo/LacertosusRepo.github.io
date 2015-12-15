@@ -4,12 +4,13 @@ Depends: mobilesubstrate
 Version: 0.1.2-14
 Architecture: iphoneos-arm
 Description: Customize Reachability
- <i>Compatible with iOS 8 and 9</i>
+ Compatible with iOS 8 and 9
+ -------------------
  Tweak that allows you to customize Reachability to whatever you want!
- .
- <b>CHANGELOG
- - Added Icon
- - Reduced Code</b>
+ -------------------
+ CHANGELOG:
+ - Fixed Preferences
+ - Reduced Code
 Maintainer: Lacertosus <LacertosusThemes@gmail.com>
 Author: Lacertosus <LacertosusThemes@gmail.com>
 Section: Tweaks
