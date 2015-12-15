@@ -1,0 +1,13 @@
+Package: com.lacertosusrepo.neversummerlogo
+Name: Never Summer Boot Logo
+Depends: com.anemonetheming.anemone
+Version: 0.0.1
+Architecture: iphoneos-arm
+Description: Snoawboarding Company Logo
+ Never Summer Snowboarding company logo for respring
+ -------------------
+ CHANGELOG:
+ - Initail Release
+Maintainer: Lacertosus <LacertosusThemes@gmail.com>
+Author: Lacertosus <LacertosusThemes@gmail.com>
+Section: Themes
