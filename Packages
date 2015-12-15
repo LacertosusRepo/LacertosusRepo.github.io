@@ -1,13 +1,13 @@
 Package: com.lacertosusrepo.customreach
-Version: 0.1.2-14
+Version: 0.1.2-20
 Architecture: iphoneos-arm
 Maintainer: Lacertosus <LacertosusThemes@gmail.com>
 Depends: mobilesubstrate
-Filename: ./debs/com.lacertosusrepo.customreach_0.1.2-14_iphoneos-arm.deb
-Size: 28318
-MD5sum: 8170a55cf8783a2cecdff63c341f832c
-SHA1: 9fe59c8e0942e4db78b24e0aaab8a7af796836fe
-SHA256: 2176c18287ad5624c0a97871a157ecd298fd43a3876eaf5d5f90021cd8c1e8bd
+Filename: ./debs/com.lacertosusrepo.customreach_0.1.2-20_iphoneos-arm.deb
+Size: 28320
+MD5sum: b797b555652a27c388c5c88a0b1704b1
+SHA1: 4f26de4dc6d7b9af6d479efa3e943352b892d8e1
+SHA256: 8185b684bca8e06b1b2a5600a0a4865e0c99a3e97cfb8b634b340affaccd3972
 Section: Tweaks
 Description: Customize Reachability
  Compatible with iOS 8 and 9
@@ -27,9 +27,9 @@ Maintainer: Lacertosus <LacertosusThemes@gmail.com>
 Depends: com.anemonetheming.anemone
 Filename: ./debs/com.lacertosusrepo.netflixnchill_0.0.1-2_iphoneos-arm.deb
 Size: 256558
-MD5sum: 9423850d7f5774e7be3e23f9c8bccf63
-SHA1: aff858881f0badd76266effe139afeb6c4f044d7
-SHA256: 4da9a723b1e96b81048c101b82a88ed7eecc159e6cf9fbca843b16046260cee0
+MD5sum: 5ce7da8a77047ea2c1440c089aeceaa6
+SHA1: 96a9ad5973ba62f10c5240a1dbc7d4055ac37628
+SHA256: c40536dab16837db009c6c390260064e5e1119cfae4994fa0ab374816b8c2e69
 Section: Themes
 Description: Im ashamed of it too...
  Themes the Netflix app with Netflix & Chill Logos
@@ -46,9 +46,9 @@ Maintainer: Lacertosus <LacertosusThemes@gmail.com>
 Depends: com.anemonetheming.anemone
 Filename: ./debs/com.lacertosusrepo.neversummerlogo_0.0.1_iphoneos-arm.deb
 Size: 33558
-MD5sum: feae5d4de388d1e36e860e7107203e34
-SHA1: 813cd8ed885ab7c0e9a71b0d03b348606a0deeda
-SHA256: d8258bdf87d14ee81923be1008a89bbc01f10af9dcbffb4825511aaae8716693
+MD5sum: 5ef2cafe856f40aa64b6562aedb831a5
+SHA1: c4b29af35bb11930a7d642602f4b6cd8467041a2
+SHA256: fb9a8cc86db90fc0c149147424b7dbfa5acedc9a1b97acc2fe09dfc1b2d63e6b
 Section: Themes
 Description: Snoawboarding Company Logo
  Never Summer Snowboarding company logo for respring
@@ -65,9 +65,9 @@ Maintainer: Lacertosus <LacertosusThemes@gmail.com>
 Depends: mobilesubstrate
 Filename: ./debs/com.lacertosusrepo.screenlock_0.0.1-40_iphoneos-arm.deb
 Size: 14148
-MD5sum: abc15561620e0d335678e630e14ecccb
-SHA1: f8c391d093a3b4920a3478537bc2a31190329a27
-SHA256: bf940d0d50f213a400bae021dc955de16b94b0c85a2a6145944567f38aabdc59
+MD5sum: 367e9d0a6f420658808f0c3047b73071
+SHA1: bd1a06b36ae802f8eee302c87e4e6ca6869c6ba1
+SHA256: 3259e8b97f48e8c6fc659f02d18fce5120c98ee10863abf4130061366acbe07b
 Section: Tweaks
 Description: Lock your screen!
  Compatible with iOS 8 and 9

@@ -1,7 +1,7 @@
 Package: com.lacertosusrepo.customreach
 Name: CustomReach
 Depends: mobilesubstrate
-Version: 0.1.2-14
+Version: 0.1.2-20
 Architecture: iphoneos-arm
 Description: Customize Reachability
  Compatible with iOS 8 and 9
