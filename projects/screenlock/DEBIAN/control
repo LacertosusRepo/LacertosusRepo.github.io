@@ -1,17 +1,16 @@
 Package: com.lacertosusrepo.screenlock
 Name: ScreenLock
 Depends: mobilesubstrate
-Version: 0.0.1-40
+Version: 0.2.4-11
 Architecture: iphoneos-arm
 Description: Lock your screen!
  Compatible with iOS 8 and 9
  -------------------
- Tweak that locks your screen via Activator Action
+ Tweak that locks your screen via Activator Action.
  -------------------
  CHANGELOG:
  - Reduced Code
  - Added Icon
- - Now Locks Screen Orientation Too
 Maintainer: Lacertosus <LacertosusThemes@gmail.com>
 Author: Lacertosus <LacertosusThemes@gmail.com>
 Section: Tweaks

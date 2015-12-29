@@ -5,9 +5,9 @@ Maintainer: Lacertosus <LacertosusThemes@gmail.com>
 Depends: mobilesubstrate
 Filename: ./debs/com.lacertosus.nosbrotate_0.2.0-15_iphoneos-arm.deb
 Size: 4150
-MD5sum: 7abe035281779138790f494b97de5a11
-SHA1: 563abd3cac9973371863024122e0f7c0139fe1ec
-SHA256: 319bd442bc119fbac49cc2c69bf10acff80e92e83bff1056705329b5d187a64d
+MD5sum: f1c5103bd63bbf98e86f7d47d21d870c
+SHA1: a7b48b7f7ffadffa3681e19a5cee2c3a8041c9e5
+SHA256: 1e4e2cdc62ef980136f0a13a564298791b61da3bd321556a1be3086138a378e2
 Section: Tweaks
 Description: Disable Autorotate!
  Compatible with iOS 8 and 9
@@ -26,9 +26,9 @@ Maintainer: Lacertosus <LacertosusThemes@gmail.com>
 Depends: mobilesubstrate
 Filename: ./debs/com.lacertosusrepo.customreach_0.1.2-20_iphoneos-arm.deb
 Size: 28320
-MD5sum: b2a18f14e82ab919e6ae472504e55f31
-SHA1: 4f9bda0faa1172063f18a2cbca3f319a75f6e6ca
-SHA256: 2d75393ac10e6e87be0dd57ef2409185a99a14cdafd01e89d740896a2ac15545
+MD5sum: 4b7819a91e00a5e6fb85af94a72104d1
+SHA1: c035c8a6cca02f908999120142172896691ced85
+SHA256: 9f6e4ab21f1e3e547db7159242fb5c13512c38acbc362d358b58872ffa008007
 Section: Tweaks
 Description: Customize Reachability
  Compatible with iOS 8 and 9
@@ -48,9 +48,9 @@ Maintainer: Lacertosus <LacertosusThemes@gmail.com>
 Depends: com.anemonetheming.anemone
 Filename: ./debs/com.lacertosusrepo.netflixnchill_0.0.1-2_iphoneos-arm.deb
 Size: 256558
-MD5sum: 1cfdc1210e50023b81821a384120d2c5
-SHA1: 22a8d361d5ab5900c6641295d5f9f7f16e915e45
-SHA256: c719ad2e92419b71506fb26396c33c56544af5065721aef0c25aacb69dcb2664
+MD5sum: e77026aedef30786936ae704de6c282d
+SHA1: ba450dfd0b49e2de2e74e665c3d8267d43b15cbf
+SHA256: 1f0dabb1eb6fa282f1e2ba8eeb4d5643e160a7da0aa3a41b55d6c406ed42378b
 Section: Themes
 Description: Im ashamed of it too...
  Themes the Netflix app with Netflix & Chill Logos
@@ -67,9 +67,9 @@ Maintainer: Lacertosus <LacertosusThemes@gmail.com>
 Depends: com.anemonetheming.anemone
 Filename: ./debs/com.lacertosusrepo.neversummerlogo_0.0.1_iphoneos-arm.deb
 Size: 33558
-MD5sum: f37137ce5b4285ff81c8a3057f3475b5
-SHA1: d1c124bc50f2307542243581a1c06de52f24f401
-SHA256: acc668fecff8bb5660fd327622ce749aaa83be176626797a1735f461d43080fb
+MD5sum: 7e30f19959373432c4c45db342512091
+SHA1: 136629b112d78c28103c181a55309f0c47a17f77
+SHA256: 0d25d78f9a4982600b46fea2b74344949bd1b6cac10feb83f57c27d6eab01931
 Section: Themes
 Description: Snoawboarding Company Logo
  Never Summer Snowboarding company logo for respring
@@ -80,25 +80,24 @@ Author: Lacertosus <LacertosusThemes@gmail.com>
 Name: Never Summer Boot Logo
 
 Package: com.lacertosusrepo.screenlock
-Version: 0.0.1-40
+Version: 0.2.4-11
 Architecture: iphoneos-arm
 Maintainer: Lacertosus <LacertosusThemes@gmail.com>
 Depends: mobilesubstrate
-Filename: ./debs/com.lacertosusrepo.screenlock_0.0.1-40_iphoneos-arm.deb
-Size: 14148
-MD5sum: ec0945c0d7919b630e199d8436703a86
-SHA1: 9a5d50d6c5a91c9154cd0c4752f5536378f8cd61
-SHA256: abbbddc9e7ef1449eb87b82a253cff14c6170cc19797a1807ec158a0cc8c99a9
+Filename: ./debs/com.lacertosusrepo.screenlock_0.2.4-11_iphoneos-arm.deb
+Size: 14350
+MD5sum: 7e69e69e6bb18c9c8e51d715b91705f0
+SHA1: 00fd00bdd995be3601d718ed983f799504951b65
+SHA256: f006aa1911a3e3195ed49403c71028758f2d220fcacda3f1355d996f229bfde1
 Section: Tweaks
 Description: Lock your screen!
  Compatible with iOS 8 and 9
  -------------------
- Tweak that locks your screen via Activator Action
+ Tweak that locks your screen via Activator Action.
  -------------------
  CHANGELOG:
  - Reduced Code
  - Added Icon
- - Now Locks Screen Orientation Too
 Author: Lacertosus <LacertosusThemes@gmail.com>
 Name: ScreenLock
 
@@ -109,9 +108,9 @@ Maintainer: Lacertosus <LacertosusThemes@gmail.com>
 Depends: mobilesubstrate
 Filename: ./debs/com.lacertosusrepo.volumelock_0.1.0-2_iphoneos-arm.deb
 Size: 7612
-MD5sum: 6f04e9ac6e77f7e3361a879cad531228
-SHA1: 8be27626738292310d04cad150f6d8190286ea0b
-SHA256: 3a117e61e5bd5342414793108ac3b5ea8bb974b172a9543f142b3e0d6428ea4d
+MD5sum: 2b0cc6747f4957419a6d763308e67a42
+SHA1: cdbd82473f0ccd606eba8f13eca720c63c82dadd
+SHA256: 14019db0150f579db06ec5b76e624feb55d27ce6339dbd697002ddecd49ecbad
 Section: Tweaks
 Description: Lock Volume via Activator Action
  Compatible with iOS 8 and 9
