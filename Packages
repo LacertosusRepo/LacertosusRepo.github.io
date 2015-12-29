@@ -1,3 +1,24 @@
+Package: com.lacertosus.nosbrotate
+Version: 0.2.0-15
+Architecture: iphoneos-arm
+Maintainer: Lacertosus <LacertosusThemes@gmail.com>
+Depends: mobilesubstrate
+Filename: ./debs/com.lacertosus.nosbrotate_0.2.0-15_iphoneos-arm.deb
+Size: 4150
+MD5sum: 34fdf4f1e965278aebf9ee80245d188f
+SHA1: eaaef6764e8347f021f10eb3239695656513c759
+SHA256: a46d094edbe23ece7dd8bc81b795a95e4de7c7277e15a9151407e0ea4c0678ca
+Section: Tweaks
+Description: Disable Autorotate!
+ Compatible with iOS 8 and 9
+ -------------------
+ Completely lock your screen orientation to upright (games and videos will rotate)
+ -------------------
+ CHANGELOG:
+ -Fixed Code
+Author: Lacertosus <LacertosusThemes@gmail.com>
+Name: noSBrotate
+
 Package: com.lacertosusrepo.customreach
 Version: 0.1.2-20
 Architecture: iphoneos-arm
@@ -5,9 +26,9 @@ Maintainer: Lacertosus <LacertosusThemes@gmail.com>
 Depends: mobilesubstrate
 Filename: ./debs/com.lacertosusrepo.customreach_0.1.2-20_iphoneos-arm.deb
 Size: 28320
-MD5sum: b797b555652a27c388c5c88a0b1704b1
-SHA1: 4f26de4dc6d7b9af6d479efa3e943352b892d8e1
-SHA256: 8185b684bca8e06b1b2a5600a0a4865e0c99a3e97cfb8b634b340affaccd3972
+MD5sum: d1c1871dbd4ab9b0a2ce4d170228190e
+SHA1: bdcc068fe80cfca5dc29c0800ebc5d2cba35676e
+SHA256: 9a4127e4bcbb1147c12e2836a7f39914e5024b140b4d66966707d01b8e80f62e
 Section: Tweaks
 Description: Customize Reachability
  Compatible with iOS 8 and 9
@@ -27,9 +48,9 @@ Maintainer: Lacertosus <LacertosusThemes@gmail.com>
 Depends: com.anemonetheming.anemone
 Filename: ./debs/com.lacertosusrepo.netflixnchill_0.0.1-2_iphoneos-arm.deb
 Size: 256558
-MD5sum: 5ce7da8a77047ea2c1440c089aeceaa6
-SHA1: 96a9ad5973ba62f10c5240a1dbc7d4055ac37628
-SHA256: c40536dab16837db009c6c390260064e5e1119cfae4994fa0ab374816b8c2e69
+MD5sum: 4fec9e45ef748c3541ef908587eecd36
+SHA1: 2108cdc264e8b82621296c0d4c521fbdc24777d7
+SHA256: ce34562773f4e03b39bd57157e1c87ed8c9003ea12d1e4f611583ed8fa3a2545
 Section: Themes
 Description: Im ashamed of it too...
  Themes the Netflix app with Netflix & Chill Logos
@@ -46,9 +67,9 @@ Maintainer: Lacertosus <LacertosusThemes@gmail.com>
 Depends: com.anemonetheming.anemone
 Filename: ./debs/com.lacertosusrepo.neversummerlogo_0.0.1_iphoneos-arm.deb
 Size: 33558
-MD5sum: 5ef2cafe856f40aa64b6562aedb831a5
-SHA1: c4b29af35bb11930a7d642602f4b6cd8467041a2
-SHA256: fb9a8cc86db90fc0c149147424b7dbfa5acedc9a1b97acc2fe09dfc1b2d63e6b
+MD5sum: bc439846eee6864267d1c45ab2bca73d
+SHA1: 405c21be22d1c87e14395e5e817294137a13e3e1
+SHA256: 731f489f62df8e4d7f492382d946bd41642408a866838382a1f84d3e57a6b3ee
 Section: Themes
 Description: Snoawboarding Company Logo
  Never Summer Snowboarding company logo for respring
@@ -65,9 +86,9 @@ Maintainer: Lacertosus <LacertosusThemes@gmail.com>
 Depends: mobilesubstrate
 Filename: ./debs/com.lacertosusrepo.screenlock_0.0.1-40_iphoneos-arm.deb
 Size: 14148
-MD5sum: 367e9d0a6f420658808f0c3047b73071
-SHA1: bd1a06b36ae802f8eee302c87e4e6ca6869c6ba1
-SHA256: 3259e8b97f48e8c6fc659f02d18fce5120c98ee10863abf4130061366acbe07b
+MD5sum: ea70902896963133e16a7d1a111e76f3
+SHA1: 4669cf3371ca6e98ee83e939121abeaf473ca632
+SHA256: 047f6d54daa8296ffadf9db6af5984b241c687aea261d73ccb30e86ccb3f5b03
 Section: Tweaks
 Description: Lock your screen!
  Compatible with iOS 8 and 9
@@ -80,4 +101,25 @@ Description: Lock your screen!
  - Now Locks Screen Orientation Too
 Author: Lacertosus <LacertosusThemes@gmail.com>
 Name: ScreenLock
+
+Package: com.lacertosusrepo.volumelock
+Version: 0.1.0
+Architecture: iphoneos-arm
+Maintainer: Lacertosus <LacertosusThemes@gmail.com>
+Depends: mobilesubstrate
+Filename: ./debs/com.lacertosusrepo.volumelock_0.1.0_iphoneos-arm.deb
+Size: 7608
+MD5sum: 0d3557b5cae0c181ac56fa564eb58b74
+SHA1: 4f370f394ea0e4da8fbeebdcfec80596b54f6162
+SHA256: 738a9d264ce0c45e7dcb8a071ea75b63a2333a5ec4db73d7c765843ee57b8677
+Section: Tweaks
+Description: Lock Volume via Activator Action
+ Compatible with iOS 8 and 9
+ -------------------
+ Tweak that allows you to disable volume increase/decrease with an Activator action.
+ -------------------
+ CHANGELOG:
+ - Initial Release
+Author: Lacertosus <LacertosusThemes@gmail.com>
+Name: VolumeLock
 
