@@ -1,7 +1,7 @@
 Package: com.lacertosusrepo.volumelock
 Name: VolumeLock
 Depends: mobilesubstrate
-Version: 0.1.0-7
+Version: 0.1.0-8
 Architecture: iphoneos-arm
 Description: Lock Volume via Activator Action
  Compatible with iOS 8 and 9
