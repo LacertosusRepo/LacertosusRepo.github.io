@@ -4,7 +4,7 @@ Depends: mobilesubstrate
 Version: 0.2.4-11
 Architecture: iphoneos-arm
 Description: Lock your screen!
-Depiction: https://github.com/LacertosusRepo/LacertosusRepo.github.io/blob/master/depictions/screenlock
+Depiction: https://github.com/LacertosusRepo/LacertosusRepo.github.io/blob/master/depictions/depictions?dep=screenlock
 Maintainer: Lacertosus <LacertosusThemes@gmail.com>
 Author: Lacertosus <LacertosusThemes@gmail.com>
 Section: Tweaks
