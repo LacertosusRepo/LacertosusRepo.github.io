@@ -5,9 +5,9 @@ Maintainer: Lacertosus <LacertosusThemes@gmail.com>
 Depends: mobilesubstrate
 Filename: ./debs/com.lacertosus.nosbrotate_0.2.0-15_iphoneos-arm.deb
 Size: 4150
-MD5sum: b99ffe418390f867c7d57082055203cd
-SHA1: 6e0adb64044853406fb8c0128965ff6e57bf0879
-SHA256: 8101df507141ce980454e1166998146c4dfcbfa5ff8c82dbc21c7f1de2e36326
+MD5sum: eaa97336ff561c978e4bb13954ba41ea
+SHA1: 232c968b752f4f2e82709df1e1c3a65e774c4b30
+SHA256: 766447fa77b953b01465b754499d083b1e4a2b5c0601bdf8382045abe577ccdb
 Section: Tweaks
 Description: Disable Autorotate!
  Compatible with iOS 8 and 9
@@ -26,9 +26,9 @@ Maintainer: Lacertosus <LacertosusThemes@gmail.com>
 Depends: mobilesubstrate
 Filename: ./debs/com.lacertosusrepo.customreach_0.1.2-20_iphoneos-arm.deb
 Size: 28320
-MD5sum: d6b0b7648ff5a156392069322f438662
-SHA1: a19b101344354b39549e58889763d146b8b48c98
-SHA256: 0c826f6657be37443265bb1946e9f3365032f0642c34d0fa06c046e2e417d6ce
+MD5sum: 4e9648a583911dce96b06c1f1229db17
+SHA1: 645ad6b3130111dee8f0fdfc7acccebd2dcdb8c5
+SHA256: ac47dd4630e2ae196f8b7f9de9187fe5808c88fb60562ca411a8b34b14d3dd50
 Section: Tweaks
 Description: Customize Reachability
  Compatible with iOS 8 and 9
@@ -48,9 +48,9 @@ Maintainer: Lacertosus <LacertosusThemes@gmail.com>
 Depends: com.anemonetheming.anemone
 Filename: ./debs/com.lacertosusrepo.netflixnchill_0.0.1-2_iphoneos-arm.deb
 Size: 256558
-MD5sum: b5a3b33b6eb5c6a3cbd08d41d11a1a0c
-SHA1: 6b092c34d3225641c005a391f02bf95837ce9dc9
-SHA256: c75436b976f676c1bd06ab0d80daf30f78dc58f46a7330f1ec45305b48375fcc
+MD5sum: 5a2c83699b5f4342f9bfe1459c092b8f
+SHA1: 9de12e8a186b1b98e64ebf949f584dc2fefc4241
+SHA256: 6107932c2eac7e7fce575dc1392b3ddf931e08f71528935b7415824fca3b462a
 Section: Themes
 Description: Im ashamed of it too...
  Themes the Netflix app with Netflix & Chill Logos
@@ -67,9 +67,9 @@ Maintainer: Lacertosus <LacertosusThemes@gmail.com>
 Depends: com.anemonetheming.anemone
 Filename: ./debs/com.lacertosusrepo.neversummerlogo_0.0.1_iphoneos-arm.deb
 Size: 33558
-MD5sum: ff4842e6cf0971008d3ddd08fd3aff57
-SHA1: cbbce054e68e8b388c3cd052e40c47aaf6348d7f
-SHA256: 2613f330bf001a15870cf296b633b88f9f369bf4359bc11dcb4768f6df9d9678
+MD5sum: edfb61a4ed4be49408b6bc1692f7d993
+SHA1: 14b8ed84bedeb28c1426f98d359f0bf7ec53239b
+SHA256: ddc8223463b12eedabdf4429a699bbf20e7bcb40cf950d05c5c3b5d77ed7a281
 Section: Themes
 Description: Snoawboarding Company Logo
  Never Summer Snowboarding company logo for respring
@@ -86,9 +86,9 @@ Maintainer: Lacertosus <LacertosusThemes@gmail.com>
 Depends: mobilesubstrate
 Filename: ./debs/com.lacertosusrepo.screenlock_0.2.4-11_iphoneos-arm.deb
 Size: 14350
-MD5sum: 8f88b55829687b26fb2af5def25c87c0
-SHA1: 60c1bd5460a06d9c1a1de3398029318cbe93edb5
-SHA256: 8d75ce5ca837938458c24deaf928a4e923cf16d95d9c9345e5cb0601077e78ab
+MD5sum: eb7023141379bc83de86f6ccfc0791d2
+SHA1: 5e64bf17a4185bcf62724b2b1944dd27e61f214f
+SHA256: 6aa599f648bb1a075adc1fe9f63e113bd4321bce134d68cbe767db3449854d33
 Section: Tweaks
 Description: Lock your screen!
  Compatible with iOS 8 and 9
@@ -108,9 +108,9 @@ Maintainer: Lacertosus <LacertosusThemes@gmail.com>
 Depends: mobilesubstrate
 Filename: ./debs/com.lacertosusrepo.volumelock_0.1.0-8_iphoneos-arm.deb
 Size: 26468
-MD5sum: a1c20613d1a6852ae21b3b0ccd5cc166
-SHA1: 2739b071cbb1853a489cb396ef230f86fe110b4d
-SHA256: ecaa6b6e020437b4f34ee2a69a9ec28030198ea960ca64911c50e85ce0e38e0f
+MD5sum: a8cb78d6359e9be19fdd34e0acf6960e
+SHA1: 6e34aeb4b649247e40eefce8cfe70598a4dab353
+SHA256: d680cb40529203a9cb6e922e569f201cf83218ffcc076d2bace8eea6e4251a13
 Section: Tweaks
 Description: Lock Volume via Activator Action
  Compatible with iOS 8 and 9
