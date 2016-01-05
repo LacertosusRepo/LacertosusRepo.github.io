@@ -1,0 +1,15 @@
+Package: com.lacertosusrepo.homebuttonlock
+Name: HomeButtonLock
+Depends: mobilesubstrate
+Version: 0.1.4-beta
+Architecture: iphoneos-arm
+Description: Lock Home Button via Activator Action
+ Compatible with iOS 8 and 9
+ -------------------
+ Tweak that allows you to disable Home Button with an Activator action.
+ -------------------
+ CHANGELOG:
+ - Initial Release (in Beta)
+Maintainer: Lacertosus <LacertosusThemes@gmail.com>
+Author: Lacertosus <LacertosusThemes@gmail.com>
+Section: Tweaks

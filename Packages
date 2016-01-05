@@ -5,9 +5,9 @@ Maintainer: Lacertosus <LacertosusThemes@gmail.com>
 Depends: mobilesubstrate
 Filename: ./debs/com.lacertosus.nosbrotate_0.2.0-15_iphoneos-arm.deb
 Size: 4150
-MD5sum: eaa97336ff561c978e4bb13954ba41ea
-SHA1: 232c968b752f4f2e82709df1e1c3a65e774c4b30
-SHA256: 766447fa77b953b01465b754499d083b1e4a2b5c0601bdf8382045abe577ccdb
+MD5sum: 53b30f0baba473e4274d677c767e3a99
+SHA1: 0c024ca530ad86e7860c872780e8db891da7111c
+SHA256: 270219e6a0cfe3c9402b41c50b5cfdc35eb4f6d0b8c346057368a0f8c8a3626c
 Section: Tweaks
 Description: Disable Autorotate!
  Compatible with iOS 8 and 9
@@ -26,9 +26,9 @@ Maintainer: Lacertosus <LacertosusThemes@gmail.com>
 Depends: mobilesubstrate
 Filename: ./debs/com.lacertosusrepo.customreach_0.1.2-20_iphoneos-arm.deb
 Size: 28320
-MD5sum: 4e9648a583911dce96b06c1f1229db17
-SHA1: 645ad6b3130111dee8f0fdfc7acccebd2dcdb8c5
-SHA256: ac47dd4630e2ae196f8b7f9de9187fe5808c88fb60562ca411a8b34b14d3dd50
+MD5sum: 2039c30316addef7397691f0210da087
+SHA1: 4c074bb1c508d2c5f27e6735016eb36eda4daf40
+SHA256: f0d081623198022cc34d5f729377623ea9ea3cbd190c238792c61a5007c11be9
 Section: Tweaks
 Description: Customize Reachability
  Compatible with iOS 8 and 9
@@ -41,6 +41,27 @@ Description: Customize Reachability
 Author: Lacertosus <LacertosusThemes@gmail.com>
 Name: CustomReach
 
+Package: com.lacertosusrepo.homebuttonlock
+Version: 0.1.4-beta
+Architecture: iphoneos-arm
+Maintainer: Lacertosus <LacertosusThemes@gmail.com>
+Depends: mobilesubstrate
+Filename: ./debs/com.lacertosusrepo.homebuttonlock_0.1.4-beta_iphoneos-arm.deb
+Size: 7630
+MD5sum: 205088d6215f14e6d500188fbd02d926
+SHA1: c1cfdfe9bde76ec501641a0224d0c1513222d80c
+SHA256: 28b415b460b806277645c79f084f111ef84fdbbcdec884da40c298e8b17a59fe
+Section: Tweaks
+Description: Lock Home Button via Activator Action
+ Compatible with iOS 8 and 9
+ -------------------
+ Tweak that allows you to disable Home Button with an Activator action.
+ -------------------
+ CHANGELOG:
+ - Initial Release (in Beta)
+Author: Lacertosus <LacertosusThemes@gmail.com>
+Name: HomeButtonLock
+
 Package: com.lacertosusrepo.netflixnchill
 Version: 0.0.1-2
 Architecture: iphoneos-arm
@@ -48,9 +69,9 @@ Maintainer: Lacertosus <LacertosusThemes@gmail.com>
 Depends: com.anemonetheming.anemone
 Filename: ./debs/com.lacertosusrepo.netflixnchill_0.0.1-2_iphoneos-arm.deb
 Size: 256558
-MD5sum: 5a2c83699b5f4342f9bfe1459c092b8f
-SHA1: 9de12e8a186b1b98e64ebf949f584dc2fefc4241
-SHA256: 6107932c2eac7e7fce575dc1392b3ddf931e08f71528935b7415824fca3b462a
+MD5sum: 83b5e279de4bb82b706670a9a3c45acf
+SHA1: e327f7806cce038366a051f68e95d8ae220f0b0f
+SHA256: 22dbf7f71e62953535ac69548f009e0721b912755b1aa4eb934de9234db63e1a
 Section: Themes
 Description: Im ashamed of it too...
  Themes the Netflix app with Netflix & Chill Logos
@@ -67,9 +88,9 @@ Maintainer: Lacertosus <LacertosusThemes@gmail.com>
 Depends: com.anemonetheming.anemone
 Filename: ./debs/com.lacertosusrepo.neversummerlogo_0.0.1_iphoneos-arm.deb
 Size: 33558
-MD5sum: edfb61a4ed4be49408b6bc1692f7d993
-SHA1: 14b8ed84bedeb28c1426f98d359f0bf7ec53239b
-SHA256: ddc8223463b12eedabdf4429a699bbf20e7bcb40cf950d05c5c3b5d77ed7a281
+MD5sum: fed4295d64711907bdd9a806e809c9e8
+SHA1: 546c7e4ebaaffe6bb71364a4396b20d7a6516db1
+SHA256: 4984fc0384845042417b87177ba98072c627a633aeb79ace3b993e28e2909e07
 Section: Themes
 Description: Snoawboarding Company Logo
  Never Summer Snowboarding company logo for respring
@@ -86,9 +107,9 @@ Maintainer: Lacertosus <LacertosusThemes@gmail.com>
 Depends: mobilesubstrate
 Filename: ./debs/com.lacertosusrepo.screenlock_0.2.4-11_iphoneos-arm.deb
 Size: 14350
-MD5sum: eb7023141379bc83de86f6ccfc0791d2
-SHA1: 5e64bf17a4185bcf62724b2b1944dd27e61f214f
-SHA256: 6aa599f648bb1a075adc1fe9f63e113bd4321bce134d68cbe767db3449854d33
+MD5sum: 9d9e1ee8de23400437943e1e348caab7
+SHA1: a13da68c84b52c5d3c384df99e3ae4a1b9e32205
+SHA256: bf2f7bf7517f77690b489a455066eaeb1b53b9c19cc0bc8a2abea6a509e76447
 Section: Tweaks
 Description: Lock your screen!
  Compatible with iOS 8 and 9
@@ -108,9 +129,9 @@ Maintainer: Lacertosus <LacertosusThemes@gmail.com>
 Depends: mobilesubstrate
 Filename: ./debs/com.lacertosusrepo.volumelock_0.1.0-8_iphoneos-arm.deb
 Size: 26468
-MD5sum: a8cb78d6359e9be19fdd34e0acf6960e
-SHA1: 6e34aeb4b649247e40eefce8cfe70598a4dab353
-SHA256: d680cb40529203a9cb6e922e569f201cf83218ffcc076d2bace8eea6e4251a13
+MD5sum: cd8cebd45c32d3529bdab1b0907ca0eb
+SHA1: 6086ff9de2156c59717eb6703cee5ab87dc37f1f
+SHA256: d89623bbd49c048d581b44d72ee311f1d78d1e73cc739080d4ae59c6e1135f16
 Section: Tweaks
 Description: Lock Volume via Activator Action
  Compatible with iOS 8 and 9
