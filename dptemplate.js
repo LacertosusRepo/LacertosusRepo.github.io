@@ -20,7 +20,7 @@ var template = ' \
 <table> \
 <tr style="width:100%"> \
 <td> \
-<div style="text-align: justify; font-size:110%; background-color:#6E92A1; min-width: 300px; max-width: 700px; vertical-align: top;"><br> \
+<div style="text-align: center; font-size:110%; background-color:#6E92A1; min-width: 300px; max-width: 700px; vertical-align: top;"><br> \
 ' + content + '\
 </div> \
 <hr> \
