@@ -4,10 +4,6 @@ Depends: com.anemonetheming.anemone
 Version: 0.0.1-2
 Architecture: iphoneos-arm
 Description: Im ashamed of it too...
- Themes the Netflix app with Netflix & Chill Logos
- -------------------
- CHANGELOG:
- - Fixed Name of File
 Maintainer: Lacertosus <LacertosusThemes@gmail.com>
 Author: Lacertosus <LacertosusThemes@gmail.com>
 Section: Themes

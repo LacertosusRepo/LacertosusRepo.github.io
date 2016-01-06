@@ -4,14 +4,7 @@ Depends: mobilesubstrate
 Version: 0.3.0
 Architecture: iphoneos-arm
 Description: Lock Home Button via Activator Action
- Compatible with iOS 8 and 9
- -------------------
- Tweak that allows you to disable Home Button with an Activator action.
- Options to disable certain features in preferences.
- -------------------
- CHANGELOG:
- - Fixed Option to Disable Control Center
- - Added Option to Disable Notification Center
 Maintainer: Lacertosus <LacertosusThemes@gmail.com>
 Author: Lacertosus <LacertosusThemes@gmail.com>
 Section: Tweaks
+Depiction: http://lacertosusrepo.github.io/depictions/com.lacertosusrepo.homebuttonlock/index.html

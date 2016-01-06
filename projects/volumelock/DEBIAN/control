@@ -4,13 +4,7 @@ Depends: mobilesubstrate
 Version: 0.1.0-8
 Architecture: iphoneos-arm
 Description: Lock Volume via Activator Action
- Compatible with iOS 8 and 9
- -------------------
- Tweak that allows you to disable volume increase/decrease with an Activator action.
- -------------------
- CHANGELOG:
- - Fixed Variables
- - Fixed Icon
 Maintainer: Lacertosus <LacertosusThemes@gmail.com>
 Author: Lacertosus <LacertosusThemes@gmail.com>
 Section: Tweaks
+Depiction: http://lacertosusrepo.github.io/depictions/com.lacertosusrepo.volumelock/index.html

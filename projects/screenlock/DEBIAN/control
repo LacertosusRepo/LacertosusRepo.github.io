@@ -4,12 +4,7 @@ Depends: mobilesubstrate
 Version: 0.2.4-11
 Architecture: iphoneos-arm
 Description: Lock your screen!
- -------------------
- Tweak that allows you to disable your screen with an Activator action.
- -------------------
- CHANGELOG:
- - Added Icon
- - Reduced Code
 Maintainer: Lacertosus <LacertosusThemes@gmail.com>
 Author: Lacertosus <LacertosusThemes@gmail.com>
 Section: Tweaks
+Depiction: http://lacertosusrepo.github.io/depictions/com.lacertosusrepo.screenlock/index.html
