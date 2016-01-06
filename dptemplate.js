@@ -12,21 +12,21 @@ var template = ' \
 </head> \
 <body text="#000000" link="#404040" alink="#404040" vlink="#404040" style="background:none;"> \
  \
-<div align="center" style="background-color:#77ffff"> \
+<div align="center" style="background-color:#27556C"> \
 <h1>Lacertosus\'s Repo</h1> \
 </div> \
  \
-<div align="center" style="background-color:#FFFFFF;"> \
+<div align="center" style="background-color:#6E92A1;"> \
 <table> \
 <tr style="width:100%"> \
 <td> \
-<div style="text-align: justify; font-size:110%; background-color:#FFFFFF; min-width: 300px; max-width: 700px; vertical-align: top;"><br> \
+<div style="text-align: justify; font-size:110%; background-color:#6E92A1; min-width: 300px; max-width: 700px; vertical-align: top;"><br> \
 ' + content + '\
 </div> \
 <hr> \
-<h3><a href="https://twitter.com/LacertosusDeus" target="_blank">Twitter</a><br> \
-<a href="https://github.com/LacertosusRepo" target="_blank">Github</a><br> \
-<a href="http://lacertosusrepo.github.io/Home/" target="_blank">Website</a></h3> \
+<h3><a href="https://twitter.com/LacertosusDeus" target="_blank">My Twitter</a><br> \
+<a href="https://github.com/LacertosusRepo" target="_blank">My Github</a><br> \
+<a href="http://lacertosusrepo.github.io/Home/" target="_blank">My Website</a></h3> \
 </td> \
 \
 </tr> \
