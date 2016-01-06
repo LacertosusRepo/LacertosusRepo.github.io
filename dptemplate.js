@@ -10,13 +10,13 @@ var template = ' \
 <!--<meta http-equiv="cache-control" content="no-cache">--> \
 <title>LacertosusDeus\'s Repository</title> \
 </head> \
-<body text="#000000" link="#404040" alink="#404040" vlink="#404040" style="background:none;"> \
+<body text="#000000" link="#404040" alink="#404040" vlink="#404040" style="background:none;" border-radius="15px 50px;"> \
  \
-<div align="center" style="background-color:#27556C"> \
+<div align="center" style="background-color:#27556C" border-radius="15px 50px;"> \
 <h1>Lacertosus\'s Repo</h1> \
 </div> \
  \
-<div align="center" style="background-color:#6E92A1;"> \
+<div align="center" style="background-color:#6E92A1;" border-radius="15px 50px;"> \
 <table> \
 <tr style="width:100%"> \
 <td> \
