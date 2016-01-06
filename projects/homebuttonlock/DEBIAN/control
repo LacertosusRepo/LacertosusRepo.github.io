@@ -1,7 +1,7 @@
 Package: com.lacertosusrepo.homebuttonlock
 Name: HomeButtonLock
 Depends: mobilesubstrate
-Version: 0.2.7-beta5
+Version: 0.3.0
 Architecture: iphoneos-arm
 Description: Lock Home Button via Activator Action
  Compatible with iOS 8 and 9

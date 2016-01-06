@@ -6,6 +6,22 @@
 	<array>
 		<dict>
 			<key>cell</key>
+			<string>PSStaticTextCell</string>
+			<key>icon</key>
+			<string>/Library/PreferenceBundles/hblprefs.bundle/HBLock.png</string>
+			<key>height</key>
+			<integer>133</integer>
+		</dict>
+		
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Choose Action:</string>
+		</dict>
+		
+		<dict>
+			<key>cell</key>
 			<string>PSLinkCell</string>
 			<key>label</key>
 			<string>Activation Methods</string>
@@ -20,13 +36,8 @@
 		<dict>
 			<key>cell</key>
 			<string>PSGroupCell</string>
-		</dict>
-		
-		<dict>
-			<key>cell</key>
-			<string>PSGroupCell</string>
 			<key>label</key>
-			<string>When activated, these options define what is disabled</string>
+			<string>Choose whats disabled when activated:</string>
 		</dict>
 	
 		<dict>
@@ -48,11 +59,11 @@
         </dict>
 		<dict>
 			<key>label</key>
-			<string>Contact Me!</string>
+			<string>Contact Me:</string>
 			<key>cell</key>
 			<string>PSGroupCell</string>
 			<key>footerText</key>
-			<string>Created by Lacertosus</string>
+			<string>Created by LacertosusDeus</string>
 		</dict>
 		<dict>
 			<key>action</key>
