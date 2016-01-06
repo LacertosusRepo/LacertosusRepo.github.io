@@ -12,15 +12,15 @@ var template = ' \
 </head> \
 <body text="#000000" link="#404040" alink="#404040" vlink="#404040" style="background:none;" border-radius="15px 50px;"> \
  \
-<div align="center" style="background-color:##6e89a1" border-radius="15px 50px;"> \
+<div align="center" style="background-color:#6e89a1" border-radius="15px 50px;"> \
 <h1>Lacertosus\'s Repo</h1> \
 </div> \
  \
-<div align="center" style="background-color:##d9e2e6;" border-radius="15px 50px;"> \
+<div align="center" style="background-color:#d9e2e6;" border-radius="15px 50px;"> \
 <table> \
 <tr style="width:100%"> \
 <td> \
-<div style="text-align: center; font-size:110%; background-color:##d9e2e6; min-width: 300px; max-width: 700px; vertical-align: top;"><br> \
+<div style="text-align: center; font-size:110%; background-color:#d9e2e6; min-width: 300px; max-width: 700px; vertical-align: top;"><br> \
 ' + content + '\
 </div> \
 <hr> \
