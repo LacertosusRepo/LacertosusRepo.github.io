@@ -1,16 +1,9 @@
 Package: com.lacertosusrepo.customreach
 Name: CustomReach
 Depends: mobilesubstrate
-Version: 0.1.2-20
+Version: 0.1.4
 Architecture: iphoneos-arm
 Description: Customize Reachability
- Compatible with iOS 8 and 9
- -------------------
- Tweak that allows you to customize Reachability to whatever you want!
- -------------------
- CHANGELOG:
- - Fixed Preferences
- - Reduced Code
 Maintainer: Lacertosus <LacertosusThemes@gmail.com>
 Author: Lacertosus <LacertosusThemes@gmail.com>
 Section: Tweaks
