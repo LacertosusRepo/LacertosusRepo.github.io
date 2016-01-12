@@ -1,7 +1,7 @@
 Package: com.lacertosusrepo.soundspring
 Name: SoundSpring
 Depends: mobilesubstrate
-Version: 0.2.8-beta2
+Version: 0.3.0
 Architecture: iphoneos-arm
 Description: Adele has a message for you
 Maintainer: Lacertosus <LacertosusThemes@gmail.com>
