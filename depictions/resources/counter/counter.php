@@ -8,7 +8,7 @@ function errorout($message) {
     //Because the content type is plain text, escaping is not necessary.
     die($message);
 }
-$link = mysqli_connect("localhost", "myrepo", "mypassword"); //change parameters to what you use
+$link = mysqli_connect("localhost", "myrepo", "Zp011599"); //change parameters to what you use
 if (!$link) {
     errorout("Couldn't connect to the database. Please try your download later.");
 }
