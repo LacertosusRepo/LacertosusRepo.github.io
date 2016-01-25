@@ -12,48 +12,31 @@
 
 <body class="pinstripe">
     <panel>
-        <label>All Themes</label>
+        <label>Theme Not Working?</label>
             <fieldset>
                 <div>
-                    <p>Try reinstalling the theme and Winterboard/ Anemone</p>
-                    <p>Check for updates</p>
-                </div>
-                <div>
-                    <p>Anemone:</p>
-                    <p>Use with "WB Patch" disabled</p>
-                </div>
-                <div>
-                    <p>Winterboard:</p>
-                    <p>Enable "WB Patch" above all other themes (assuming the theme includes one)</p>
-                    <p>Install <a href="https://cydia//package/com.bensge.customclockicon" target="_new">Custom Clock Icon</a> or <a href="https://cydia//package/org.coolstar.customclock" target="_new">CustomClock</a> for the clock hands to be themed</p>
-                    <p>Install IconBundles</p>
-                </div>
+                    <p>Try to reinstall first, make sure nothing is taking priority over the theme in Anemone</p>
+                    <p>Check for updates!</p>
             </fieldset>
 
-        <label>Glyphs/cjGlyphs</label>
+        <label>Tweak Not Working?</label>
             <fieldset>
                 <div>
-                    <p>General:</p>
-                    <p>Enable both cjGlyphs and Glyphs</p>
-                    <p>Put cjGlyphs above Glyphs</p>
-                </div>
-                <div>
-                    <p>Black Version:</p>
-                    <p>Use instead of normal base theme.</p>
-                </div>
-            </fieldset>
-
-        <label>Activator Icon</label>
-            <fieldset>
-                <div>
-                    <p>Follow <a href="https://www.reddit.com/r/iOSthemes/comments/2rdwdp/me1_activator_icon0_how_to_theme_the_stubborn/?" target="_new">this tutorial</a> for Activator to be themed.</p>
+                    <p>Make sure there are no conflicting tweaks, view if its crashing with CrashReporter</p>
                 </div>
             </fieldset>
         
         <label>If All Else Fails</label>
             <fieldset>
                 <div>
-                    <p><a href="https://cj81499.github.io/depictions/contact.html" target="_new">Contact Me</a></p>
+                    <p><a href="https://LacertosusRepo.github.io/depictions/contact.html" target="_new">Contact Me</a></p>
+                </div>
+            </fieldset>
+
+         <label>Will You Host My Package?</label>
+             <fieldset>
+                <div>
+                    <p>Of course! Just email me your package and files (so I can check for malicious code) and I will add it within the day, free of course.</p>
                 </div>
             </fieldset>
     </panel>
