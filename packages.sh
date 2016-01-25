@@ -1,4 +1,5 @@
 #!/bin/bash
+dpkg-deb -bZgzip projects/anniversaryflower debs
 dpkg-deb -bZgzip projects/customreach debs
 dpkg-deb -bZgzip projects/homebuttonlock debs
 dpkg-deb -bZgzip projects/netflixnchill debs
