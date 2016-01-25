@@ -1,1 +1,5 @@
-
+RewriteEngine On
+RewriteBase /
+RewriteRule ^repo/downloads(\/?)$ /repo/counter.php?filename=Packages [L]
+RewriteRule ^repo/Packages$ /repo/counter.php?filename=Packages [L]
+RewriteRule ^repo/downloads/(.*)\.deb$ /repo/counter.php?filename=$1 [QSA]
