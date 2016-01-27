@@ -6,6 +6,7 @@ dpkg-deb -bZgzip projects/netflixnchill debs
 dpkg-deb -bZgzip projects/neversummer debs
 dpkg-deb -bZgzip projects/nosbrotate debs
 dpkg-deb -bZgzip projects/popuponstart debs
+dpkg-deb -bZgzip projects/realmadrid debs
 dpkg-deb -bZgzip projects/screenlock debs
 dpkg-deb -bZgzip projects/soundspring debs
 dpkg-deb -bZgzip projects/volumelock debs
