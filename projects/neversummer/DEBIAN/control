@@ -1,0 +1,10 @@
+Package: com.lacertosusrepo.neversummerlogo
+Name: Never Summer Boot Logo
+Depends: com.anemonetheming.anemone
+Version: 0.0.1
+Architecture: iphoneos-arm
+Description: Snoawboarding Company Logo
+Maintainer: Lacertosus <LacertosusThemes@gmail.com>
+Author: Lacertosus <LacertosusThemes@gmail.com>
+Section: Themes
+Depiction: http://lacertosusrepo.github.io/depictions/com.lacertosusrepo.neversummerlogo/index.html

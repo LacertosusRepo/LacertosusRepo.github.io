@@ -1,0 +1,10 @@
+Package: com.lacertosusrepo.realmadrid
+Name: Real Madrid Boot Logo
+Depends: com.anemonetheming.anemone
+Version: 1.0
+Architecture: iphoneos-arm
+Description: Fútbol (Soccar) Boot Logo
+Maintainer: Lacertosus <LacertosusThemes@gmail.com>
+Author: Lacertosus <LacertosusThemes@gmail.com>
+Section: Themes
+Depiction: http://lacertosusrepo.github.io/depictions/com.lacertosusrepo.realmadrid/index.html

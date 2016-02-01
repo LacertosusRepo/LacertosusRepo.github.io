@@ -1,0 +1,10 @@
+Package: com.lacertosusrepo.popuponstart
+Name: PopupOnStart
+Depends: mobilesubstrate
+Version: 0.1.0-4
+Architecture: iphoneos-arm
+Description: Custom alert after respring/reboot...
+Maintainer: Lacertosus <LacertosusThemes@gmail.com>
+Author: Lacertosus <LacertosusThemes@gmail.com>
+Section: Tweaks
+Depiction: http://lacertosusrepo.github.io/depictions/com.lacertosusrepo.popuponstart/index.html

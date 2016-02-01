@@ -1,0 +1,10 @@
+Package: com.lacertosusrepo.netflixnchill
+Name: Netflix 'n' Chill
+Depends: com.anemonetheming.anemone
+Version: 0.0.1-2
+Architecture: iphoneos-arm
+Description: Im ashamed of it too...
+Maintainer: Lacertosus <LacertosusThemes@gmail.com>
+Author: Lacertosus <LacertosusThemes@gmail.com>
+Section: Themes
+Depiction: http://lacertosusrepo.github.io/depictions/com.lacertosusrepo.netfilxnchill/index.html

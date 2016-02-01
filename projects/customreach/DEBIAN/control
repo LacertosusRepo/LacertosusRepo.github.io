@@ -1,0 +1,10 @@
+Package: com.lacertosusrepo.customreach
+Name: CustomReach
+Depends: mobilesubstrate
+Version: 0.1.4
+Architecture: iphoneos-arm
+Description: Customize Reachability
+Maintainer: Lacertosus <LacertosusThemes@gmail.com>
+Author: Lacertosus <LacertosusThemes@gmail.com>
+Section: Tweaks
+Depiction: http://lacertosusrepo.github.io/depictions/com.lacertosusrepo.customreach/index.html
