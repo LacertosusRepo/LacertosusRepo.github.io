@@ -148,7 +148,7 @@ panel>hr {
 }
 panel>block {
     display: block;
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(204, 204, 204, 0.5);
     margin-top: 9px;
     margin-bottom: 9px
 }
