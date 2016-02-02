@@ -14,7 +14,7 @@ fieldset>a>div>div>label.detail {
     user-select: element
 }
 fieldset>a[href] {
-    -webkit-tap-highlight-color: rgba(255, 0, 255, .5);
+    -webkit-tap-highlight-color: rgba(0, 0, 0, .5);
     -webkit-tap-highlight-color: transparent
 }
 * {
@@ -24,7 +24,7 @@ fieldset>a[href] {
     -ms-border-radius: 0;
     -o-border-radius: 0;
     border-radius: 0;
-    color: rgba(255, 0, 255,);
+    color: inherit;
     font-family: inherit;
     font-size: inherit;
     font-style: inherit;
