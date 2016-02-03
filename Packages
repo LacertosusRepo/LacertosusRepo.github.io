@@ -142,6 +142,22 @@ Author: Lacertosus <LacertosusThemes@gmail.com>
 Depiction: http://lacertosusrepo.github.io/depictions/com.lacertosusrepo.screenlock/index.html
 Name: ScreenLock
 
+Package: com.lacertosusrepo.sleekkey9
+Version: 0.0.1-beta1
+Architecture: iphoneos-arm
+Maintainer: Lacertosus
+Installed-Size: 133
+Depends: mobilesubstrate
+Filename: ./LacertosusRepo.github.io/debs/com.lacertosusrepo.sleekkey9_0.0.1-1_iphoneos-arm.deb
+Size: 4174
+MD5sum: c5808bac4343aa11d2c828d0cfa0134f
+SHA1: 862fa798851d9fd96cb93c6fa92e7ea63def0658
+SHA256: 52c0dfbc93b91129b0dd4a3965310d8e38e7a0fbd8131d80ca20e2ddfe8632c8
+Section: Tweaks
+Description: Remove Background of Keyboard
+Author: xTheMaster3x
+Name: SleekKey9
+
 Package: com.lacertosusrepo.soundspring
 Version: 0.3.0
 Architecture: iphoneos-arm
