@@ -1,7 +1,7 @@
 # LacertosusRepo.github.io
 
 ## Current Error
-1. I am having errors with people attempting to downloading tweaks/themes off my repository. To be specific the error is a "404 Package not found" error.
+I am having errors with people attempting to downloading tweaks/themes off my repository. To be specific the error is a "404 Package not found" error.
 
 If you have any knowledge of how to fix this, please contact me.
 
