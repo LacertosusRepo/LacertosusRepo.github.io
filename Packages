@@ -83,7 +83,7 @@ Version: 0.2.0-15
 Architecture: iphoneos-arm
 Maintainer: Lacertosus <LacertosusThemes@gmail.com>
 Depends: mobilesubstrate
-Filename: ./LacertosusRepo.github.io/debs/com.lacertosusrepo.nosbrotate_0.2.0-15_iphoneos-arm.deb
+Filename: LacertosusRepo.github.io/debs/com.lacertosusrepo.nosbrotate_0.2.0-15_iphoneos-arm.deb
 Size: 3962
 MD5sum: e1570a96a3e1dbda3434c20ac1fb1e0b
 SHA1: 3d0e27c98eb6f76d70ceeb40695445cf29a2bac0
