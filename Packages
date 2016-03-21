@@ -287,6 +287,42 @@ Description: secure remote access between machines
 Depiction: http://cydia.saurik.com/info/openssh/
 Name: OpenSSH
 
+Package: openssl
+Version: 0.9.8zg-13
+Architecture: iphoneos-arm
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Installed-Size: 6164
+Pre-Depends: dpkg (>= 1.14.25-8)
+Filename: ./debs/openssl_0.9.8zg-13_iphoneos-arm.deb
+Size: 1031128
+MD5sum: 405f8d4c91aab0cf85e6f8ad93b8ab30
+SHA1: 3aedf9d8393b7c8a426840223625a601dd7d089d
+SHA256: 0e57f4b5968fc32c1fb56c1361d163a1ffdcda9173145551aff839cfc19be664
+Section: Security
+Priority: standard
+Description: SSL library and cryptographic tools
+Name: OpenSSL
+
+Package: preferenceloader
+Version: 2.2.4~alpha1
+Architecture: iphoneos-arm
+Maintainer: Dustin Howett <cydia.pl@relay.howett.net>
+Installed-Size: 388
+Depends: mobilesubstrate
+Filename: ./debs/preferenceloader_2.2.4-alpha1_iphoneos-arm.deb
+Size: 49862
+MD5sum: eb8cd7a434e9ab019ab775d19442eccd
+SHA1: 03effe4e7f4de1c989e56a90a00cf5733b41c4e5
+SHA256: ceb588c748462eee5a7c9ddd562d179821a187ced1e89fa836f2e3d51c79a2c1
+Section: System
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=preferenceloader2Data
+Description: load preferences in style
+Tag: role::hacker, purpose::library
+Author: Dustin Howett <cydia.pl@relay.howett.net>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=preferenceloader2Data
+Dev: dustinhowett
+Name: PreferenceLoader
+
 Package: us.scw.afctwoadd
 Version: 1.01
 Architecture: iphoneos-arm
