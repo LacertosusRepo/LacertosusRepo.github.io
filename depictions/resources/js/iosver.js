@@ -3,7 +3,7 @@ var iOS = parseFloat(
 	.replace('undefined', '3_2').replace('_', '.').replace('_', '')
 ) || false;
 
-if (iOS <= 9.3.3) {
+if (iOS > 8.1) {
 	document.getElementById('version').innerHTML='<p><strong>✓</strong> Your device is supported.</p>';
 }
 else {
