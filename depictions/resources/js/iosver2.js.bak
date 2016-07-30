@@ -12,5 +12,5 @@ if (ver[0] >= 8) {
 	document.getElementById('compatible9').innerHTML='<p style="color:white"><strong>WARNING:</strong> Not tested on iOS 9.3.3</p>';
 }
 else {
-	document.getElementById('compatible9').innerHTML='<p style="color:white"><strong>WARNING:</strong> Not tested on iOS 9.3.3</p>';
+	document.getElementById('compatible9').innerHTML='<body bgcolor="#ff0000"><p style="color:white"><strong>WARNING:</strong> Not tested on iOS 9.3.3</p></body>';
 }
