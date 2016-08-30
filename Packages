@@ -5,9 +5,9 @@ Maintainer: Lacertosus <LacertosusThemes@gmail.com>
 Depends: com.anemonetheming.anemone
 Filename: ./debs/com.lacertosusrepo.anniversaryflower_1.1_iphoneos-arm.deb
 Size: 124126
-MD5sum: e7f9ab915d7defc5e19cbd9ebde0a9f3
-SHA1: de63ed8f62cc1eb8669cca1ff8f068068ae10425
-SHA256: 251d1b6e08f8b0a6787c6d1f434a83ef535bf842a8382ba217d714439e590159
+MD5sum: 4bee18bf5a0e7a0e4e09055691fb1ad4
+SHA1: ce53233972ef65daa1c34246879063bd1cf92c88
+SHA256: ede05d0b50269ffdb81e233761b436b05de070a90e2114ccec9a02cd5d9a20c6
 Section: Themes
 Description: Happy Anniversary
 Author: jackfburlinson
@@ -21,14 +21,30 @@ Maintainer: Lacertosus <LacertosusThemes@gmail.com>
 Depends: mobilesubstrate
 Filename: ./debs/com.lacertosusrepo.customreach_0.1.5_iphoneos-arm.deb
 Size: 27846
-MD5sum: e8ac146e61bb9634b5fc1647c2c392ea
-SHA1: d4082fbb9f3e39b309a430adee8dcc4f065adfee
-SHA256: c29a83d422cde7cfccad0c9e9e53ab9ac71675131e1678f369f18a03756485c6
+MD5sum: 384ca241f05851ae88cd686a044d47a2
+SHA1: 96c8f5eaf3ed540db79c590f5f7fe5dc0e89e9ef
+SHA256: 45ee88ebc7ae87e5184f9e899ccc390ec937029e459828b96ae89c15af782696
 Section: Tweaks
 Description: Customize Reachability
 Author: Lacertosus <LacertosusThemes@gmail.com>
 Depiction: http://lacertosusrepo.github.io/depictions/com.lacertosusrepo.customreach/index.html
 Name: CustomReach
+
+Package: com.lacertosusrepo.haptikcenter
+Version: 0.0.1-12+debug
+Architecture: iphoneos-arm
+Maintainer: Lacertosus
+Installed-Size: 250
+Depends: mobilesubstrate
+Filename: ./debs/com.lacertosusrepo.haptikcenter_0.0.1-12+debug_iphoneos-arm.deb
+Size: 251380
+MD5sum: b7e39ee63d3333f05d4ace524ef71623
+SHA1: 9a9fa132973c16f100e8a32bb3a3101c2017ba4b
+SHA256: 7348189da7c16b57de395994c4943b04a62d8c367fe38fdb998644394cd0a542
+Section: Tweaks
+Description: Haptic Feedback in the Control Center! BETA
+Author: Lacertosus
+Name: HaptikCenter
 
 Package: com.lacertosusrepo.homebuttonlock
 Version: 0.3.0
@@ -37,9 +53,9 @@ Maintainer: Lacertosus <LacertosusThemes@gmail.com>
 Depends: mobilesubstrate
 Filename: ./debs/com.lacertosusrepo.homebuttonlock_0.3.0_iphoneos-arm.deb
 Size: 48210
-MD5sum: b5b1e08d661e5ed61db04b465ce08ddf
-SHA1: df937ac416621dd40d04ec7a27947356df082a32
-SHA256: e51bd8fba6594c3582e88848785622f14c506ee974258cf21147d9d1ec61cd94
+MD5sum: 47c4b04ab74c4b166b00a5362836fde9
+SHA1: 6efb33fb016de67a48205a1679a5f2ace6ab3c27
+SHA256: 2010f4d77f151ce5c49597201b8487ff4606ed5225d3f6757418de8c13a848f2
 Section: Tweaks
 Description: Lock Home Button via Activator Action
 Author: Lacertosus <LacertosusThemes@gmail.com>
@@ -53,9 +69,9 @@ Maintainer: Lacertosus <LacertosusThemes@gmail.com>
 Depends: com.anemonetheming.anemone
 Filename: ./debs/com.lacertosusrepo.ios10lockandkeyboardsounds_1.0_iphoneos-arm.deb
 Size: 8396
-MD5sum: 79271808312a989d597e719492070751
-SHA1: 62b2e19146259e3a26c1c91679b5b1ac6418971f
-SHA256: a951261bd13597eaf1b6c0bed70aacb9d779b40ca4bf26acccfdf8b81f84c309
+MD5sum: 2e5964eec00a363c84905a3b971f7edd
+SHA1: 5fbff73a26666ca854372ca3b76acd8ad28e0b5d
+SHA256: 4e914abdcb306a21f30aa7b779a9f3c6f575c63b3f0bd056c3889521ebe0879d
 Section: Themes
 Description: Sounds Slick
 Author: /u/emb3625
@@ -69,9 +85,9 @@ Maintainer: Lacertosus <LacertosusThemes@gmail.com>
 Depends: com.anemonetheming.anemone
 Filename: ./debs/com.lacertosusrepo.neversummerlogo_0.0.1_iphoneos-arm.deb
 Size: 43758
-MD5sum: 1b13f287baf6ecf457859b984ce07d89
-SHA1: 38410a2a67ce216513c5ba37daa2f673ad8ae1ec
-SHA256: f12a7e38938e6c619eff475514303115806204288f2d80f1e93dbaeb63dffdd9
+MD5sum: 4c89f53da77bde753ced0317c25597cc
+SHA1: b14de36af618748197ce0f9c5437cbb6f985502f
+SHA256: 0155ff4a39d6082e505acf216f6628200d33919755defe3a3d8d6b36187ea6cd
 Section: Themes
 Description: Snoawboarding Company Logo
 Author: Lacertosus <LacertosusThemes@gmail.com>
@@ -85,9 +101,9 @@ Maintainer: Lacertosus <LacertosusThemes@gmail.com>
 Depends: mobilesubstrate
 Filename: ./debs/com.lacertosusrepo.popuponstart_0.1.0-5_iphoneos-arm.deb
 Size: 47572
-MD5sum: add31344a7990d5957c2b56caa31e9e8
-SHA1: 53496f96edeea354f426dff143207bd99fb6c018
-SHA256: 7c924889fb20cd5378fc1beda44101f39056f239c3b34b88a4a7af2aaed2843c
+MD5sum: 06f71025c8a2fa4f87dccf6d6b07d897
+SHA1: 2fc7c4cb4f2d95704288d80ecf4f32bf17e1b740
+SHA256: d8a4eceef5b27db851510c286395afebffccfa777b25fa7c3146a0d94bcb9fa0
 Section: Tweaks
 Description: Custom alert after respring/reboot...
 Author: Lacertosus <LacertosusThemes@gmail.com>
@@ -100,9 +116,9 @@ Architecture: iphoneos-arm
 Maintainer: Lacertosus <LacertosusThemes@gmail.com>
 Filename: ./debs/com.lacertosusrepo.purplemountainlogo_0.1.2-1_iphoneos-arm.deb
 Size: 2902758
-MD5sum: 252a5af88b3679eea052b3342c546112
-SHA1: 62cb2a28e11cc43bfda0402cfbdb9ee825df65f8
-SHA256: b98a19d64b0c9391f76a98b59fc899a8afa74847bb394ff183514adcc5aaed13
+MD5sum: 260d5e65e863de21b18c87456c6d5d50
+SHA1: e0c1a5569fc1d3f12b007c8c0fdbdd5508232347
+SHA256: 37c89328c1366d2039b4ed25b2a6b2113cfa07c9cc397432353729c6a3bf83f5
 Section: Themes
 Description: Mountain background, a purple tint, black Apple Logo...
 Author: Tykzh
@@ -115,9 +131,9 @@ Architecture: iphoneos-arm
 Maintainer: Lacertosus <LacertosusThemes@gmail.com>
 Filename: ./debs/com.lacertosusrepo.purplemountainlogoplus_0.1.0-1_iphoneos-arm.deb
 Size: 5762396
-MD5sum: c0639ff124299d709c372460a33aa838
-SHA1: 674fd539f1c0615a76b6c4e1fecb6050e18b3e16
-SHA256: a8dc6f86280e7d2ca4a6970ae5c6152df00a557f6c984be67437bd0f5634cb2f
+MD5sum: 8cf130c637a77a0b7df2d6a59e1001b1
+SHA1: f6ce3bfe1ec820caa9eaad912ad4f8c7ca2e3bbd
+SHA256: 7c66774711e565043b36af656a621be0298d657f8873d71f8e5d4d0744a115be
 Section: Themes
 Description: Mountain background, a purple tint, black Apple Logo...
 Author: Tykzh
@@ -131,9 +147,9 @@ Maintainer: Lacertosus <LacertosusThemes@gmail.com>
 Depends: com.anemonetheming.anemone
 Filename: ./debs/com.lacertosusrepo.realmadrid_1.0_iphoneos-arm.deb
 Size: 158690
-MD5sum: 2a64bbe6d78a1112861048d8fea7647a
-SHA1: 130aba307b1471b5cec4b1d59aa94a2d0b0e4bea
-SHA256: 97cc4b9e3176449603c28eef1798f7ea2e5e4e14fa291abf0d827abb509e72dd
+MD5sum: 00b0900ddf2f6052e54469abe4e73dc3
+SHA1: e4889f875961d10509df0510c1fc52ee7de170b0
+SHA256: 350995107c3404b1aec8b663fdbd4b6b730bd0e965d1ad6c63eecd92db1ba524
 Section: Themes
 Description: Fútbol (Soccar) Boot Logo
 Author: Lacertosus <LacertosusThemes@gmail.com>
@@ -147,9 +163,9 @@ Maintainer: Lacertosus <LacertosusThemes@gmail.com>
 Depends: mobilesubstrate
 Filename: ./debs/com.lacertosusrepo.screenlock_0.2.4-11_iphoneos-arm.deb
 Size: 14306
-MD5sum: 67cffaab7556c00483432c0e70127601
-SHA1: 3bf2dd8d1614e2ae0604263e1111c41caa2f7bcc
-SHA256: 921a5acd1707c1f85edf95fcfb5a95a5a21d28aceb5a5d7f0f5136921b66a22a
+MD5sum: 633ae09d47ecab2301c8518757636fdf
+SHA1: cc20fe08e88205b83153b04bf371e82dff181695
+SHA256: 779f64acf4cb531499516bdb68358c717a78b1f9a19b9f75891e2db4b3600216
 Section: Tweaks
 Description: Lock your screen!
 Author: Lacertosus <LacertosusThemes@gmail.com>
@@ -163,9 +179,9 @@ Maintainer: Lacertosus <LacertosusThemes@gmail.com>
 Depends: mobilesubstrate
 Filename: ./debs/com.lacertosusrepo.soundspring_0.3.5-1_iphoneos-arm.deb
 Size: 1534998
-MD5sum: 705157613576f376f8b9bd8461dc7636
-SHA1: 965df667d85d2119bf8392fe765717d139c8bf1f
-SHA256: cbfc3205f2f202c33107f57b7ce2c567995681c32f3329984791f2c23ef8fd4f
+MD5sum: fd2b16c80661bac50042ee8e493b12ae
+SHA1: 6d6a5d28b9b919b5aa53cedd7e69a6b17e2943d4
+SHA256: ae2836a6af9d7eb5c3b14906d30399a2db2e29ea95ad2e5fd524d356285ad7b4
 Section: Tweaks
 Description: Adele has a message for you
 Author: Lacertosus <LacertosusThemes@gmail.com>
@@ -179,9 +195,9 @@ Maintainer: Lacertosus <LacertosusThemes@gmail.com>
 Depends: com.anemonetheming.anemone
 Filename: ./debs/com.lacertosusrepo.vancouverwhitecaps_1.1_iphoneos-arm.deb
 Size: 19230
-MD5sum: b864a7a8692094a3ddae213e3cd12043
-SHA1: c392abf050b8ed07a72fc66b8042777ae10fa1dd
-SHA256: 8153dfd260f5a059e8308c04802277ccf16ed666e760a299c8a4f57ab52cc034
+MD5sum: 864bc38b923bb1836ac5c472fca86cd7
+SHA1: 9f18be132792c1809eafb3ef64abfa4796f85cb9
+SHA256: 2e339de0c0cc758891278557ff2375a08ec9529adea6a3a56eb4646683341ef4
 Section: Themes
 Description: Canada, eh?
 Author: Lacertosus <LacertosusThemes@gmail.com>
@@ -195,9 +211,9 @@ Maintainer: Lacertosus <LacertosusThemes@gmail.com>
 Depends: mobilesubstrate
 Filename: ./debs/com.lacertosusrepo.volumelock_0.1.0-8_iphoneos-arm.deb
 Size: 28408
-MD5sum: 8e03362bca5d487ec1f444dbaf06893a
-SHA1: 40d53f5f1dae3998125ae1596d0c81863256c1cf
-SHA256: d063f9a3643969ec7c72c86ab1b61e41a66a286e02cadb91a9e8cb98bd1bee4e
+MD5sum: 0fab4693099799287319703a1a8e2307
+SHA1: 752f1589e02859fc699b57af11166d7ca0b32b00
+SHA256: 6db719509fe0866e859be1c4238e24f5f6e2905ed3b9ebfce66aad898ad15826
 Section: Tweaks
 Description: Lock Volume via Activator Action
 Author: Lacertosus <LacertosusThemes@gmail.com>
