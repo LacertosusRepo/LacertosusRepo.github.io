@@ -1,0 +1,9 @@
+Package: com.lacertosusrepo.HaptikCenter
+Name: HaptikCenter
+Depends: mobilesubstrate
+Version: 0.3.0
+Architecture: iphoneos-arm
+Description: Add Haptic Feedback To The Control Center
+Maintainer: Lacertosus <LacertosusThemes@gmail.com>
+Author: Lacertosus <LacertosusThemes@gmail.com>
+Section: Tweaks
