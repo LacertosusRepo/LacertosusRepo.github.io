@@ -8,9 +8,9 @@ function iOSversion() {
 	}
 }
 ver = iOSversion();
-if (ver[0] >= 9.3.3) {
-	document.getElementById('compatible9').innerHTML='<body style="background-color:#ff0000"><p style="color:white"><strong>WARNING:</strong> Not tested on iOS 9.3.3</p></body';
+if (ver[0] >= 10) {
+	document.getElementById('compatible9').innerHTML='<body style="background-color:#ff0000"><p style="color:white"><strong>WARNING:</strong> Not tested on iOS qp</p></body';
 }
 else {
-	document.getElementById('compatible9').innerHTML='<body style="background-color:#ff0000"><p style="color:white"><strong>WARNING:</strong> Not tested on iOS 9.3.3</p></body>';
+	document.getElementById('compatible9').innerHTML='<body style="background-color:#ff0000"><p style="color:white"><strong>WARNING:</strong> Not tested on iOS 10</p></body>';
 }
