@@ -12,5 +12,5 @@ if (ver[0] >= 10) {
 	document.getElementById('10compatibility').innerHTML='<body style="background-color:#ff0000"><p style="color:red"><strong>WARNING:</strong> Not tested on iOS 10</p></body';
 }
 else {
-	document.getElementById('10compatibility').innerHTML='<body style="background-color:#ff0000"><p style="color:red"><strong>WARNING:</strong> Not tested on iOS 10</p></body>';
+	null;
 }
