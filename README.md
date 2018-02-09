@@ -18,7 +18,7 @@ Well there are two sources:
 2. Thanks to <a href="https://elijahandandrew.com/">Elijah and Andrew</a>, I could have some beautiful <a href="http://lacertosusrepo.github.io/depictions/com.lacertosusrepo.popuponstart/index.html">depictions</a>
 
 ### Note to Myself
-Having issues with *fakeroot* throwing erros when making a package? Use the following command:
+Having issues with *fakeroot* throwing errors when making a package? Use the following command:
 
 ```bash
 //Thanks to JohnCoates
