@@ -7,12 +7,15 @@ function iOSversion() {
 		return 0;
 	}
 }
+
+var iOSSupportValue = document.getElementById("supportCheck").value;
+
 ver = iOSversion();
-if (ver[0] >= 8) {
+if (ver[0] >= 8 && iOSSupportValue = 8) {
 	document.getElementById('version').innerHTML='<p>Your device is supported.</p>';
 }
-if (ver[0] >= 11) {
-	document.getElementById('version').innerHTML='<p>Custom Message for iOS 11</p>';
+if (ver[0] >= 11 && IOSSupportValue = 11) {
+	document.getElementById('version').innerHTML='<p>Your iOS 11 is Supported</p>';
 }
 else {
 	document.getElementById('version').innerHTML='<p>Your device is not supported.</p>';
