@@ -18,7 +18,7 @@ if (supportCheck = "all") {
 	document.getElementById('version').innerHTML='<p>Your device is supported.</p>';
 } if (ver[0] >= 10 && supportCheck = "10") {
 	document.getElementById('version').innerHTML='<p>Your device is supported.</p>';
-} if (ver[0] >= 11 && supportCheck = "11") {
+} if (supportCheck = "11") {
 	document.getElementById('version').innerHTML='<p>Your device is supported.</p>';
 } else {
 	document.getElementById('version').innerHTML='<p>Your device is not supported.</p>';
