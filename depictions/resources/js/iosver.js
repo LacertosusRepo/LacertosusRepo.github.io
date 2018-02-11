@@ -10,12 +10,14 @@ function iOSversion() {
 
 supportCheck = document.getElementById('supportsIOS').innerHTML;
 ver = iOSversion();
-if (ver[0] >= 8) {
+if (ver[0] >= 8 && supportCheck = "8") {
 	document.getElementById('version').innerHTML='<p>Your device is supported.</p>';
-} if (ver[0] >= 10) {
+} if (ver[0] >= 9 && supportCheck = "9") {
 	document.getElementById('version').innerHTML='<p>Your device is supported.</p>';
-} if (supportCheck = "11") {
-	document.getElementById('version').innerHTML='<p>It Work.</p>';
+} if (ver[0] >= 10 && supportCheck = "10") {
+	document.getElementById('version').innerHTML='<p>Your device is supported.</p>';
+} if (ver[0] >= 11 && supportCheck = "11") {
+	document.getElementById('version').innerHTML='<p>Your device is supported.</p>';
 } else {
-	document.getElementById('version').innerHTML='<p>Your device is not supported. 3</p>';
+	document.getElementById('version').innerHTML='<p>Your device is not supported.</p>';
 }
