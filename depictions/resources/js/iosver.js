@@ -8,18 +8,18 @@ function iOSversion() {
 	}
 }
 
-//var iOSSupportValue = document.getElementById("supportCheck").innerHTML;
+var iOSSupportValue = 11; //document.getElementById("supportCheck").innerHTML;
 
 ver = iOSversion();
-if (ver[0] >= 8 && iOSSupportValue == "8") {
+if (ver[0] >= 8) {
 
 	document.getElementById('version').innerHTML='<p>Your device is supported.</p>';
 
-} if (ver[0] >= 11 && IOSSupportValue == 11) {
+} if (ver[0] >= 11) {
 	
 	document.getElementById('version').innerHTML='<p>Your iOS 11 is Supported</p>';
 
-} if (IOSSupportValue === '11') {
+} if (IOSSupportValue == 11) {
 	
 	document.getElementById('version').innerHTML='<p>It Worked!</p>';
 
