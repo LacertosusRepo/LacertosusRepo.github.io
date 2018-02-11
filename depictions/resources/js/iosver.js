@@ -16,5 +16,5 @@ if (ver[0] >= 10) {
 	document.getElementById('version').innerHTML='<p>Your device is supported.</p>';
 }
 else {
-	document.getElementById('version').innerHTML='<p>Your device is not supported.</p>';
+	document.getElementById('version').innerHTML='<p>Your device is not supported. 2</p>';
 }
