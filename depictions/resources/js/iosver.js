@@ -7,7 +7,7 @@ function iOSversion() {
 		return 0;
 	}
 }
-var supportCheck = document.getElementById("supportsIOS".innerHTML;
+/var supportCheck = document.getElementById("supportsIOS".innerHTML;
 ver = iOSversion();
 if (ver[0] >= 8) {
 	document.getElementById('version').innerHTML='<p>Your device is supported.</p>';
@@ -16,5 +16,5 @@ if (ver[0] >= 10) {
 	document.getElementById('version').innerHTML='<p>Your device is supported.</p>';
 }
 else {
-	document.getElementById('version').innerHTML='<p>Your device is not supported. 2</p>';
+	document.getElementById('version').innerHTML='<p>Your device is not supported. 3</p>';
 }
