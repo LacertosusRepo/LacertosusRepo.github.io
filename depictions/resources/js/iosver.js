@@ -8,7 +8,7 @@ function iOSversion() {
 	}
 }
 
-var iOSSupportValue = 11; //document.getElementById("supportCheck").innerHTML;
+var iOSSupportValue = document.getElementById('supportCheck').innerHTML;
 
 ver = iOSversion();
 if (ver[0] >= 8) {
