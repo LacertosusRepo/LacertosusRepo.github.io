@@ -19,12 +19,12 @@ if (ver[0] >= 8 && iOSSupportValue == "8") {
 	
 	document.getElementById('version').innerHTML='<p>Your iOS 11 is Supported</p>';
 
-} if (IOSSupportValue == 11) {
+} if (IOSSupportValue === '11') {
 	
 	document.getElementById('version').innerHTML='<p>It Worked!</p>';
 
 } else {
 
-	document.getElementById('version').innerHTML='<p>Your device is not supported.</p>';
+	document.getElementById('version').innerHTML='<p>Your device is not supported. 1</p>';
 
 }
