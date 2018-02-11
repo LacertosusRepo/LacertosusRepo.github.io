@@ -8,7 +8,7 @@ function iOSversion() {
 	}
 }
 
-var iOSSupportValue = document.getElementById("supportCheck").innerHTML;
+//var iOSSupportValue = document.getElementById("supportCheck").innerHTML;
 
 ver = iOSversion();
 if (ver[0] >= 8 && iOSSupportValue == "8") {
@@ -25,6 +25,6 @@ if (ver[0] >= 8 && iOSSupportValue == "8") {
 
 } else {
 
-	document.getElementById('version').innerHTML='<p>Your device is not supported. 1</p>';
+	document.getElementById('version').innerHTML='<p>Your device is not supported.</p>';
 
 }
