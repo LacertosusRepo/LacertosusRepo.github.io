@@ -10,19 +10,19 @@ function iOSversion() {
 
 var supportCheck = document.getElementById('supportsIOS').innerHTML;
 ver = iOSversion();
-if (supportCheck = "all") {
+if (supportCheck === "all") {
 	document.getElementById('version').innerHTML='<p>Your device is supported.</p>';
 } 
-if (ver[0] >= 8 && supportCheck = "8") {
+if (ver[0] >= 8 && supportCheck === "8") {
 	document.getElementById('version').innerHTML='<p>Your device is supported.</p>';
 }
-if (ver[0] >= 9 && supportCheck = "9") {
+if (ver[0] >= 9 && supportCheck === "9") {
 	document.getElementById('version').innerHTML='<p>Your device is supported.</p>';
 }
-if (ver[0] >= 10 && supportCheck = "10") {
+if (ver[0] >= 10 && supportCheck === "10") {
 	document.getElementById('version').innerHTML='<p>Your device is supported.</p>';
 }
-if (ver[0] >= 11 && supportCheck = "11") {
+if (ver[0] >= 11 && supportCheck === "11") {
 	document.getElementById('version').innerHTML='<p>Your device is supported.</p>';
 }
 else {
