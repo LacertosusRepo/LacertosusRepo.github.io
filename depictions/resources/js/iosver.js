@@ -13,16 +13,16 @@ ver = iOSversion();
 if (supportCheck === "all") {
 	document.getElementById('version').innerHTML='<p>Device is supported. ✓</p>';
 } 
-else if (ver[0] >= 8 && supportCheck === "8") {
+else if (ver[0] === 8 && supportCheck === "8") {
 	document.getElementById('version').innerHTML='<p>Device is supported. ✓</p>';
 }
-else if (ver[0] >= 9 && supportCheck === "9") {
+else if (ver[0] === 9 && supportCheck === "9") {
 	document.getElementById('version').innerHTML='<p>Device is supported. ✓</p>';
 }
-else if (ver[0] >= 10 && supportCheck === "10") {
+else if (ver[0] === 10 && supportCheck === "10") {
 	document.getElementById('version').innerHTML='<p>Device is supported. ✓</p>';
 }
-else if (ver[0] >= 11 && supportCheck === "11") {
+else if (ver[0] === 11 && supportCheck === "11") {
 	document.getElementById('version').innerHTML='<p>Device is supported. ✓</p>';
 }
 else {
