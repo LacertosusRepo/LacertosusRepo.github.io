@@ -1,6 +1,7 @@
 # LacertosusRepo.github.io
 
-## Meaning of Lacertosus Deus? **Powerful God**
+## Meaning of Lacertosus Deus? **Powerful Diety**
+How exactly that relates to me? Dunno, sounded cool! Unfortunately it sounds *a little* narcissistic.
 
 ### Useful Links:
 
