@@ -25,3 +25,10 @@ Having issues with *fakeroot* throwing errors when making a package? Use the fol
 //Thanks to JohnCoates
 sudo sed -i 's/\$(FAKEROOT) -r/fakeroot-tcp/g'  /opt/theos/makefiles/package/deb.mk
 ```
+
+Getting this error when trying to update theos? *The Perl module IO::Compress::Lzma needs to be installed.*
+
+```bash
+//Thanks to JohnCoates
+sudo apt-get install libio-compress-perl
+```
