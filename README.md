@@ -29,6 +29,16 @@ sudo sed -i 's/\$(FAKEROOT) -r/fakeroot-tcp/g'  /opt/theos/makefiles/package/deb
 Getting this error when trying to update theos? *The Perl module IO::Compress::Lzma needs to be installed.*
 
 ```bash
-//Thanks to JohnCoates
+//Thanks to JohnCoates, again
 sudo apt-get install libio-compress-perl
 ```
+
+Getting this error when compiling? *arm64-apple-darwin14-clang++: line 1: arm64-apple-darwin14-clang-3.9: command not found*
+
+```
+//Thanks to JohnCoates, again, again
+sudo wget https://developer.angelxwind.net/Linux/ios-toolchain_clang%2bllvm%2bld64_latest_linux_x86_64.zip -O LinuxToolchain.zip
+sudo unzip LinuxToolchain.zip && sudo rm -f LinuxToolchain.zip
+```
+
+*<a href="https://gist.github.com/JohnCoates/ea7b8002b77ab7c1c758384e55538603">NOTE: Might as well link John Coates source</a>*
