@@ -16,7 +16,7 @@ How exactly that relates to me? Dunno, sounded cool! Unfortunately it sounds *a 
 Well there are two sources:
 
 1. The creation of the repo was made using <a href="https://www.youtube.com/watch?v=XqkTnxyiiOc">Tyler Crawford's Tutorial</a>
-2. Thanks to <a href="https://elijahandandrew.com/">Elijah and Andrew</a>, I could have some beautiful <a href="http://lacertosusrepo.github.io/depictions/com.lacertosusrepo.popuponstart/index.html">depictions</a>
+2. Thanks to <a href="https://elijahandandrew.com/">Elijah and Andrew</a>, I could have some appealing <a href="http://lacertosusrepo.github.io/depictions/com.lacertosusrepo.popuponstart/index.html">depictions</a>
 
 ### Note to Myself
 Having issues with *fakeroot* throwing errors when making a package? Use the following command:
