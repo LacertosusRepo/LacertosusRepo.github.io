@@ -1,5 +1,5 @@
 # LacertosusRepo.github.io
-![GitHub last commit](https://img.shields.io/github/last-commit/LacertosusDeus/LacertosusRepo.gituhub.io.svg?style=for-the-badge)
+![GitHub last commit](https://img.shields.io/github/last-commit/LacertosusRepo/LacertosusRepo.github.io.svg?style=for-the-badge)
 
 ## Meaning of Lacertosus Deus? **Powerful Diety**
 How exactly that relates to me? Dunno, sounded cool! Unfortunately it sounds *a little* narcissistic.
