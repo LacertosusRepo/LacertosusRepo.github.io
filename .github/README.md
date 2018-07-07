@@ -38,6 +38,7 @@ Getting this error when compiling? *arm64-apple-darwin14-clang++: line 1: arm64-
 
 ```
 //Thanks to JohnCoates, again, again
+cd /opt/theos/toolchain/
 sudo wget https://developer.angelxwind.net/Linux/ios-toolchain_clang%2bllvm%2bld64_latest_linux_x86_64.zip -O LinuxToolchain.zip
 sudo unzip LinuxToolchain.zip && sudo rm -f LinuxToolchain.zip
 ```
