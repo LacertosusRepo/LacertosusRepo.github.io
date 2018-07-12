@@ -1,7 +1,7 @@
 //Thank you Matchstic, you beautiful man
-const VERSION_CHECK_SUPPORTED = "iOS %s is supported. ✓";
-const VERSION_CHECK_UNSUPPORTED = "iOS %s is not supported. ✕";
-const VERSION_CHECK_UNCONFIRMED = "iOS %s has not been tested!";
+const VERSION_CHECK_SUPPORTED = "<p>iOS %s is supported. ✓</p>";
+const VERSION_CHECK_UNSUPPORTED = "<p>iOS %s is not supported. ✕</p>";
+const VERSION_CHECK_UNCONFIRMED = "<p>iOS %s has not been tested!</p>";
 
 function iOSversion() {
 	if (/iP(hone|od|ad)/.test(navigator.platform)) {
@@ -23,7 +23,7 @@ var versionNumber = parseFloat(version[0] + "." + version[1]);
 	} else if(versionNumber > maxVersion) {
 		document.getElementById('compatibility').innerHTML=VERSION_CHECK_UNCONFIRMED.replace("%s", versionNumber);
 	} else if(!versionNumber) {
-		document.getElementById('compatibility').innerHTML="Can't get iOS version.";
+		document.getElementById('compatibility').innerHTML="<p>Can't get device version.</p>";
 	} else {
 		document.getElementById('compatibility').innerHTML=VERSION_CHECK_UNSUPPORTED.replace("%s", versionNumber);
 	}
