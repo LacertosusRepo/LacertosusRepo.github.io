@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa');
 :root {
 	--bg-color: #efeff4;
 	--title-color: rgba(204, 204, 204, 0.5);
@@ -10,6 +11,7 @@
 	--input-font: ;
 	--hype-color: #425fb4;
 	--tap-color: rgba(0, 0, 0, .5);
+	--font: 'Comfortaa', sans-serif;
 }
 panel>input[type="submit"],
 fieldset>a>div>div>input[type="checkbox"],
@@ -38,7 +40,7 @@ fieldset>a[href] {
     -o-border-radius: 0;
     border-radius: 0;
     color: var(--font-color);
-    font-family: inherit;
+    font-family: var(--font);
     font-size: inherit;
     font-style: inherit;
     font-weight: inherit;
@@ -138,6 +140,7 @@ body {
 .button {
     background-color: var(--button-color);
     border: none;
+	border-radius: 4px;
     color: var(--button-text);
     padding: 5px 16px;
     text-align: center;

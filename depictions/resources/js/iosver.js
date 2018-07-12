@@ -1,4 +1,4 @@
-//Thank you Matchstic, you beautiful man
+//Thank you Matchstic, you beautiful person
 const VERSION_CHECK_SUPPORTED = "<p>iOS %s is supported. ✓</p>";
 const VERSION_CHECK_UNSUPPORTED = "<p>iOS %s is not supported. ✕</p>";
 const VERSION_CHECK_UNCONFIRMED = "<p>iOS %s has not been tested!</p>";
@@ -20,10 +20,14 @@ var versionNumber = parseFloat(version[0] + "." + version[1]);
 	
 	if(versionNumber >= minVersion && version <= maxVersion) {
 		document.getElementById('compatibility').innerHTML=VERSION_CHECK_SUPPORTED.replace("%s", versionNumber);
+		document.body.style.setProperty("--title-color", "rgba(39,174,96, 0.5)");
 	} else if(versionNumber > maxVersion) {
 		document.getElementById('compatibility').innerHTML=VERSION_CHECK_UNCONFIRMED.replace("%s", versionNumber);
+		document.body.style.setProperty("--title-color", "rgba(192,57,43, 0.5)");
 	} else if(!versionNumber) {
 		document.getElementById('compatibility').innerHTML="<p>Can't get device version.</p>";
+		document.body.style.setProperty("--title-color", "rgba(192,57,43, 0.5)");
 	} else {
 		document.getElementById('compatibility').innerHTML=VERSION_CHECK_UNSUPPORTED.replace("%s", versionNumber);
+		document.body.style.setProperty("--title-color", "rgba(192,57,43, 0.5)");
 	}
