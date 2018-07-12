@@ -1,3 +1,16 @@
+:root {
+	--bg-color: #efeff4;
+	--title-color: rgba(204, 204, 204, 0.5);
+	--field-color: #ffffff;
+	--button-color: #365d70;
+	--button-text: #cad0d5;
+	--label-color: #6d6d72;
+	--font-color: #000000;
+	--input-color: ;
+	--input-font: ;
+	--hype-color: #425fb4;
+	--tap-color: rgba(0, 0, 0, .5);
+}
 panel>input[type="submit"],
 fieldset>a>div>div>input[type="checkbox"],
 fieldset>a>div>div>select {
@@ -8,14 +21,14 @@ fieldset>div,
 panel>block,
 fieldset>a>div>div>label.detail {
     -webkit-user-select: text;
-    user-select: text;
+    user-select: text;	
     -moz-user-select: element;
     -ms-user-select: element;
     user-select: element
 }
 fieldset>a[href] {
-    -webkit-tap-highlight-color: rgba(0, 0, 0, .5);
-    -webkit-tap-highlight-color: transparent
+    -webkit-tap-highlight-color: var(--tap-color);
+    -webkit-tap-highlight-color: transparent;
 }
 * {
     border: 0;
@@ -24,7 +37,7 @@ fieldset>a[href] {
     -ms-border-radius: 0;
     -o-border-radius: 0;
     border-radius: 0;
-    color: inherit;
+    color: var(--font-color);
     font-family: inherit;
     font-size: inherit;
     font-style: inherit;
@@ -107,7 +120,7 @@ body.white {
     background: #c7ced5 url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAABCAIAAACdaSOZAAAAFElEQVQIHWM4euYKErp0+tINIAIAuHQQ4rDrv5YAAAAASUVORK5CYII=')
 }
 .cytyle-flat body.pinstripe {
-    background: #efeff4
+    background: var(--bg-color)
 }
 body {
     width: 320px
@@ -119,6 +132,26 @@ body {
 }
 .default {
     color: #aab
+}
+.button {
+    background-color: var(--button-color);
+    border: none;
+    color: var(--button-text);
+    padding: 5px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+	font-weight: bold;
+    margin: 2px 1px;
+    cursor: pointer;
+}
+.link {
+	color: var(--hype-color);
+}
+input {
+	background-color: var(--input-color);
+	color: var(--input-font);
 }
 div.cy-table {
     margin: 0 auto;
@@ -148,7 +181,8 @@ panel>hr {
 }
 panel>block {
     display: block;
-    background-color: rgba(204, 204, 204, 0.5);
+		/*Title Color*/
+    background-color: var(--title-color);
     margin-top: 9px;
     margin-bottom: 9px
 }
@@ -181,7 +215,7 @@ panel>block {
 panel>fieldset {
     position: relative;
     display: block;
-    background-color: #fff;
+    background-color: var(--field-color);
     margin-top: 9px;
     margin-bottom: 9px
 }
@@ -264,7 +298,7 @@ panel>label {
     color: #4d4d70
 }
 .cytyle-flat panel>label {
-    color: #6d6d72
+    color: var(--label-color)
 }
 .cytyle-faux panel>label {
     text-shadow: rgba(255, 255, 255, 0.75) 1px 1px 0;
@@ -340,7 +374,7 @@ div.cytyle-app>div.left>label {
     font-size: 14px
 }
 .cytyle-faux div.cytyle-app>div.left>label {
-    color: #4d4d4d;
+    color: #9b59b6;
     text-shadow: #fff 0px 1px 0;
     font-weight: bold
 }
@@ -942,10 +976,10 @@ fieldset>textarea.right {
     color: #8e8e9f
 }
 fieldset>a.cytyle-up {
-    -webkit-transition: background 0.3s ease-in
+    -webkit-transition: background 1s ease-in
 }
 fieldset>a.cytyle-up p {
-    -webkit-transition: color 0.3s ease-in
+    -webkit-transition: color 1s ease-in
 }
 fieldset>a.cytyle-dn label,
 fieldset>a.cytyle-dn span,

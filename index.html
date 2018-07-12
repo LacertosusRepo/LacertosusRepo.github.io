@@ -8,13 +8,14 @@
 	<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
 	<meta name="format-detection" content="telephone=no">
 	<script type="text/javascript" src="./depictions/resources/js/thankssaurik.js"></script>
-	<link rel="icon" type="image/png" href="/depictions/resources/logo/16.png" sizes="16x16">
-	<link rel="icon" type="image/png" href="/depictions/resources/logo/32.png" sizes="32x32">
-	<link rel="icon" type="image/png" href="/depictions/resources/logo/48.png" sizes="48x48">
-	<link rel="icon" type="image/png" href="/depictions/resources/logo/64.png" sizes="64x64">
-	<link rel="icon" type="image/png" href="/depictions/resources/logo/128.png" sizes="128x128">
-	<link rel="icon" type="image/png" href="/depictions/resources/logo/256.png" sizes="256x256">
-	<link rel="apple-touch-icon" sizes="120x120" href="/depictions/resources/logo/120.png">
+	<script type="text/javascript" src="./depictions/resources/js/themeswitch.js"></script>
+	<link rel="icon" type="image/png" href="./depictions/resources/logo/16.png" sizes="16x16">
+	<link rel="icon" type="image/png" href="./depictions/resources/logo/32.png" sizes="32x32">
+	<link rel="icon" type="image/png" href="./depictions/resources/logo/48.png" sizes="48x48">
+	<link rel="icon" type="image/png" href="./depictions/resources/logo/64.png" sizes="64x64">
+	<link rel="icon" type="image/png" href="./depictions/resources/logo/128.png" sizes="128x128">
+	<link rel="icon" type="image/png" href="./depictions/resources/logo/256.png" sizes="256x256">
+	<link rel="apple-touch-icon" sizes="120x120" href="./depictions/resources/logo/120.png">
 </head>
 
 <br>
@@ -23,7 +24,7 @@
 
 <center>
 <a href="./depictions/resources/LTDeus.html">
-<img src="https://raw.githubusercontent.com/LacertosusRepo/LacertosusRepo.github.io/master/depictions/resources/logo/Header/Repo Header.png" alt="LacertosusRepository" style="width:320px;height:94.07867494824px;">
+<img src="./depictions/resources/logo/Header/Repo Header.png" alt="LacertosusRepository" style="width:320px;height:94.07867494824px;">
 </a>
 </center>
 
@@ -44,8 +45,8 @@
 <label>
 <center>
 
-  <p><a href="https://coolstar.org/electra/">iOS 11.2 - 11.3.1 Jailbreak (ElectraTeam)</a></p><br>
-
+  <p><a class="link" href="https://coolstar.org/electra/">iOS 11.2 - 11.3.1 Jailbreak (ElectraTeam)</a></p>
+ 
 </center>
 </label>
 </div>
@@ -71,7 +72,7 @@
 <label>
 <p>URL</p>
 </label>
-<input type="text" value="https://LacertosusRepo.github.io" onclick="setSelectionRange(0,32)" style="width: 210px;">
+<input type="text" value="http://LacertosusRepo.github.io" onclick="setSelectionRange(0,31)" style="width: 210px;" readonly>
 </div>
 </div>
 </a>
@@ -88,7 +89,7 @@
 </label>
 </div>
 </div>
-<a href="/depictions/resources/submission.html">
+<a href="./depictions/resources/submission.html">
 <img class="icon" src="./depictions/resources/icons/submission.png" width="58" height="58">
 <div>
 <div>
@@ -113,7 +114,7 @@
 </div>
 </div>
 </a>
-<a href="/depictions/resources/donate.html">
+<a href="./depictions/resources/donate.html">
 <img class="icon" src="./depictions/resources/icons/donate.png" width="58" height="58">
 <div>
 <div>
@@ -123,7 +124,7 @@
 </div>
 </div>
 </a>
-<a href="/depictions/resources/contact.html">
+<a href="./depictions/resources/contact.html">
 <img class="icon" src="./depictions/resources/icons/contact.png" width="58" height="58">
 <div>
 <div>
@@ -133,8 +134,8 @@
 </div>
 </div>
 </a>
-<a href="/depictions/resources/help.html">
-<img class="icon" src="./depictions/resources/icons/help.png">
+<a href="./depictions/resources/help.html">
+<img class="icon" src="./depictions/resources/icons/help.png" width="58" height="58">
 <div>
 <div>
 <label>
@@ -151,12 +152,15 @@
 <div>
 <div>
 <label>
-<p>Thank you to <a href="https://elijahandandrew.com/" target="_new">Elijah and Andrew</a> for the depiction styles!</p>
+<p>Thank you to Elijah and Andrew for the depiction styles!</p>
 </label>
 </div>
 </div>
 </fieldset>
 
 </panel>
+<center>
+<button class="button" id="ThemeButton" onclick="switchTheme()">Dark Theme</button>
+</center>
 </body>
 </html>
