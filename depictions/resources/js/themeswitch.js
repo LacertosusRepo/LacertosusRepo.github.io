@@ -1,6 +1,8 @@
 function switchTheme() {
 	
 	if(document.getElementById("ThemeButton").innerHTML === 'Dark Theme') {
+		
+		//Dark Theme
 		document.body.style.setProperty("--bg-color", "#1f2329");
 		document.body.style.setProperty("--title-color", "rgba(45,51,59, 0.5)");
 		document.body.style.setProperty("--field-color", "#2d333b");
@@ -14,6 +16,7 @@ function switchTheme() {
 		
 	} else {
 		
+		//Light Theme
 		document.body.style.setProperty("--bg-color", "#efeff4");
 		document.body.style.setProperty("--title-color", "rgba(204, 204, 204, 0.5)");
 		document.body.style.setProperty("--field-color", "#ffffff");
