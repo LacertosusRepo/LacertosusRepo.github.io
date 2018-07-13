@@ -5,10 +5,12 @@
 	<title>LacertosusDeus's Repository</title>
 	<base target="_top">
 	<link rel="stylesheet" type="text/css" href="./depictions/resources/css/style.css"/>
+	<link rel="stylesheet" type="text/css" href="./depictions/resources/css/animate.css"/>
 	<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
 	<meta name="format-detection" content="telephone=no">
 	<script type="text/javascript" src="./depictions/resources/js/thankssaurik.js"></script>
 	<script type="text/javascript" src="./depictions/resources/js/themeswitch.js"></script>
+	<script type="text/javascript" src="./depictions/resources/js/break.js"></script>
 	<link rel="icon" type="image/png" href="./depictions/resources/logo/16.png" sizes="16x16">
 	<link rel="icon" type="image/png" href="./depictions/resources/logo/32.png" sizes="32x32">
 	<link rel="icon" type="image/png" href="./depictions/resources/logo/48.png" sizes="48x48">
@@ -19,23 +21,21 @@
 </head>
 
 <br>
-<body class="pinstripe">
-
-<div class="theme-transition">
+<body class="pinstripe animated fadeInUp">
 
 <panel>
-
 <center>
-<a href="./depictions/resources/LTDeus.html">
-<img src="./depictions/resources/logo/Header/Repo Header.png" alt="LacertosusRepository" style="width:320px;height:94.07867494824px;">
-</a>
+<div class="animated fadeInDownBig" onclick="broken()">
+<img id="Header" class="headerImg" src="./depictions/resources/logo/Header/Repo Header.png" alt="LacertosusRepository" style="width:320px;height:94.07867494824px;">
+<p id="SecretText" class="hiddenText">Aw, look what you've done!<br />You better fix it.</p>
+</div>
 </center>
 
-<block>
+<block class="animated fadeIn">
 <fieldset>
 <label>
 <center>
-<strong>LacertosusDeus's Repository</strong>
+<strong onclick="fix()">Lacertosus's Repository</strong>
 </center>
 </label>
 </fieldset>
@@ -160,11 +160,13 @@
 </div>
 </div>
 </fieldset>
+
 <center>
-<button class="button" id="ThemeButton" onclick="switchTheme()">Dark Theme</button>
+<button id="ThemeButton" class="button" onclick="switchTheme()">Dark Theme</button>
 </center>
 <br>
 
+</div>
 </panel>
 </body>
 </html>
