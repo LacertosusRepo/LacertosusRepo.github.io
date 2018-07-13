@@ -6,7 +6,7 @@ window.onload = function() {
 		
 		//Dark Theme
 		document.body.style.setProperty("--bg-color", "#1f2329");
-		document.body.style.setProperty("--title-color", "rgba(45,51,59, 0.5)");
+		//document.body.style.setProperty("--title-color", "rgba(45,51,59, 0.5)");
 		document.body.style.setProperty("--field-color", "#2d333b");
 		document.body.style.setProperty("--button-color", "#cfd1c9");
 		document.body.style.setProperty("--button-text", "#47515f");
@@ -20,7 +20,7 @@ window.onload = function() {
 		
 		//Light Theme
 		document.body.style.setProperty("--bg-color", "#efeff4");
-		document.body.style.setProperty("--title-color", "rgba(204, 204, 204, 0.5)");
+		//document.body.style.setProperty("--title-color", "rgba(204, 204, 204, 0.5)");
 		document.body.style.setProperty("--field-color", "#ffffff");
 		document.body.style.setProperty("--button-color", "#365d70");
 		document.body.style.setProperty("--button-text", "#cad0d5");
@@ -42,7 +42,7 @@ function switchTheme() {
 		
 		//Dark Theme
 		document.body.style.setProperty("--bg-color", "#1f2329");
-		document.body.style.setProperty("--title-color", "rgba(45,51,59, 0.5)");
+		//document.body.style.setProperty("--title-color", "rgba(45,51,59, 0.5)");
 		document.body.style.setProperty("--field-color", "#2d333b");
 		document.body.style.setProperty("--button-color", "#cfd1c9");
 		document.body.style.setProperty("--button-text", "#47515f");
@@ -57,7 +57,7 @@ function switchTheme() {
 		
 		//Light Theme
 		document.body.style.setProperty("--bg-color", "#efeff4");
-		document.body.style.setProperty("--title-color", "rgba(204, 204, 204, 0.5)");
+		//document.body.style.setProperty("--title-color", "rgba(204, 204, 204, 0.5)");
 		document.body.style.setProperty("--field-color", "#ffffff");
 		document.body.style.setProperty("--button-color", "#365d70");
 		document.body.style.setProperty("--button-text", "#cad0d5");

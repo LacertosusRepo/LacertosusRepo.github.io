@@ -7,7 +7,10 @@ function broken() {
 
 function fix() {
 	
-	Header.className = 'animated fadeInDown';
-	SecretText.className = 'hiddenText animated fadeOut';
+	document.getElementById("ThemeButton").innerText;
+	if(document.getElementById("Header").className === 'animated hinge') {
 	
+		Header.className = 'animated fadeInDown';
+		SecretText.className = 'hiddenText animated fadeOut';
+	}
 }
