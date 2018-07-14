@@ -1,8 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Comfortaa');
 :root {
 	--bg-color: #efeff4;
-	/*--title-color: rgba(204, 204, 204, 0.5);*/
-	--title-color: rgba(209, 204, 192, 0.5);
+	--title-color: rgba(204, 204, 204, 0.5);
 	--field-color: #ffffff;
 	--button-color: #365d70;
 	--button-text: #cad0d5;
