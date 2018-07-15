@@ -19,7 +19,12 @@ Well there are two sources:
 1. The creation of the repo was made using <a href="https://www.youtube.com/watch?v=XqkTnxyiiOc">Tyler Crawford's Tutorial</a>
 2. Thanks to <a href="https://elijahandandrew.com/">Elijah and Andrew</a>, I could have some appealing <a href="http://lacertosusrepo.github.io/depictions/com.lacertosusrepo.popuponstart/index.html">depictions</a>
 
-### Note to Myself
+### Notes to Myself
+Permission errors? Try:
+```bash
+sudo chmod -R +x $THEOS
+```
+
 Having issues with *fakeroot* throwing errors when making a package? Use the following command:
 
 ```bash
@@ -36,7 +41,7 @@ sudo apt-get install libio-compress-perl
 
 Getting this error when compiling? *arm64-apple-darwin14-clang++: line 1: arm64-apple-darwin14-clang-3.9: command not found*
 
-```
+```bash
 //Thanks to JohnCoates, again, again
 cd /opt/theos/toolchain/
 sudo wget https://developer.angelxwind.net/Linux/ios-toolchain_clang%2bllvm%2bld64_latest_linux_x86_64.zip -O LinuxToolchain.zip
