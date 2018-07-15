@@ -14,10 +14,12 @@ How exactly that relates to me? Dunno, sounded cool! Unfortunately it sounds *a 
 | <a href="http://lacertosusrepo.github.io/">Repo Website</a> |
 
 ### How did you create your <a href="http://lacertosusrepo.github.io">repository</a>?
-Well there are two sources:
+Well there are a few sources:
 
 1. The creation of the repo was made using <a href="https://www.youtube.com/watch?v=XqkTnxyiiOc">Tyler Crawford's Tutorial</a>
 2. Thanks to <a href="https://elijahandandrew.com/">Elijah and Andrew</a>, I could have some appealing <a href="http://lacertosusrepo.github.io/depictions/com.lacertosusrepo.popuponstart/index.html">depictions</a>
+3. Some modifications to the style.css file was done by me (and a bit of googling) to get it where I wanted
+4. Finally the animations are by <a href="https://github.com/daneden">Daniel Eden</a> and his amazing work <a href="https://daneden.github.io/animate.css/">animate.css</a>
 
 ### Notes to Myself
 Permission errors? Try:
