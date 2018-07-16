@@ -112,13 +112,14 @@ html.cytyle-flat #cytyle-metric {
     font-size: 17px
 }
 body {
+	background: var(--bg-color);
     -webkit-text-size-adjust: none;
     -webkit-touch-callout: none;
     -webkit-user-select: none;
     margin: 0 auto
 }
 body.white {
-    background-color: #fff
+    background-color: var(--bg-color);
 }
 .cytyle-faux body.pinstripe {
     background: var(--bg-color);
@@ -158,6 +159,12 @@ body {
 .link {
 	color: var(--hype-color);
 	transition: color var(--trans-time);
+}
+a:visited {
+	color: #2980b9;
+}
+a:hover {
+	color: var(--font-color);
 }
 .headerImg {
 	position: relative;
