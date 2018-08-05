@@ -1,6 +1,6 @@
 //Thank you Matchstic, you beautiful person
 const VERSION_CHECK_SUPPORTED = "<p>iOS %s is supported. ✓</p>";
-const VERSION_CHECK_UNSUPPORTED = "<p>iOS %s is not supported. ✕</p>";
+const VERSION_CHECK_UNSUPPORTED = "<p>iOS %s is currently not supported. ✕</p>";
 const VERSION_CHECK_UNCONFIRMED = "<p>iOS %s has not been tested!</p>";
 
 function iOSversion() {
