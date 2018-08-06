@@ -16,7 +16,7 @@ function iOSversion() {
 var maxVersion = document.getElementById('maxVersion').innerHTML;
 var minVersion = document.getElementById('minVersion').innerHTML;
 var version = iOSversion();
-var versionNumber = String(version[0] + "." + version[1] + "." + version[2]);
+var versionNumber = String(version[0] + "." + version[1]);
 	
 	if(versionNumber >= minVersion && version <= maxVersion) {
 		document.getElementById('compatibility').innerHTML=VERSION_CHECK_SUPPORTED.replace("%s", versionNumber);
