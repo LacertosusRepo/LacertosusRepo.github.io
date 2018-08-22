@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Comfortaa');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
 :root {
 	--bg-color: #efeff4;
 	--title-color: rgba(204, 204, 204, 0.5);
@@ -11,7 +11,7 @@
 	--input-font: ;
 	--hype-color: #425fb4;
 	--tap-color: rgba(0, 0, 0, .5);
-	--font: 'Comfortaa', sans-serif;
+	--font: 'Roboto', sans-serif;
 	--trans-time: 1s;
 }
 panel>input[type="submit"],
