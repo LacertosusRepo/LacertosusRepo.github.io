@@ -1,7 +1,7 @@
 <!--- Title should be like the following: "Tweak Name - Short Bug Description" -->
 <!--- This is for bug reports strictly, make requests through twitter or email -->
 # Bug Report
-------------------
+
 ### Tweak/Theme:
 <!--- Name of the tweak or theme you're having issues with -->
 
