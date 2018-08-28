@@ -1,4 +1,5 @@
-<!--- Title should be like the following: "Tweak Name - Short Bug Description" -->
+<!--- Title should be like the following: "Tweak/Theme Name - Short Bug Description" -->
+<!--- Make sure to check back ocassionally to see if I asked any questions. -->
 <!--- This is for bug reports strictly, make requests through twitter or email -->
 # Bug Report
 
