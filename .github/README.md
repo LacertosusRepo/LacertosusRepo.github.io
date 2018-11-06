@@ -9,7 +9,7 @@ How exactly that relates to me? Dunno, sounded cool! Unfortunately it sounds *a 
 | Useful Links: |
 |---------------|
 | <a href="http://iphonedevwiki.net/index.php/Main_Page">iPhoneDevWiki</a> |
-| <a href="http://developer.limneos.net/?ios=9.0">iOS Headers</a> |
+| <a href="http://developer.limneos.net">iOS Headers</a> |
 | <a href="https://www.reddit.com/r/jailbreakdevelopers/">/r/JailbreakDevelopers</a> |
 | <a href="http://lacertosusrepo.github.io/">Repo Website</a> |
 
