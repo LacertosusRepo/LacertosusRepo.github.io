@@ -5,12 +5,12 @@ Maintainer: LacertosusDeus <LacertosusThemes@gmail.com>
 Installed-Size: 72
 Depends: mobilesubstrate
 Filename: LacertosusRepo.github.io/debs/com.lacertosusrepo.clauditis_1.0_iphoneos-arm.deb
-Size: 2508
-MD5sum: ecd16d96f8b2c2681f60c6c6e38c6039
-SHA1: b37df034d9efc36c326fb40c39d228d7351e1767
-SHA256: 55e9b35de72f665e6ba3a1f7f8d7d28f56a7fff13b5e7863f2a3c8f1d0afa105
+Size: 2504
+MD5sum: dc3cc31535d1eff5c89c01bf1dd06360
+SHA1: a0784000a2280f83f703b2c3c3c61e9759d47e94
+SHA256: a38c7cf4b1275a93ce88e26fd42997350e8f205fff2488a918774a16483cc14f
 Section: Tweaks
-Description: An awesome MobileSubstrate tweak!
+Description: Lock your device from home...
 Author: LacertosusDeus <LacertosusThemes@gmail.com>
 Depiction: http://lacertosusrepo.github.io/depictions/com.lacertosusrepo.clauditis/index.html
 Name: Clauditis
