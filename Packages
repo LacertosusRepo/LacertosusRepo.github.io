@@ -1,3 +1,20 @@
+Package: com.lacertosusrepo.clauditis
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: LacertosusDeus <LacertosusThemes@gmail.com>
+Installed-Size: 72
+Depends: mobilesubstrate
+Filename: LacertosusRepo.github.io/debs/com.lacertosusrepo.clauditis_1.0_iphoneos-arm.deb
+Size: 2508
+MD5sum: ecd16d96f8b2c2681f60c6c6e38c6039
+SHA1: b37df034d9efc36c326fb40c39d228d7351e1767
+SHA256: 55e9b35de72f665e6ba3a1f7f8d7d28f56a7fff13b5e7863f2a3c8f1d0afa105
+Section: Tweaks
+Description: An awesome MobileSubstrate tweak!
+Author: LacertosusDeus <LacertosusThemes@gmail.com>
+Depiction: http://lacertosusrepo.github.io/depictions/com.lacertosusrepo.clauditis/index.html
+Name: Clauditis
+
 Package: com.lacertosusrepo.ctrlogo
 Version: 0.1.0
 Architecture: iphoneos-arm
