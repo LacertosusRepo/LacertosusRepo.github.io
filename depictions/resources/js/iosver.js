@@ -20,7 +20,7 @@ var versionNumber = String(version[0] + "." + version[1]);
   
 	if(!version) {
 		document.getElementById('compatibility').innerHTML=VERSION_CHECK_INFO.replace("%n", minVersion).replace("%x", maxVersion);
-		document.body.style.setProperty("--title-color", "rgba(192,57,43, 0.5)");
+		document.body.style.setProperty("--title-color", "rgba(39,174,96, 0.5)");
 	} else if(versionNumber >= minVersion && version <= maxVersion) {
 		document.getElementById('compatibility').innerHTML=VERSION_CHECK_SUPPORTED.replace("%s", versionNumber);
 		document.body.style.setProperty("--title-color", "rgba(39,174,96, 0.5)");
