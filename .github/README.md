@@ -50,4 +50,4 @@ sudo wget https://developer.angelxwind.net/Linux/ios-toolchain_clang%2bllvm%2bld
 sudo unzip LinuxToolchain.zip && sudo rm -f LinuxToolchain.zip
 ```
 
-*<a href="https://gist.github.com/JohnCoates/ea7b8002b77ab7c1c758384e55538603">NOTE: Might as well link John Coates source</a>*
+*<a href="https://gist.github.com/JohnCoates/ea7b8002b77ab7c1c758384e55538603">Source ~ John Coates's Script</a>*
