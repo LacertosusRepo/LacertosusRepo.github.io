@@ -25,7 +25,7 @@ var versionNumber = String(version[0] + "." + version[1]);
 		document.getElementById('compatibility').innerHTML=VERSION_CHECK_SUPPORTED.replace("%s", versionNumber);
 		document.body.style.setProperty("--title-color", "rgba(39,174,96, 0.5)");
 	} else if(versionNumber > maxVersion) {
-		document.getElementById('compatibility').innerHTML=VERSION_CHECK_UNCONFIRMED.replace("%s", versionNumber);
+		document.getElementById('compatibility').innerHTML=VERSION_CHECK_UNSUPPORTED.replace("%s", versionNumber);
 		document.body.style.setProperty("--title-color", "rgba(192,57,43, 0.5)");
 	} else {
 		document.getElementById('compatibility').innerHTML=VERSION_CHECK_UNSUPPORTED.replace("%s", versionNumber);
