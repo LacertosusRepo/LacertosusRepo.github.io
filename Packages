@@ -96,16 +96,15 @@ Depiction: http://lacertosusrepo.github.io/depictions/com.lacertosusrepo.ios10lo
 Name: iOS10 Lock & Keyboard Sounds
 
 Package: com.lacertosusrepo.movieboxprotextfixes
-Version: 1.0
+Version: 1.1
 Architecture: iphoneos-arm
 Maintainer: LacertosusDeus <LacertosusThemes@gmail.com>
 Installed-Size: 72
-Depends: mobilesubstrate
-Filename: LacertosusRepo.github.io/debs/com.lacertosusrepo.movieboxprotextfixes_1.0_iphoneos-arm.deb
-Size: 2774
-MD5sum: ae029af07e056004189b0994840cfd9b
-SHA1: 6a6b01e418c5149666eb9c2409831cb2ea95feac
-SHA256: cafc07f4805e41805941df103d365a48919224455f079822aca1a112eeae9dfb
+Filename: LacertosusRepo.github.io/debs/com.lacertosusrepo.movieboxprotextfixes_1.1_iphoneos-arm.deb
+Size: 2770
+MD5sum: d9cdb34966bd858e23a020a34e76253b
+SHA1: 2ef663adb33448a199f47da9589c3aa03ea497e5
+SHA256: 202df1ea33d28845ac07b217ac79f87b6bd8f3cfe1223d2b299c4770bf96aa42
 Section: Tweaks
 Description: Fix poorly translated text in MovieBoxPro
 Author: LacertosusDeus <LacertosusThemes@gmail.com>
