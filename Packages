@@ -59,7 +59,7 @@ MD5sum: 6f81c0db52b7fc705c39db141e1af892
 SHA1: 3a599a4085d2c9fd76b7fdf88d9c6141f1404df8
 SHA256: cd516b65f7704472285f2a35b95fbfba0a567bb98c047acdfe25e3368d1821be
 Section: Tweaks
-Description: An awesome MobileSubstrate tweak!
+Description: Show the FLEX toolbar with force touch...
 Author: LacertosusDeus <LacertosusThemes@gmail.com>
 Depiction: http://lacertosusrepo.github.io/depictions/com.lacertosusrepo.flex4me/
 Name: FLEX4Me
