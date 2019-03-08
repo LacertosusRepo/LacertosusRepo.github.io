@@ -54,10 +54,10 @@ Maintainer: LacertosusDeus <LacertosusThemes@gmail.com>
 Installed-Size: 72
 Depends: mobilesubstrate
 Filename: LacertosusRepo.github.io/debs/com.lacertosusrepo.flex4me_1.0_iphoneos-arm.deb
-Size: 2258
-MD5sum: 6f81c0db52b7fc705c39db141e1af892
-SHA1: 3a599a4085d2c9fd76b7fdf88d9c6141f1404df8
-SHA256: cd516b65f7704472285f2a35b95fbfba0a567bb98c047acdfe25e3368d1821be
+Size: 2270
+MD5sum: 66b0532bd5d129d1ad4cb77fcf117adc
+SHA1: 356c6471f056723f7f2e0d1fc32b8cb099cbdebc
+SHA256: 74dc49ecdd71396cb253608ae4965ffd06b1d9484c8bbdce93c1c4096f77c931
 Section: Tweaks
 Description: Show the FLEX toolbar with force touch...
 Author: LacertosusDeus <LacertosusThemes@gmail.com>
