@@ -257,6 +257,23 @@ Author: LacertosusDeus <LacertosusThemes@gmail.com>
 Depiction: http://lacertosusrepo.github.io/depictions/com.lacertosusrepo.vancouverwhitecaps/index.html
 Name: Vancouver Whitecaps
 
+Package: com.lacertosusrepo.viewprivaterepos
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: LacertosusDeus <LacertosusThemes@gmail.com>
+Installed-Size: 136
+Depends: mobilesubstrate
+Filename: LacertosusRepo.github.io/debs/com.lacertosusrepo.viewprivaterepos_1.0_iphoneos-arm.deb
+Size: 2482
+MD5sum: d00c3a5f7ce681791bf81ed12e36c8df
+SHA1: e65dca0657b2a7c0711786d73a80bbf583ba2ab7
+SHA256: 4876724f73d1c0182959566bf0f092b1cb34dd07d8a9e06765f7b4606a20c6ca
+Section: Tweaks
+Description: Allow access to your private repos on CodeHub
+Author: LacertosusDeus <LacertosusThemes@gmail.com>
+Depiction: https://lacertosusrepo.github.io/depictions/com.lacertosusrepo.viewprivaterepos/
+Name: View Private Repos
+
 Package: com.lacertosusrepo.volbrate
 Version: 0.1.4
 Architecture: iphoneos-arm
