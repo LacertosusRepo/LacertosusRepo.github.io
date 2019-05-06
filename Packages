@@ -48,16 +48,16 @@ Depiction: http://lacertosusrepo.github.io/depictions/com.lacertosusrepo.customr
 Name: Custom Reach
 
 Package: com.lacertosusrepo.flex4me
-Version: 1.2
+Version: 1.3
 Architecture: iphoneos-arm
 Maintainer: LacertosusDeus <LacertosusThemes@gmail.com>
 Installed-Size: 136
-Depends: mobilesubstrate, com.shmoopillc.flexible
-Filename: LacertosusRepo.github.io/debs/com.lacertosusrepo.flex4me_1.2_iphoneos-arm.deb
-Size: 3562
-MD5sum: 9146819af7d04504e39797786bc5d2fa
-SHA1: f680f5f16be999006b952983eda909b2b51b52b7
-SHA256: 4694750ba0b129bfd251e51baf2176c0de43aa0e78d6214a00ee45f5beaac07c
+Depends: mobilesubstrate, com.shmoopillc.flexible (>= 2.1.0)
+Filename: LacertosusRepo.github.io/debs/com.lacertosusrepo.flex4me_1.3_iphoneos-arm.deb
+Size: 3564
+MD5sum: ea89a29ea621b67419cdca47d3336702
+SHA1: af5c5336eaaf9e5ca538db24736f536976d2ae9f
+SHA256: 9cef9391c8751ce0b1c6cb7570d46f37ee1c30dd1e098b28892dedeee0055008
 Section: Development
 Description: Show the FLEX toolbar with force touch...
 Author: LacertosusDeus <LacertosusThemes@gmail.com>
