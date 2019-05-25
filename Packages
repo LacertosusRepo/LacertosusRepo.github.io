@@ -96,6 +96,24 @@ Author: LacertosusDeus <LacertosusThemes@gmail.com>
 Depiction: http://lacertosusrepo.github.io/depictions/com.lacertosusrepo.homebuttonlock/index.html
 Name: HomeButtonLock
 
+Package: com.lacertosusrepo.improvify
+Version: 1.0-192+debug
+Architecture: iphoneos-arm
+Maintainer: LacertosusDeus <LacertosusThemes@gmail.com>
+Installed-Size: 260
+Depends: mobilesubstrate, org.thebigboss.libcolorpicker
+Filename: LacertosusRepo.github.io/debs/com.lacertosusrepo.improvify_1.0-192+debug_iphoneos-arm.deb
+Size: 48762
+MD5sum: d99e9b08c63b0597fab6637d6dc67681
+SHA1: 8a570f87b30f93c50ae4e9ed5ad0f2c344e99f39
+SHA256: 7bcbda7cd12581c59794c92a7fe9532ff79cf03a74b8fdcb487fefc5202d32e3
+Section: Tweaks
+Description: If you're seeing this, I forgot to add a description...
+Author: LacertosusDeus <LacertosusThemes@gmail.com>
+Depiction: https://lacertosusrepo.github.io/depictions/com.lacertosusrepo.beta/
+Name: Improvify
+Sileodepiction: https://lacertosusrepo.github.io/depictions/com.lacertosusrepo.beta/beta.json
+
 Package: com.lacertosusrepo.ios10lockandkeyboardsounds
 Version: 0.1.0
 Architecture: iphoneos-arm

@@ -7,7 +7,7 @@
                 {
                     "useBoldText": true,
                     "class": "DepictionSubheaderView",
-                    "title": "@@NAME@@",
+                    "title": "Improvify",
                     "useBottomMargin": false
                 },
                 {
@@ -24,16 +24,20 @@
                     "itemSize": "{160, 275.41333333333336}",
                     "screenshots": [
                         {
-                            "url": "",
+                            "url": "https://github.com/LacertosusRepo/LacertosusRepo.github.io/tree/master/depictions/com.lacertosusrepo.@@PACKAGENAME@@/screenshots/1.png",
                             "accessibilityText": "Screenshot0"
-                        }
+                        },
+                        {
+                            "url": "https://github.com/LacertosusRepo/LacertosusRepo.github.io/tree/master/depictions/com.lacertosusrepo.@@PACKAGENAME@@/screenshots/2.png",
+                            "accessibilityText": "Screenshot1"
+                        },
                     ],
                     "itemCornerRadius": 6
                 },
                 {
                     "useBoldText": true,
                     "class": "DepictionMarkdownView",
-                    "markdown": "@@DESCRIPTION@@",
+                    "markdown": "Improving aspects of Spotify with additions like an Add to Playlist button in the now playing view and a quick delete gesture in playlists. Tested on Spotify v8.5.7.",
                     "title": "markdown-description",
                     "useBottomMargin": false
                 },
@@ -43,12 +47,12 @@
                 {
                     "class": "DepictionTableTextView",
                     "title": "Version",
-                    "text": "@@PACKAGEVERSION@@"
+                    "text": "1.0~192"
                 },
                 {
                     "class": "DepictionTableTextView",
                     "title": "Released",
-                    "text": "@@DATE@@"
+                    "text": "05/24/2019"
                 },
                 {
                     "class": "DepictionTableTextView",
@@ -73,6 +77,6 @@
         }
     ],
     "class": "DepictionTabView",
-    "tintColor": "#0657bb",
+    "tintColor": "#191D29",
     "minVersion": "0.1"
 }
