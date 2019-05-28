@@ -97,16 +97,16 @@ Depiction: http://lacertosusrepo.github.io/depictions/com.lacertosusrepo.homebut
 Name: HomeButtonLock
 
 Package: com.lacertosusrepo.improvify
-Version: 1.1
+Version: 1.2
 Architecture: iphoneos-arm
 Maintainer: LacertosusDeus <LacertosusThemes@gmail.com>
-Installed-Size: 392
+Installed-Size: 400
 Depends: mobilesubstrate, org.thebigboss.libcolorpicker
-Filename: LacertosusRepo.github.io/debs/com.lacertosusrepo.improvify_1.1_iphoneos-arm.deb
-Size: 53956
-MD5sum: 18db2649ddb37b06be01682062773b0a
-SHA1: 61ecb5b507da702063004a494fc307ae0fcb3dac
-SHA256: 076b59b6935a7ff974e39eb8d8fd1202fafdae8aebdb9872d55669ec1d9d97c9
+Filename: LacertosusRepo.github.io/debs/com.lacertosusrepo.improvify_1.2_iphoneos-arm.deb
+Size: 56652
+MD5sum: ee4f555bdfb304d27edbf19f70816bbc
+SHA1: df5d32a2c2463eb003941cab7137f19b0cd3fe5d
+SHA256: 7769ff43921779051bab77fdc7df420c8b4942a12bc7cbaa451c3ab5353b8c0a
 Section: Tweaks
 Description: Add features Spotify should have already had...
 Author: LacertosusDeus <LacertosusThemes@gmail.com>
