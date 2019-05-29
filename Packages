@@ -250,16 +250,16 @@ Maintainer: LacertosusDeus <LacertosusThemes@gmail.com>
 Installed-Size: 136
 Depends: mobilesubstrate
 Filename: LacertosusRepo.github.io/debs/com.lacertosusrepo.return2sender2_1.0_iphoneos-arm.deb
-Size: 3598
-MD5sum: 29c608ab018df00eb9f97c05ad23c275
-SHA1: 7ee0c5dcce08199355a714c81649e980d160c3cb
-SHA256: 527a592e4765e51ffceb3f8db371152ee2fc44f0d53218b5544668d31a2c44d5
+Size: 3522
+MD5sum: 83dc15dad4037edb85362c78e6730d6b
+SHA1: c0ff149b2d4a6de31bc7d821c28ab19998a06a52
+SHA256: 5122db7b45248c7a4c9ccaa9be88564a1188eb3eca7fb1b41a16c4af759566aa
 Section: Tweaks
-Description: If you're seeing this, I forgot to add a description...
+Description: Replace return key with send key...
 Author: LacertosusDeus <LacertosusThemes@gmail.com>
-Depiction: https://lacertosusrepo.github.io/depictions/com.lacertosusrepo.beta/
+Depiction: https://lacertosusrepo.github.io/depictions/com.lacertosusrepo.return2sender2/
 Name: Return2Sender2
-Sileodepiction: https://lacertosusrepo.github.io/depictions/com.lacertosusrepo.beta/
+Sileodepiction: https://lacertosusrepo.github.io/depictions/com.lacertosusrepo.return2sender2/
 
 Package: com.lacertosusrepo.soundspring
 Version: 0.3.5
