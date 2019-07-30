@@ -1,7 +1,7 @@
 ---
 name: Bug report
 about: Report an issue with a tweak
-title: "[BUG]"
+title: "[BUG] TWEAK NAME"
 labels: bug
 assignees: LacertosusRepo
 

@@ -1,7 +1,7 @@
 ---
 name: Feature request
 about: Suggest an idea for a tweak
-title: "[REQUEST]"
+title: "[REQUEST] TWEAK NAME"
 labels: request
 assignees: LacertosusRepo
 
