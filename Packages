@@ -309,20 +309,22 @@ Depiction: http://lacertosusrepo.github.io/depictions/com.lacertosusrepo.volbrat
 Name: Volbrate
 
 Package: com.lacertosusrepo.volumelock
-Version: 0.1.1
+Version: 1.0
 Architecture: iphoneos-arm
 Maintainer: LacertosusDeus <LacertosusThemes@gmail.com>
+Installed-Size: 136
 Depends: mobilesubstrate
-Filename: LacertosusRepo.github.io/debs/com.lacertosusrepo.volumelock_0.1.1_iphoneos-arm.deb
-Size: 28402
-MD5sum: 44ef73d91d30ac93cc32c2cc8bc1c1ce
-SHA1: f4df67f122bfadf7c070c1f7fd4a0d6aa6cbae89
-SHA256: 5e33214a6da223c4b033e31d32d612d46ef892be99b6eda70939291e47ddc11f
+Filename: LacertosusRepo.github.io/debs/com.lacertosusrepo.volumelock_1.0_iphoneos-arm.deb
+Size: 3198
+MD5sum: 455d45dfbcfe308c582047413b18a55e
+SHA1: 27685dca536e560263bb407d97146eb382fcd86f
+SHA256: 591882f9ac5f54714687d10fbbc458c3b4e49b7859d6e6a39627c98847672972
 Section: Tweaks
-Description: Lock Volume via Activator Action
+Description: If you're seeing this, I forgot to add a description...
 Author: LacertosusDeus <LacertosusThemes@gmail.com>
-Depiction: http://lacertosusrepo.github.io/depictions/com.lacertosusrepo.volumelock/index.html
-Name: Volumelock
+Depiction: https://lacertosusrepo.github.io/depictions/com.lacertosusrepo.beta/
+Name: VolumeLock
+Sileodepiction: https://lacertosusrepo.github.io/depictions/com.lacertosusrepo.beta/
 
 Package: com.lacertosusrepo.yourefired
 Version: 0.1.1
