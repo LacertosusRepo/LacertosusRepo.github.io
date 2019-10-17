@@ -315,16 +315,16 @@ Maintainer: LacertosusDeus <LacertosusThemes@gmail.com>
 Installed-Size: 136
 Depends: mobilesubstrate
 Filename: LacertosusRepo.github.io/debs/com.lacertosusrepo.volumelock_1.0_iphoneos-arm.deb
-Size: 3198
-MD5sum: 455d45dfbcfe308c582047413b18a55e
-SHA1: 27685dca536e560263bb407d97146eb382fcd86f
-SHA256: 591882f9ac5f54714687d10fbbc458c3b4e49b7859d6e6a39627c98847672972
+Size: 3186
+MD5sum: 0d881a5512628827880381fb6d176f00
+SHA1: 2cfff764077ada77f5eed57a4a780c957493e83c
+SHA256: 1653d391b5d72d782a50006b5f9db7b6044c068294f7d624a58129a3bd31faa4
 Section: Tweaks
 Description: If you're seeing this, I forgot to add a description...
 Author: LacertosusDeus <LacertosusThemes@gmail.com>
-Depiction: https://lacertosusrepo.github.io/depictions/com.lacertosusrepo.beta/
+Depiction: https://lacertosusrepo.github.io/depictions/com.lacertosusrepo.volumelock/
 Name: VolumeLock
-Sileodepiction: https://lacertosusrepo.github.io/depictions/com.lacertosusrepo.beta/
+Sileodepiction: https://lacertosusrepo.github.io/depictions/com.lacertosusrepo.volumelock/
 
 Package: com.lacertosusrepo.yourefired
 Version: 0.1.1
