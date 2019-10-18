@@ -315,12 +315,12 @@ Maintainer: LacertosusDeus <LacertosusThemes@gmail.com>
 Installed-Size: 136
 Depends: mobilesubstrate
 Filename: LacertosusRepo.github.io/debs/com.lacertosusrepo.volumelock_1.1_iphoneos-arm.deb
-Size: 3314
-MD5sum: d45da93bc723cefb5bc8a730a84eb14c
-SHA1: b019c9015e1f778957804c86de25528e0453e7fb
-SHA256: 3b11e8beba9c483f16bb96971446fa986bb48ebbd0d3136bb63452bda036598c
+Size: 3310
+MD5sum: 4820b1347a199646465ebbe148a14d48
+SHA1: 299d1b39d22e1feeb103039b8138aef175e98b6f
+SHA256: 6eb49426dcc155d6b50dbc1c1568aece2589b074d91ef1774ecacb2654a386b7
 Section: Tweaks
-Description: If you're seeing this, I forgot to add a description...
+Description: Lock your volume with a simple gesture...
 Author: LacertosusDeus <LacertosusThemes@gmail.com>
 Depiction: https://lacertosusrepo.github.io/depictions/com.lacertosusrepo.volumelock/
 Name: VolumeLock
