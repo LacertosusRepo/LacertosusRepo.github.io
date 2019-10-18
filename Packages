@@ -309,16 +309,16 @@ Depiction: http://lacertosusrepo.github.io/depictions/com.lacertosusrepo.volbrat
 Name: Volbrate
 
 Package: com.lacertosusrepo.volumelock
-Version: 1.0
+Version: 1.1
 Architecture: iphoneos-arm
 Maintainer: LacertosusDeus <LacertosusThemes@gmail.com>
 Installed-Size: 136
 Depends: mobilesubstrate
-Filename: LacertosusRepo.github.io/debs/com.lacertosusrepo.volumelock_1.0_iphoneos-arm.deb
-Size: 3186
-MD5sum: 0d881a5512628827880381fb6d176f00
-SHA1: 2cfff764077ada77f5eed57a4a780c957493e83c
-SHA256: 1653d391b5d72d782a50006b5f9db7b6044c068294f7d624a58129a3bd31faa4
+Filename: LacertosusRepo.github.io/debs/com.lacertosusrepo.volumelock_1.1_iphoneos-arm.deb
+Size: 3314
+MD5sum: d45da93bc723cefb5bc8a730a84eb14c
+SHA1: b019c9015e1f778957804c86de25528e0453e7fb
+SHA256: 3b11e8beba9c483f16bb96971446fa986bb48ebbd0d3136bb63452bda036598c
 Section: Tweaks
 Description: If you're seeing this, I forgot to add a description...
 Author: LacertosusDeus <LacertosusThemes@gmail.com>
