@@ -112,6 +112,24 @@ Author: LacertosusDeus <LacertosusThemes@gmail.com>
 Depiction: http://lacertosusrepo.github.io/depictions/com.lacertosusrepo.ios10lockandkeyboardsounds/index.html
 Name: iOS10 Lock & Keyboard Sounds
 
+Package: com.lacertosusrepo.libellum
+Version: 1.0-172+debug
+Architecture: iphoneos-arm
+Maintainer: LacertosusDeus <LacertosusThemes@gmail.com>
+Installed-Size: 548
+Depends: mobilesubstrate, ws.hbang.common (>= 1.11), org.thebigboss.libcolorpicker
+Filename: LacertosusRepo.github.io/debs/com.lacertosusrepo.libellum_1.0-172+debug_iphoneos-arm.deb
+Size: 69070
+MD5sum: bd2e0c8f471d1b1ac0b3b032af56a681
+SHA1: 550f6a1038bc053fc43cbb01d20f8ab56e41c1fd
+SHA256: 789d4c8737caa5c9034246e45554f51b8b9335e376be71a2d1b857fd463b4e3a
+Section: Tweaks
+Description: Notes on your lockscreen and notification center...
+Author: LacertosusDeus <LacertosusThemes@gmail.com>
+Depiction: https://lacertosusrepo.github.io/depictions/com.lacertosusrepo.libellum/
+Name: Libellum
+Sileodepiction: https://lacertosusrepo.github.io/depictions/com.lacertosusrepo.libellum/
+
 Package: com.lacertosusrepo.movieboxprotextfixes
 Version: 1.2
 Architecture: iphoneos-arm
