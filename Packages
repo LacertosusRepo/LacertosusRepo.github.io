@@ -113,16 +113,16 @@ Depiction: http://lacertosusrepo.github.io/depictions/com.lacertosusrepo.ios10lo
 Name: iOS10 Lock & Keyboard Sounds
 
 Package: com.lacertosusrepo.libellum
-Version: 1.0~b8
+Version: 1.0~b9
 Architecture: iphoneos-arm
 Maintainer: LacertosusDeus <LacertosusThemes@gmail.com>
 Installed-Size: 456
 Depends: mobilesubstrate, ws.hbang.common (>= 1.11), org.thebigboss.libcolorpicker
-Filename: LacertosusRepo.github.io/debs/com.lacertosusrepo.libellum_1.0~b8_iphoneos-arm.deb
-Size: 64674
-MD5sum: 80d626674f48b68dab58ecceb5c2c8ab
-SHA1: b9ddca61568922458833a3a785d4bdb2bf41668a
-SHA256: 3a92d47e66672dbef18532c93de02513102f3b7aee47618cdd39296c44015c02
+Filename: LacertosusRepo.github.io/debs/com.lacertosusrepo.libellum_1.0~b9_iphoneos-arm.deb
+Size: 65914
+MD5sum: 37ed466d3c7011b8a141b743f123c088
+SHA1: 6927c059f31285fcbc5c346694f5c3deede6db58
+SHA256: de2163b7344459cf105eca9d58050245820f06e8fa7bb94b34ea4e28a6f38302
 Section: Tweaks
 Description: Notes on your lockscreen and notification center...
 Author: LacertosusDeus <LacertosusThemes@gmail.com>
