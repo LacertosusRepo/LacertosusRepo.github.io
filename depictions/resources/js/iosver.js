@@ -1,6 +1,6 @@
 //Thank you Matchstic, you beautiful person
 const VERSION_CHECK_SUPPORTED = "<p>iOS %s is supported. ✓</p>";
-const VERSION_CHECK_INFO = "<p>Compatible with iOS %n to %x. Add this repo to Cydia to install.";
+const VERSION_CHECK_INFO = "<p>Compatible with iOS %n to %x. Add this repo to your package manager to install.";
 const VERSION_CHECK_UNSUPPORTED = "<p>iOS %s is not supported. ✕</p>";
 const VERSION_CHECK_BETA = "<p>This is beta software! iOS %s may not be supported.</p>";
 
