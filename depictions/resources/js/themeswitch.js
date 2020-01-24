@@ -2,9 +2,9 @@ window.onload = function() {
 	var currentTheme = localStorage.getItem("theme");
 	
 	document.body.style.setProperty("--trans-time", "0s");
-	if(currentTheme === 'Dark Theme') {
+	if(currentTheme === 'Dark Mode') {
 		
-		//Dark Theme
+		//Dark Mode
 		document.body.style.setProperty("--bg-color", "#1f2329");
 		document.body.style.setProperty("--title-color", "rgba(45,51,59, 0.5)");
 		document.body.style.setProperty("--field-color", "#2d333b");
@@ -14,11 +14,11 @@ window.onload = function() {
 		document.body.style.setProperty("--font-color", "#cfd1c9");
 		document.body.style.setProperty("--tap-color", "#cfd1c9");
 		document.body.style.setProperty("--hype-color", "#b4425c");
-		document.getElementById("ThemeButton").innerText = 'Light Theme';
+		document.getElementById("ThemeButton").innerText = 'Light Mode';
 		
 	} else {
 		
-		//Light Theme
+		//Light Mode
 		document.body.style.setProperty("--bg-color", "#efeff4");
 		document.body.style.setProperty("--title-color", "rgba(204, 204, 204, 0.5)");
 		document.body.style.setProperty("--field-color", "#ffffff");
@@ -28,7 +28,7 @@ window.onload = function() {
 		document.body.style.setProperty("--font-color", "#000000");
 		document.body.style.setProperty("--tap-color", "rgba(0, 0, 0, .5)");
 		document.body.style.setProperty("--hype-color", "#425fb4");
-		document.getElementById("ThemeButton").innerText = 'Dark Theme';
+		document.getElementById("ThemeButton").innerText = 'Dark Mode';
 
 	}	
 }
@@ -38,7 +38,7 @@ function switchTheme() {
 	currentTheme = document.getElementById("ThemeButton").innerText;
 	document.body.style.setProperty("--trans-time", "1s");
 	
-	if(currentTheme === 'Dark Theme') {
+	if(currentTheme === 'Dark Mode') {
 		
 		//Dark Theme
 		document.body.style.setProperty("--bg-color", "#1f2329");
@@ -50,12 +50,12 @@ function switchTheme() {
 		document.body.style.setProperty("--font-color", "#cfd1c9");
 		document.body.style.setProperty("--tap-color", "#cfd1c9");
 		document.body.style.setProperty("--hype-color", "#b4425c");
-		document.getElementById("ThemeButton").innerText = 'Light Theme';
+		document.getElementById("ThemeButton").innerText = 'Light Mode';
 		localStorage.setItem("theme", currentTheme);
 		
 	} else {
 		
-		//Light Theme
+		//Light Mode
 		document.body.style.setProperty("--bg-color", "#efeff4");
 		document.body.style.setProperty("--title-color", "rgba(204, 204, 204, 0.5)");
 		document.body.style.setProperty("--field-color", "#ffffff");
@@ -65,7 +65,7 @@ function switchTheme() {
 		document.body.style.setProperty("--font-color", "#000000");
 		document.body.style.setProperty("--tap-color", "rgba(0, 0, 0, .5)");
 		document.body.style.setProperty("--hype-color", "#425fb4");
-		document.getElementById("ThemeButton").innerText = 'Dark Theme';
+		document.getElementById("ThemeButton").innerText = 'Dark Mode';
 		localStorage.setItem("theme", currentTheme);
 
 	}
