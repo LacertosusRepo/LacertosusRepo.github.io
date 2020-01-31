@@ -9,6 +9,7 @@ What exactly that means to me? Dunno, sounded cool! Unfortunately it sounds *a l
 | Useful Links: |
 |---------------|
 | <a href="http://iphonedevwiki.net/index.php/Main_Page">iPhoneDevWiki</a> |
+| [Objective-C in 24-days](https://github.com/uroboro/Learn-Objective-C-in-24-Days-Clone) |
 | <a href="http://developer.limneos.net">iOS Headers</a> |
 | <a href="https://www.reddit.com/r/jailbreakdevelopers/">/r/JailbreakDevelopers</a> |
 | <a href="http://lacertosusrepo.github.io/">Repo Website</a> |
