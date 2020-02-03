@@ -8,19 +8,18 @@ What exactly that means to me? Dunno, sounded cool! Unfortunately it sounds *a l
 
 | Useful Links: |
 |---------------|
-| <a href="http://iphonedevwiki.net/index.php/Main_Page">iPhoneDevWiki</a> |
-| [Objective-C in 24-days](https://github.com/uroboro/Learn-Objective-C-in-24-Days-Clone) |
-| <a href="http://developer.limneos.net">iOS Headers</a> |
-| <a href="https://www.reddit.com/r/jailbreakdevelopers/">/r/JailbreakDevelopers</a> |
-| <a href="http://lacertosusrepo.github.io/">Repo Website</a> |
+| [iPhoneDevWiki](http://iphonedevwiki.net/index.php/Main_Page) |
+| [Objective-C in 24 Days](https://github.com/uroboro/Learn-Objective-C-in-24-Days-Clone) |
+| [r/JailbreakDevelopers](https://www.reddit.com/r/jailbreakdevelopers/) |
+| [iOS Headers](http://developer.limneos.net) |
 
 ### How did you create your <a href="http://lacertosusrepo.github.io">repository</a>?
 Well there are a few sources:
 
-1. The creation of the repo was made using <a href="https://www.youtube.com/watch?v=XqkTnxyiiOc">Tyler Crawford's Tutorial</a>
-2. Thanks to <a href="https://elijahandandrew.com/">Elijah and Andrew</a>, I could have some appealing <a href="http://lacertosusrepo.github.io/depictions/com.lacertosusrepo.popuponstart/index.html">depictions</a>
+1. The creation of the repo was made using [Tyler Crawford's Tutorial](https://www.youtube.com/watch?v=XqkTnxyiiOc)
+2. Thanks to Elijah and Andrew, I could have some appealing package depictions
 3. Some modifications to the style.css file was done by me (and a bit of googling) to get it where I wanted
-4. Finally the animations are by <a href="https://github.com/daneden">Daniel Eden</a> and his amazing work <a href="https://daneden.github.io/animate.css/">animate.css</a>
+4. Finally the animations are by [Daniel Eden](https://github.com/daneden) and his amazing work [animate.css](https://daneden.github.io/animate.css/)
 
 ### Notes to Myself
 Permission errors? Try:
@@ -51,4 +50,4 @@ sudo wget https://developer.angelxwind.net/Linux/ios-toolchain_clang%2bllvm%2bld
 sudo unzip LinuxToolchain.zip && sudo rm -f LinuxToolchain.zip
 ```
 
-*<a href="https://gist.github.com/JohnCoates/ea7b8002b77ab7c1c758384e55538603">Source ~ John Coates's Script</a>*
+*[Source ~ John Coates's Script](https://gist.github.com/JohnCoates/ea7b8002b77ab7c1c758384e55538603)*
