@@ -326,24 +326,6 @@ Author: LacertosusDeus <LacertosusThemes@gmail.com>
 Depiction: http://lacertosusrepo.github.io/depictions/com.lacertosusrepo.volbrate
 Name: Volbrate
 
-Package: com.lacertosusrepo.volumelock
-Version: 1.1
-Architecture: iphoneos-arm
-Maintainer: LacertosusDeus <LacertosusThemes@gmail.com>
-Installed-Size: 136
-Depends: mobilesubstrate
-Filename: LacertosusRepo.github.io/debs/com.lacertosusrepo.volumelock_1.1_iphoneos-arm.deb
-Size: 3310
-MD5sum: 4820b1347a199646465ebbe148a14d48
-SHA1: 299d1b39d22e1feeb103039b8138aef175e98b6f
-SHA256: 6eb49426dcc155d6b50dbc1c1568aece2589b074d91ef1774ecacb2654a386b7
-Section: Tweaks
-Description: Lock your volume with a simple gesture...
-Author: LacertosusDeus <LacertosusThemes@gmail.com>
-Depiction: https://lacertosusrepo.github.io/depictions/com.lacertosusrepo.volumelock/
-Name: VolumeLock
-Sileodepiction: https://lacertosusrepo.github.io/depictions/com.lacertosusrepo.volumelock/
-
 Package: com.lacertosusrepo.yourefired
 Version: 0.1.1
 Architecture: iphoneos-arm
