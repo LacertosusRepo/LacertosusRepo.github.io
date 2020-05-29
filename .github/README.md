@@ -1,8 +1,8 @@
 # LacertosusRepo.github.io
 ![GitHub last commit](https://img.shields.io/github/last-commit/LacertosusRepo/LacertosusRepo.github.io.svg?style=for-the-badge) [![GitHub forks](https://img.shields.io/github/license/LacertosusRepo/LacertosusRepo.github.io.svg?style=for-the-badge)](https://github.com/LacertosusRepo/LacertosusRepo.github.io/license)
 
-## Meaning of Lacertosus Deus? **Powerful Diety**
-What exactly that means to me? Dunno, sounded cool! Unfortunately it sounds *a little* narcissistic.
+## Meaning of Lacertosus Deus? **Powerful Deity**
+What exactly does that mean to me? Dunno, sounded cool! Unfortunately, it sounds *a little* narcissistic.
 
 ### Useful Links:
 
@@ -14,12 +14,12 @@ What exactly that means to me? Dunno, sounded cool! Unfortunately it sounds *a l
 | [iOS Headers](http://developer.limneos.net) |
 
 ### How did you create your <a href="http://lacertosusrepo.github.io">repository</a>?
-Well there are a few sources:
+Well, there are a few sources:
 
-1. The creation of the repo was made using [Tyler Crawford's Tutorial](https://www.youtube.com/watch?v=XqkTnxyiiOc)
-2. Thanks to Elijah and Andrew, I could have some appealing package depictions
-3. Some modifications to the style.css file was done by me (and a bit of googling) to get it where I wanted
-4. Finally the animations are by [Daniel Eden](https://github.com/daneden) and his amazing work [animate.css](https://daneden.github.io/animate.css/)
+1. The creation of the repo was made using [Tyler Crawford's Tutorial](https://www.youtube.com/watch?v=XqkTnxyiiOc).
+2. Thanks to Elijah and Andrew, I could have some appealing package depictions.
+3. Some modifications to the style.css file was done by me (and a bit of googling) to get it where I wanted.
+4. Finally, the animations are by [Daniel Eden](https://github.com/daneden) and his amazing work [animate.css](https://daneden.github.io/animate.css/)
 
 ### Notes to Myself
 Permission errors? Try:
