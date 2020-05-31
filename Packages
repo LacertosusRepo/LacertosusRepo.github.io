@@ -113,42 +113,6 @@ Depiction: http://lacertosusrepo.github.io/depictions/com.lacertosusrepo.ios10lo
 Name: iOS10 Lock & Keyboard Sounds
 
 Package: com.lacertosusrepo.libellum
-Version: 1.4
-Architecture: iphoneos-arm
-Maintainer: LacertosusDeus <LacertosusThemes@gmail.com>
-Installed-Size: 424
-Depends: mobilesubstrate, ws.hbang.common (>= 1.11), ws.hbang.alderis
-Filename: LacertosusRepo.github.io/debs/com.lacertosusrepo.libellum_1.4_iphoneos-arm.deb
-Size: 53376
-MD5sum: 88b05f2866dfd24a4943a222fe08adc4
-SHA1: 45bf7b02ecd416848a5731d68fd77cdab52f6b06
-SHA256: 0622244c27b916435a8d7779c2fc030566a7099d8aa74d9faa5768d2e4f06954
-Section: Tweaks
-Description: Notes on your lockscreen and notification center...
-Author: LacertosusDeus <LacertosusThemes@gmail.com>
-Depiction: https://lacertosusrepo.github.io/depictions/com.lacertosusrepo.libellum/
-Name: Libellum
-Sileodepiction: https://lacertosusrepo.github.io/depictions/com.lacertosusrepo.libellum/
-
-Package: com.lacertosusrepo.libellum
-Version: 1.4.2
-Architecture: iphoneos-arm
-Maintainer: LacertosusDeus <LacertosusThemes@gmail.com>
-Installed-Size: 456
-Depends: mobilesubstrate, ws.hbang.common (>= 1.11), ws.hbang.alderis
-Filename: LacertosusRepo.github.io/debs/com.lacertosusrepo.libellum_1.4.2_iphoneos-arm.deb
-Size: 55318
-MD5sum: f6148091881b7ef11576417755c98016
-SHA1: b06a9e9123fe12ce63288325c7e309904fd87ed9
-SHA256: 4c07479139cbd5a0f7e7753c1c9c3028ee60c229801cb887b44d971f74ba0190
-Section: Tweaks
-Description: Notes on your lockscreen and notification center...
-Author: LacertosusDeus <LacertosusThemes@gmail.com>
-Depiction: https://lacertosusrepo.github.io/depictions/com.lacertosusrepo.libellum/
-Name: Libellum
-Sileodepiction: https://lacertosusrepo.github.io/depictions/com.lacertosusrepo.libellum/
-
-Package: com.lacertosusrepo.libellum
 Version: 1.4.3
 Architecture: iphoneos-arm
 Maintainer: LacertosusDeus <LacertosusThemes@gmail.com>
@@ -159,6 +123,24 @@ Size: 52382
 MD5sum: e8e01050c51b23a0cd332008fedd962b
 SHA1: 685daf80b74281f0d5c41553da8d833dc2bff6f2
 SHA256: cddc2b96234b9239b85fb0c5cc58595ce817a2ce273b763c4381f9f8eac07a76
+Section: Tweaks
+Description: Notes on your lockscreen and notification center...
+Author: LacertosusDeus <LacertosusThemes@gmail.com>
+Depiction: https://lacertosusrepo.github.io/depictions/com.lacertosusrepo.libellum/
+Name: Libellum
+Sileodepiction: https://lacertosusrepo.github.io/depictions/com.lacertosusrepo.libellum/
+
+Package: com.lacertosusrepo.libellum
+Version: 1.4.4
+Architecture: iphoneos-arm
+Maintainer: LacertosusDeus <LacertosusThemes@gmail.com>
+Installed-Size: 420
+Depends: mobilesubstrate, ws.hbang.common (>= 1.11), ws.hbang.alderis
+Filename: LacertosusRepo.github.io/debs/com.lacertosusrepo.libellum_1.4.4_iphoneos-arm.deb
+Size: 54048
+MD5sum: f037056210c34e99ba32f628ff05a83c
+SHA1: 2162c885de4b5699afc11929e848b5c28f1eaaf0
+SHA256: ad0da40d6c00b288e6091bb3f5f9051a47ebc4a40e90062e0f98340ae611770a
 Section: Tweaks
 Description: Notes on your lockscreen and notification center...
 Author: LacertosusDeus <LacertosusThemes@gmail.com>
