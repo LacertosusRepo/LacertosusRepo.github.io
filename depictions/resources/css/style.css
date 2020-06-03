@@ -17,142 +17,142 @@
 panel>input[type="submit"],
 fieldset>a>div>div>input[type="checkbox"],
 fieldset>a>div>div>select {
-    -moz-appearance: none;
-    -webkit-appearance: none
+  -moz-appearance: none;
+  -webkit-appearance: none
 }
 fieldset>div,
 panel>block,
 fieldset>a>div>div>label.detail {
-    -webkit-user-select: text;
-    user-select: text;	
-    -moz-user-select: element;
-    -ms-user-select: element;
-    user-select: element
+  -webkit-user-select: text;
+  user-select: text;
+  -moz-user-select: element;
+  -ms-user-select: element;
+  user-select: element
 }
 fieldset>a[href] {
-    -webkit-tap-highlight-color: var(--tap-color);
-    -webkit-tap-highlight-color: transparent;
+  -webkit-tap-highlight-color: var(--tap-color);
+  -webkit-tap-highlight-color: transparent;
 }
 * {
-    border: 0;
-    -webkit-border-radius: 0;
-    -moz-border-radius: 0;
-    -ms-border-radius: 0;
-    -o-border-radius: 0;
-    border-radius: 0;
-    color: var(--font-color);
-    font-family: var(--font);
-    font-size: inherit;
-    font-style: inherit;
-    font-weight: inherit;
-    margin: 0;
-    outline: 0;
-    padding: 0;
-    text-decoration: none;
-    vertical-align: baseline;
+  border: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+  border-radius: 0;
+  color: var(--font-color);
+  font-family: var(--font);
+  font-size: inherit;
+  font-style: inherit;
+  font-weight: inherit;
+  margin: 0;
+  outline: 0;
+  padding: 0;
+  text-decoration: none;
+  vertical-align: baseline;
 	transition: color var(--trans-time);
 }
 .clearfix:after,
 fieldset>a>div>div:after {
-    content: ".";
-    display: block;
-    clear: both;
-    visibility: hidden;
-    line-height: 0;
-    height: 0
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0
 }
 .clearfix,
 fieldset>a>div>div {
-    display: block
+  display: block
 }
 * {
-    -moz-box-sizing: border-box;
-    -ms-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box
 }
 img {
-    -ms-interpolation-mode: bicubic;
-    image-rendering: auto;
-    image-rendering: optimizeQuality
+  -ms-interpolation-mode: bicubic;
+  image-rendering: auto;
+  image-rendering: optimizeQuality
 }
 img.crisp {
-    -ms-interpolation-mode: nearest-neighbor;
-    image-rendering: optimizeSpeed;
-    image-rendering: -webkit-optimize-contrast;
-    image-rendering: -o-crisp-edges;
-    image-rendering: -moz-crisp-edges;
-    image-rendering: crisp-edges
+  -ms-interpolation-mode: nearest-neighbor;
+  image-rendering: optimizeSpeed;
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: -o-crisp-edges;
+  image-rendering: -moz-crisp-edges;
+  image-rendering: crisp-edges
 }
 strong {
-    font-weight: bold
+  font-weight: bold
 }
 em {
-    font-style: italic
+  font-style: italic
 }
 sup {
-    font-size: smaller;
-    position: relative;
-    top: -6px;
-    margin-top: -6px
+  font-size: smaller;
+  position: relative;
+  top: -6px;
+  margin-top: -6px
 }
 pre {
-    font-family: monospace
+  font-family: monospace
 }
 html.cytyle-faux {
-    font-family: Helvetica, Arial
+  font-family: Helvetica, Arial
 }
 html.cytyle-faux #cytyle-metric {
-    font-size: 16px
+  font-size: 16px
 }
 html.cytyle-flat {
-    font-family: "Helvetica Neue", Helvetica, Arial
+  font-family: "Helvetica Neue", Helvetica, Arial
 }
 html.cytyle-flat #cytyle-metric {
-    font-size: 17px
+  font-size: 17px
 }
 body {
 	background: var(--bg-color);
-    -webkit-text-size-adjust: none;
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    margin: 0 auto
+  -webkit-text-size-adjust: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  margin: 0 auto
 }
 body.white {
-    background-color: var(--bg-color);
+  background-color: var(--bg-color);
 }
 .cytyle-faux body.pinstripe {
-    background: var(--bg-color);
+  background: var(--bg-color);
 	/*background: #c7ced5 url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAABCAIAAACdaSOZAAAAFElEQVQIHWM4euYKErp0+tINIAIAuHQQ4rDrv5YAAAAASUVORK5CYII=')*/
 }
 .cytyle-flat body.pinstripe {
-    background: var(--bg-color);
+  background: var(--bg-color);
 	transition: background var(--trans-time);
 }
 body {
-    width: 320px
+  width: 320px
 }
 @media screen and (max-device-width: 767px) {
-    body {
-        width: 100%
-    }
+  body {
+    width: 100%
+  }
 }
 .default {
-    color: #aab
+  color: #aab
 }
 .button {
-    background-color: var(--button-color);
-    border: none;
+  background-color: var(--button-color);
+  border: none;
 	border-radius: 4px;
-    color: var(--button-text);
-    padding: 5px 16px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
+  color: var(--button-text);
+  padding: 5px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
 	font-weight: bold;
-    margin: 2px 1px;
-    cursor: pointer;
+  margin: 2px 1px;
+  cursor: pointer;
 	transition: background-color var(--trans-time);
 	transition: color var(--trans-time);
 }
@@ -183,6 +183,11 @@ input {
 	background-color: var(--input-color);
 	color: var(--input-font);
 }
+div.scrollView {
+	overflow: auto;
+	white-space: nowrap;
+}
+
 div.cy-table {
     margin: 0 auto;
     max-width: 568px
