@@ -1,72 +1,72 @@
 window.onload = function() {
 	var currentTheme = localStorage.getItem("theme");
-	
 	document.body.style.setProperty("--trans-time", "0s");
-	if(currentTheme === 'Dark Mode') {
-		
+
+	if(currentTheme === 'dark' || currentTheme == null) {
+
 		//Dark Mode
-		document.body.style.setProperty("--bg-color", "#1f2329");
-		document.body.style.setProperty("--title-color", "rgba(45,51,59, 0.5)");
-		document.body.style.setProperty("--field-color", "#2d333b");
-		document.body.style.setProperty("--button-color", "#cfd1c9");
-		document.body.style.setProperty("--button-text", "#47515f");
-		document.body.style.setProperty("--label-color", "#cfd1c9");
-		document.body.style.setProperty("--font-color", "#cfd1c9");
-		document.body.style.setProperty("--tap-color", "#cfd1c9");
-		document.body.style.setProperty("--hype-color", "#b4425c");
+		document.body.style.setProperty("--bg-color", "#212121");
+		document.body.style.setProperty("--title-color", "#242424");
+		document.body.style.setProperty("--field-color", "#242424");
+		document.body.style.setProperty("--button-color", "#EEEEEE");
+		document.body.style.setProperty("--button-text", "#212121");
+		document.body.style.setProperty("--label-color", "rgba(191, 191, 191, 0.38)");
+		document.body.style.setProperty("--font-color", "rgba(191, 191, 191, 0.70)");
+		document.body.style.setProperty("--tap-color", "#rgba(0, 0, 0, .5)");
+		document.body.style.setProperty("--hype-color", "#EF5350");
 		document.getElementById("ThemeButton").innerText = 'Light Mode';
-		
+
 	} else {
-		
+
 		//Light Mode
-		document.body.style.setProperty("--bg-color", "#efeff4");
-		document.body.style.setProperty("--title-color", "rgba(204, 204, 204, 0.5)");
-		document.body.style.setProperty("--field-color", "#ffffff");
-		document.body.style.setProperty("--button-color", "#365d70");
-		document.body.style.setProperty("--button-text", "#cad0d5");
-		document.body.style.setProperty("--label-color", "#6d6d72");
-		document.body.style.setProperty("--font-color", "#000000");
+		document.body.style.setProperty("--bg-color", "#EEEEEE");
+		document.body.style.setProperty("--title-color", "FAFAFA");
+		document.body.style.setProperty("--field-color", "#FAFAFA");
+		document.body.style.setProperty("--button-color", "#212121");
+		document.body.style.setProperty("--button-text", "#EEEEEE");
+		document.body.style.setProperty("--label-color", "rgba(33, 33, 33, 0.38)");
+		document.body.style.setProperty("--font-color", "rgba(33, 33, 33, 0.90)");
 		document.body.style.setProperty("--tap-color", "rgba(0, 0, 0, .5)");
-		document.body.style.setProperty("--hype-color", "#425fb4");
+		document.body.style.setProperty("--hype-color", "#2196F3");
 		document.getElementById("ThemeButton").innerText = 'Dark Mode';
 
-	}	
+	}
 }
 
 function switchTheme() {
-	
-	currentTheme = document.getElementById("ThemeButton").innerText;
+
+	var currentTheme = localStorage.getItem("theme");
 	document.body.style.setProperty("--trans-time", "1s");
-	
-	if(currentTheme === 'Dark Mode') {
-		
+
+	if(currentTheme === 'light') {
+
 		//Dark Theme
-		document.body.style.setProperty("--bg-color", "#1f2329");
-		document.body.style.setProperty("--title-color", "rgba(45,51,59, 0.5)");
-		document.body.style.setProperty("--field-color", "#2d333b");
-		document.body.style.setProperty("--button-color", "#cfd1c9");
-		document.body.style.setProperty("--button-text", "#47515f");
-		document.body.style.setProperty("--label-color", "#cfd1c9");
-		document.body.style.setProperty("--font-color", "#cfd1c9");
-		document.body.style.setProperty("--tap-color", "#cfd1c9");
-		document.body.style.setProperty("--hype-color", "#b4425c");
+		document.body.style.setProperty("--bg-color", "#212121");
+		document.body.style.setProperty("--title-color", "#242424");
+		document.body.style.setProperty("--field-color", "#242424");
+		document.body.style.setProperty("--button-color", "#EEEEEE");
+		document.body.style.setProperty("--button-text", "#212121");
+		document.body.style.setProperty("--label-color", "rgba(191, 191, 191, 0.38)");
+		document.body.style.setProperty("--font-color", "rgba(191, 191, 191, 0.70)");
+		document.body.style.setProperty("--tap-color", "#rgba(0, 0, 0, .5)");
+		document.body.style.setProperty("--hype-color", "#EF5350");
 		document.getElementById("ThemeButton").innerText = 'Light Mode';
-		localStorage.setItem("theme", currentTheme);
-		
+		localStorage.setItem("theme", 'dark');
+
 	} else {
-		
+
 		//Light Mode
-		document.body.style.setProperty("--bg-color", "#efeff4");
-		document.body.style.setProperty("--title-color", "rgba(204, 204, 204, 0.5)");
-		document.body.style.setProperty("--field-color", "#ffffff");
-		document.body.style.setProperty("--button-color", "#365d70");
-		document.body.style.setProperty("--button-text", "#cad0d5");
-		document.body.style.setProperty("--label-color", "#6d6d72");
-		document.body.style.setProperty("--font-color", "#000000");
+		document.body.style.setProperty("--bg-color", "#EEEEEE");
+		document.body.style.setProperty("--title-color", "FAFAFA");
+		document.body.style.setProperty("--field-color", "#FAFAFA");
+		document.body.style.setProperty("--button-color", "#212121");
+		document.body.style.setProperty("--button-text", "#EEEEEE");
+		document.body.style.setProperty("--label-color", "rgba(33, 33, 33, 0.38)");
+		document.body.style.setProperty("--font-color", "rgba(33, 33, 33, 0.90)");
 		document.body.style.setProperty("--tap-color", "rgba(0, 0, 0, .5)");
-		document.body.style.setProperty("--hype-color", "#425fb4");
+		document.body.style.setProperty("--hype-color", "#2196F3");
 		document.getElementById("ThemeButton").innerText = 'Dark Mode';
-		localStorage.setItem("theme", currentTheme);
+		localStorage.setItem("theme", 'light');
 
 	}
 }

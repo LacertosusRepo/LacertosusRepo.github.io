@@ -161,7 +161,7 @@ body {
 	transition: color var(--trans-time);
 }
 a:visited {
-	color: #2980b9;
+	color: var(--hype-color);
 }
 a:hover {
 	color: var(--font-color);
