@@ -1,3 +1,21 @@
+Package: com.lacertosusrepo.badgecolor
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: LacertosusDeus <LacertosusThemes@gmail.com>
+Installed-Size: 296
+Depends: mobilesubstrate, ws.hbang.common (>= 1.13), ws.hbang.alderis
+Filename: LacertosusRepo.github.io/debs/com.lacertosusrepo.badgecolor_1.0_iphoneos-arm.deb
+Size: 16058
+MD5sum: d85c879737361813690cde023157bb74
+SHA1: febbea10c96468b725317e1aceffcbeceea009e2
+SHA256: 6c337cb31886f07feb391fb8ad1be0a799c6bd00d0202677f6886f9500f77a62
+Section: Tweaks
+Description: Tiny badge customization...
+Author: LacertosusDeus <LacertosusThemes@gmail.com>
+Depiction: https://lacertosusrepo.github.io/depictions/com.lacertosusrepo.badgecolor/
+Name: BadgeColor
+Sileodepiction: https://lacertosusrepo.github.io/depictions/com.lacertosusrepo.badgecolor/
+
 Package: com.lacertosusrepo.clauditis
 Version: 1.1
 Architecture: iphoneos-arm
@@ -163,6 +181,24 @@ Description: Custom alert after respring/reboot...
 Author: LacertosusDeus <LacertosusThemes@gmail.com>
 Depiction: http://lacertosusrepo.github.io/depictions/com.lacertosusrepo.popuponstart/index.html
 Name: Popup On Start
+
+Package: com.lacertosusrepo.recentshue
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: LacertosusDeus <LacertosusThemes@gmail.com>
+Installed-Size: 304
+Depends: mobilesubstrate, ws.hbang.common (>= 1.13), ws.hbang.alderis
+Filename: LacertosusRepo.github.io/debs/com.lacertosusrepo.recentshue_1.0_iphoneos-arm.deb
+Size: 21068
+MD5sum: 5b07e63e7ac767dc5e82f6c6d3d67d49
+SHA1: 740c6c46dfc36253a1c9cc7f04ecd79570db94de
+SHA256: 3164008e6dd1657850ebcefd848e724be7a2e8ddb0a110b9a1922c824c6ef4a0
+Section: Tweaks
+Description: Colored indicator based on call type...
+Author: LacertosusDeus <LacertosusThemes@gmail.com>
+Depiction: https://lacertosusrepo.github.io/depictions/com.lacertosusrepo.recentshue/
+Name: RecentsHue
+Sileodepiction: https://lacertosusrepo.github.io/depictions/com.lacertosusrepo.recentshue/
 
 Package: com.lacertosusrepo.return2sender2
 Version: 1.0
