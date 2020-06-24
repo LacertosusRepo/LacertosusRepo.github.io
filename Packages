@@ -5,16 +5,15 @@ Maintainer: LacertosusDeus <LacertosusThemes@gmail.com>
 Installed-Size: 296
 Depends: mobilesubstrate, ws.hbang.common (>= 1.13), ws.hbang.alderis
 Filename: LacertosusRepo.github.io/debs/com.lacertosusrepo.badgecolor_1.0_iphoneos-arm.deb
-Size: 16058
-MD5sum: d85c879737361813690cde023157bb74
-SHA1: febbea10c96468b725317e1aceffcbeceea009e2
-SHA256: 6c337cb31886f07feb391fb8ad1be0a799c6bd00d0202677f6886f9500f77a62
+Size: 16022
+MD5sum: 633c62c34cf8b0671cf4cc3c8ab7a5ea
+SHA1: 1bc08a8fd1bacbaa31bfe82f89390ac8d7180803
+SHA256: 93d219b2d3529e9144c781bf4b0dbb7eeb232fe7b64e39b9aeaa26d23958d926
 Section: Tweaks
 Description: Tiny badge customization...
 Author: LacertosusDeus <LacertosusThemes@gmail.com>
 Depiction: https://lacertosusrepo.github.io/depictions/com.lacertosusrepo.badgecolor/
 Name: BadgeColor
-Sileodepiction: https://lacertosusrepo.github.io/depictions/com.lacertosusrepo.badgecolor/
 
 Package: com.lacertosusrepo.clauditis
 Version: 1.1
@@ -189,16 +188,15 @@ Maintainer: LacertosusDeus <LacertosusThemes@gmail.com>
 Installed-Size: 304
 Depends: mobilesubstrate, ws.hbang.common (>= 1.13), ws.hbang.alderis
 Filename: LacertosusRepo.github.io/debs/com.lacertosusrepo.recentshue_1.0_iphoneos-arm.deb
-Size: 21068
-MD5sum: 5b07e63e7ac767dc5e82f6c6d3d67d49
-SHA1: 740c6c46dfc36253a1c9cc7f04ecd79570db94de
-SHA256: 3164008e6dd1657850ebcefd848e724be7a2e8ddb0a110b9a1922c824c6ef4a0
+Size: 21066
+MD5sum: 0a855244028397f2f4b98156164f2c64
+SHA1: 9fdb093d229d9ec618fad380184099848cbbcd56
+SHA256: 233a326f3e0f48e8557179400bdfbc87735d74f791ac61285ffdc290e1c0c479
 Section: Tweaks
 Description: Colored indicator based on call type...
 Author: LacertosusDeus <LacertosusThemes@gmail.com>
 Depiction: https://lacertosusrepo.github.io/depictions/com.lacertosusrepo.recentshue/
 Name: RecentsHue
-Sileodepiction: https://lacertosusrepo.github.io/depictions/com.lacertosusrepo.recentshue/
 
 Package: com.lacertosusrepo.return2sender2
 Version: 1.0
