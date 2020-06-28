@@ -1,18 +1,18 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 :root {
-	--bg-color: #efeff4;
-	--title-color: rgba(204, 204, 204, 0.5);
-	--field-color: #ffffff;
-	--button-color: #365d70;
-	--button-text: #cad0d5;
-	--label-color: #6d6d72;
-	--font-color: #000000;
+	--bg-color: #212121;
+	--title-color: #242424;
+	--field-color: #242424;
+	--button-color: #EEEEEE;
+	--button-text: #212121;
+	--label-color: rgba(191, 191, 191, 0.38);
+	--font-color: rgba(191, 191, 191, 0.70);
 	--input-color: ;
 	--input-font: ;
-	--hype-color: #425fb4;
 	--tap-color: rgba(0, 0, 0, .5);
+	--hype-color: #EF5350;
 	--font: 'Roboto', sans-serif;
-	--trans-time: 1s;
+	--trans-time: 0.25s;
 }
 panel>input[type="submit"],
 fieldset>a>div>div>input[type="checkbox"],
