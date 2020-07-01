@@ -1,14 +1,14 @@
 Package: com.lacertosusrepo.badgecolor
-Version: 1.0
+Version: 1.1
 Architecture: iphoneos-arm
 Maintainer: LacertosusDeus <LacertosusThemes@gmail.com>
 Installed-Size: 296
 Depends: mobilesubstrate, ws.hbang.common (>= 1.13), ws.hbang.alderis
-Filename: LacertosusRepo.github.io/debs/com.lacertosusrepo.badgecolor_1.0_iphoneos-arm.deb
-Size: 16022
-MD5sum: 633c62c34cf8b0671cf4cc3c8ab7a5ea
-SHA1: 1bc08a8fd1bacbaa31bfe82f89390ac8d7180803
-SHA256: 93d219b2d3529e9144c781bf4b0dbb7eeb232fe7b64e39b9aeaa26d23958d926
+Filename: LacertosusRepo.github.io/debs/com.lacertosusrepo.badgecolor_1.1_iphoneos-arm.deb
+Size: 16560
+MD5sum: 22b1cc10b3e49564c91bef8a59e4cbfe
+SHA1: 64741262975a6fb77a5ec23ea9727ad4226fbf0d
+SHA256: 220a3f0a583d2e8ac7a2783f6438e261b73360d51099746dabbf653471aa214d
 Section: Tweaks
 Description: Tiny badge customization...
 Author: LacertosusDeus <LacertosusThemes@gmail.com>
