@@ -186,6 +186,7 @@ input {
 div.scrollView {
 	overflow: auto;
 	white-space: nowrap;
+	height: 100vh;
 }
 
 div.cy-table {
