@@ -2,6 +2,7 @@
 :root {
 	--bg-color: #212121;
 	--field-color: #242424;
+	--title-color: ;
 	--button-color: #EEEEEE;
 	--button-text: #212121;
 	--label-color: rgba(191, 191, 191, 0.38);
@@ -215,6 +216,7 @@ panel>hr {
 }
 panel>block {
     display: block;
+		background-color: var(--title-color);
     margin-top: 9px;
     margin-bottom: 9px;
 	transition: background-color var(--trans-time);
