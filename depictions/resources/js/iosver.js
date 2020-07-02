@@ -8,6 +8,7 @@ function iOSversion() {
 	if (/iP(hone|od|ad)/.test(navigator.platform)) {
 		var v = (navigator.appVersion).match(/OS (\d+)_(\d+)_?(\d+)?/);
 		return [parseInt(v[1], 10), parseInt(v[2], 10), parseInt(v[3] || 0, 10)];
+
 	} else {
 		return 0;
 	}
@@ -20,22 +21,27 @@ var versionNumber = String(version[0] + "." + version[1]);
 
 	if(!version) {
 		if(minVersion == "beta" || maxVersion == "beta") {
-			document.getElementById('compatibility').innerHTML="<p>This is beta software! It may not work on certain devices.</p>";
-			document.body.style.setProperty("--title-color", "rgba(225,174,66, 0.5)");
+			document.getElementById('compatibility').innerHTML="<p>This package is in beta! It may not work on certain devices or iOS versions.</p>";
+			document.body.style.setProperty("--title-color", "rgba(225,174,66, 0.35)");
+
 		} else {
 			document.getElementById('compatibility').innerHTML=VERSION_CHECK_INFO.replace("%n", minVersion).replace("%x", maxVersion);
-			document.body.style.setProperty("--title-color", "rgba(39,174,96, 0.5)");
+			document.body.style.setProperty("--title-color", "rgba(39,174,96, 0.35)");
 		}
+
 	} else if(versionNumber >= minVersion && version <= maxVersion) {
 		document.getElementById('compatibility').innerHTML=VERSION_CHECK_SUPPORTED.replace("%s", versionNumber);
-		document.body.style.setProperty("--title-color", "rgba(39,174,96, 0.5)");
+		document.body.style.setProperty("--title-color", "rgba(39,174,96, 0.35)");
+
 	} else if(versionNumber > maxVersion) {
 		document.getElementById('compatibility').innerHTML=VERSION_CHECK_UNSUPPORTED.replace("%s", versionNumber);
-		document.body.style.setProperty("--title-color", "rgba(192,57,43, 0.5)");
+		document.body.style.setProperty("--title-color", "rgba(192,57,43, 0.35)");
+
 	} else if(minVersion == "beta" || maxVersion == "beta") {
 		document.getElementById('compatibility').innerHTML=VERSION_CHECK_BETA.replace("%s", versionNumber);
-		document.body.style.setProperty("--title-color", "rgba(225,174,66, 0.5)");
+		document.body.style.setProperty("--title-color", "rgba(225,174,66, 0.35)");
+
 	} else {
 		document.getElementById('compatibility').innerHTML=VERSION_CHECK_UNSUPPORTED.replace("%s", versionNumber);
-		document.body.style.setProperty("--title-color", "rgba(192,57,43, 0.5)");
+		document.body.style.setProperty("--title-color", "rgba(192,57,43, 0.35)");
 	}

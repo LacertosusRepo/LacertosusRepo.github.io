@@ -1,12 +1,11 @@
 window.onload = function() {
 	var currentTheme = localStorage.getItem("theme");
-	document.body.style.setProperty("--trans-time", "0s");
+	var isPackageDescription = document.querySelector('meta[name="description"]').content === 'Package Description';
 
-	if(currentTheme === 'dark' || currentTheme == null) {
+	if((currentTheme === 'dark' || currentTheme == null) && !isPackageDescription) {
 
 		//Dark Mode
 		document.body.style.setProperty("--bg-color", "#212121");
-		document.body.style.setProperty("--title-color", "#242424");
 		document.body.style.setProperty("--field-color", "#242424");
 		document.body.style.setProperty("--button-color", "#EEEEEE");
 		document.body.style.setProperty("--button-text", "#212121");
@@ -15,12 +14,12 @@ window.onload = function() {
 		document.body.style.setProperty("--tap-color", "#rgba(0, 0, 0, .5)");
 		document.body.style.setProperty("--hype-color", "#EF5350");
 		document.getElementById("ThemeButton").innerText = 'Light Mode';
+	}
 
-	} else {
+	else if(currentTheme === 'light' || isPackageDescription) {
 
 		//Light Mode
 		document.body.style.setProperty("--bg-color", "#EEEEEE");
-		document.body.style.setProperty("--title-color", "FAFAFA");
 		document.body.style.setProperty("--field-color", "#FAFAFA");
 		document.body.style.setProperty("--button-color", "#212121");
 		document.body.style.setProperty("--button-text", "#EEEEEE");
@@ -29,20 +28,16 @@ window.onload = function() {
 		document.body.style.setProperty("--tap-color", "rgba(0, 0, 0, .5)");
 		document.body.style.setProperty("--hype-color", "#2196F3");
 		document.getElementById("ThemeButton").innerText = 'Dark Mode';
-
 	}
 }
 
 function switchTheme() {
-
 	var currentTheme = localStorage.getItem("theme");
-	document.body.style.setProperty("--trans-time", "1s");
 
 	if(currentTheme === 'light') {
 
 		//Dark Theme
 		document.body.style.setProperty("--bg-color", "#212121");
-		document.body.style.setProperty("--title-color", "#242424");
 		document.body.style.setProperty("--field-color", "#242424");
 		document.body.style.setProperty("--button-color", "#EEEEEE");
 		document.body.style.setProperty("--button-text", "#212121");
@@ -52,12 +47,12 @@ function switchTheme() {
 		document.body.style.setProperty("--hype-color", "#EF5350");
 		document.getElementById("ThemeButton").innerText = 'Light Mode';
 		localStorage.setItem("theme", 'dark');
+	}
 
-	} else {
+	else if(currentTheme === 'dark') {
 
 		//Light Mode
 		document.body.style.setProperty("--bg-color", "#EEEEEE");
-		document.body.style.setProperty("--title-color", "FAFAFA");
 		document.body.style.setProperty("--field-color", "#FAFAFA");
 		document.body.style.setProperty("--button-color", "#212121");
 		document.body.style.setProperty("--button-text", "#EEEEEE");
@@ -67,6 +62,5 @@ function switchTheme() {
 		document.body.style.setProperty("--hype-color", "#2196F3");
 		document.getElementById("ThemeButton").innerText = 'Dark Mode';
 		localStorage.setItem("theme", 'light');
-
 	}
 }

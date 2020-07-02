@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 :root {
 	--bg-color: #212121;
-	--title-color: #242424;
 	--field-color: #242424;
 	--button-color: #EEEEEE;
 	--button-text: #212121;
@@ -216,7 +215,6 @@ panel>hr {
 }
 panel>block {
     display: block;
-    background-color: var(--title-color);
     margin-top: 9px;
     margin-bottom: 9px;
 	transition: background-color var(--trans-time);
@@ -340,11 +338,11 @@ panel>label {
 .cytyle-faux panel>label {
     text-shadow: rgba(255, 255, 255, 0.75) 1px 1px 0;
     font-weight: bold;
-    font-size: 16px
+    font-size: 16px;
 }
 .cytyle-flat panel>label {
     text-transform: uppercase;
-    font-size: 14px
+    font-size: 14px;
 }
 panel>footer {
     display: block;
