@@ -184,7 +184,8 @@ input {
 	color: var(--input-font);
 }
 div.scrollView {
-	overflow: scroll;
+	overflow-x: scroll;
+	overflow-y: hidden;
   -webkit-overflow-scrolling: touch;
 	white-space: nowrap;
 }
