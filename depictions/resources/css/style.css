@@ -185,8 +185,9 @@ input {
 }
 div.scrollView {
 	overflow: auto;
+	overflow-x: scroll;
+  -webkit-overflow-scrolling: touch;
 	white-space: nowrap;
-	height: 100vh;
 }
 
 div.cy-table {
