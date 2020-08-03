@@ -48,6 +48,23 @@ Author: LacertosusDeus <LacertosusThemes@gmail.com>
 Depiction: http://lacertosusrepo.github.io/depictions/com.lacertosusrepo.customreach/index.html
 Name: Custom Reach
 
+Package: com.lacertosusrepo.flashnotify
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: LacertosusDeus <LacertosusThemes@gmail.com>
+Installed-Size: 520
+Depends: mobilesubstrate, ws.hbang.common (>= 1.13)
+Filename: LacertosusRepo.github.io/debs/com.lacertosusrepo.flashnotify_1.0_iphoneos-arm.deb
+Size: 64652
+MD5sum: e8cb3a9cae9f657c6845975439142b7d
+SHA1: 0a5abb32125957ae2f18674d804f9641a9778582
+SHA256: 32169585ce2607823b95f62995e43ace28ac0c38458f75dcd4b8b9bbe3ef994f
+Section: Tweaks
+Description: If you're seeing this, I forgot to add a description...
+Author: LacertosusDeus <LacertosusThemes@gmail.com>
+Depiction: https://lacertosusrepo.github.io/depictions/com.lacertosusrepo.beta/
+Name: FlashNotify
+
 Package: com.lacertosusrepo.flex4me
 Version: 1.3
 Architecture: iphoneos-arm
