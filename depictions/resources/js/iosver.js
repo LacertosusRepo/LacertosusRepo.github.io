@@ -29,7 +29,7 @@ var versionNumber = String(version[0] + "." + version[1]);
 			document.body.style.setProperty("--title-color", "rgba(39,174,96, 0.35)");
 		}
 
-	} else if(versionNumber >= minVersion && version <= maxVersion) {
+	} else if(versionNumber >= minVersion && versionNumber <= maxVersion) {
 		document.getElementById('compatibility').innerHTML=VERSION_CHECK_SUPPORTED.replace("%s", versionNumber);
 		document.body.style.setProperty("--title-color", "rgba(39,174,96, 0.35)");
 
