@@ -132,24 +132,6 @@ Depiction: http://lacertosusrepo.github.io/depictions/com.lacertosusrepo.homebut
 Name: HomeButtonLock
 
 Package: com.lacertosusrepo.libellum
-Version: 1.4.7
-Architecture: iphoneos-arm
-Maintainer: LacertosusDeus <LacertosusThemes@gmail.com>
-Installed-Size: 472
-Depends: mobilesubstrate, ws.hbang.common (>= 1.11), ws.hbang.alderis
-Filename: LacertosusRepo.github.io/debs/com.lacertosusrepo.libellum_1.4.7_iphoneos-arm.deb
-Size: 67336
-MD5sum: 8cdbbc8036dadd2b1319ab39fa2577c8
-SHA1: d5af78fe203574a1fb5f9f12befa0c09461a2c3f
-SHA256: cae0fde7967050b04a02b181805f5571b8e1b1802fb1e2e7c332573856c1fb6e
-Section: Tweaks
-Description: Notes on your lockscreen and notification center...
-Author: LacertosusDeus <LacertosusThemes@gmail.com>
-Depiction: https://lacertosusrepo.github.io/depictions/com.lacertosusrepo.libellum/
-Name: Libellum
-Sileodepiction: https://lacertosusrepo.github.io/depictions/com.lacertosusrepo.libellum/
-
-Package: com.lacertosusrepo.libellum
 Version: 1.4.8
 Architecture: iphoneos-arm
 Maintainer: LacertosusDeus <LacertosusThemes@gmail.com>
@@ -267,16 +249,16 @@ Depiction: http://lacertosusrepo.github.io/depictions/com.lacertosusrepo.soundsp
 Name: SoundSpring
 
 Package: com.lacertosusrepo.spotifyaddtofavorites
-Version: 1.0.4
+Version: 1.0.5
 Architecture: iphoneos-arm
 Maintainer: LacertosusDeus <LacertosusThemes@gmail.com>
 Installed-Size: 136
 Depends: mobilesubstrate, ws.hbang.common (>= 1.13)
-Filename: LacertosusRepo.github.io/debs/com.lacertosusrepo.spotifyaddtofavorites_1.0.4_iphoneos-arm.deb
-Size: 12104
-MD5sum: d65d702954d275fa534878528d23fbf5
-SHA1: 17be74e7e78d4d3c4408d12c86335cc25d2cc850
-SHA256: 6a7cbfa243294549848ec55bc9fb8d677903910b084acb9c7d47c065562b50ba
+Filename: LacertosusRepo.github.io/debs/com.lacertosusrepo.spotifyaddtofavorites_1.0.5_iphoneos-arm.deb
+Size: 12228
+MD5sum: 1bd9dfb2fc9742ff248988ecaeeb60bc
+SHA1: 478a0625edb05caee38ac27ab3b0c1063ac92f3d
+SHA256: bb94fb984f61837a354c804ce9b09b312483da2a542ee294fc73218f195ab64b
 Section: Tweaks
 Description: Favorite songs easier in Spotify...
 Author: LacertosusDeus <LacertosusThemes@gmail.com>
