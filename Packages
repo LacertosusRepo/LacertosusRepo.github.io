@@ -132,6 +132,24 @@ Depiction: https://lacertosusrepo.github.io/depictions/com.lacertosusrepo.libell
 Name: Libellum
 Sileodepiction: https://lacertosusrepo.github.io/depictions/com.lacertosusrepo.libellum/
 
+Package: com.lacertosusrepo.libellum
+Version: 1.5
+Architecture: iphoneos-arm
+Maintainer: LacertosusDeus <LacertosusThemes@gmail.com>
+Installed-Size: 864
+Depends: mobilesubstrate, ws.hbang.common (>= 1.16), ws.hbang.alderis
+Filename: LacertosusRepo.github.io/debs/com.lacertosusrepo.libellum_1.5_iphoneos-arm.deb
+Size: 356072
+MD5sum: 5a78071a954120f11171e76cbd16336e
+SHA1: e976a0298496c5d6fcacb27e6484194f92b67cb4
+SHA256: 1546ecc4ebcf23c578ae29e70b7382e07cfa0eeb3bfe405c0c809b0a6b44c4f9
+Section: Tweaks
+Description: Notes on your lockscreen and notification center...
+Author: LacertosusDeus <LacertosusThemes@gmail.com>
+Depiction: https://lacertosusrepo.github.io/depictions/com.lacertosusrepo.libellum/
+Name: Libellum
+Sileodepiction: https://lacertosusrepo.github.io/depictions/com.lacertosusrepo.libellum/
+
 Package: com.lacertosusrepo.nonut
 Version: 1.1
 Architecture: iphoneos-arm
@@ -232,16 +250,16 @@ Depiction: http://lacertosusrepo.github.io/depictions/com.lacertosusrepo.soundsp
 Name: SoundSpring
 
 Package: com.lacertosusrepo.spotifyaddtofavorites
-Version: 1.0.6
+Version: 1.0.7
 Architecture: iphoneos-arm
 Maintainer: LacertosusDeus <LacertosusThemes@gmail.com>
 Installed-Size: 136
 Depends: mobilesubstrate, ws.hbang.common (>= 1.13)
-Filename: LacertosusRepo.github.io/debs/com.lacertosusrepo.spotifyaddtofavorites_1.0.6_iphoneos-arm.deb
-Size: 11702
-MD5sum: f9478b8b23c674a300091992585b09d3
-SHA1: 204a8f148976b2415579edd5b612464208d94c6d
-SHA256: b07fbae6001b584ef98c1102643d5f0735925199821022ce271066d53d230830
+Filename: LacertosusRepo.github.io/debs/com.lacertosusrepo.spotifyaddtofavorites_1.0.7_iphoneos-arm.deb
+Size: 11744
+MD5sum: d956a80b3a12bc9936bfd25045be8611
+SHA1: bc929dfb15cfeefad20c8324dcfa8ee3d06ba79a
+SHA256: a6e14f202e0e70ce54801893cb363b1b962c14c12e4cb1fea2d06bd5eda5f560
 Section: Tweaks
 Description: Favorite songs easier in Spotify...
 Author: LacertosusDeus <LacertosusThemes@gmail.com>
