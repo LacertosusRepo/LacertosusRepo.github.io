@@ -133,16 +133,16 @@ Name: Libellum
 Sileodepiction: https://lacertosusrepo.github.io/depictions/com.lacertosusrepo.libellum/
 
 Package: com.lacertosusrepo.libellum
-Version: 1.5
+Version: 1.5.1
 Architecture: iphoneos-arm
 Maintainer: LacertosusDeus <LacertosusThemes@gmail.com>
 Installed-Size: 864
-Depends: mobilesubstrate, ws.hbang.common (>= 1.16), ws.hbang.alderis
-Filename: LacertosusRepo.github.io/debs/com.lacertosusrepo.libellum_1.5_iphoneos-arm.deb
-Size: 356072
-MD5sum: 5a78071a954120f11171e76cbd16336e
-SHA1: e976a0298496c5d6fcacb27e6484194f92b67cb4
-SHA256: 1546ecc4ebcf23c578ae29e70b7382e07cfa0eeb3bfe405c0c809b0a6b44c4f9
+Depends: mobilesubstrate, ws.hbang.common (>= 1.16), ws.hbang.alderis (>= 1.0)
+Filename: LacertosusRepo.github.io/debs/com.lacertosusrepo.libellum_1.5.1_iphoneos-arm.deb
+Size: 357648
+MD5sum: b4a12274427fe4a87528b3e93cca76e7
+SHA1: 1849d0f4c56cb8442e1fd580d37162c8633feec6
+SHA256: 1878824563ede5d331a45875ce2862f3ff8c62995ebbbe63739fb24696a7d069
 Section: Tweaks
 Description: Notes on your lockscreen and notification center...
 Author: LacertosusDeus <LacertosusThemes@gmail.com>
