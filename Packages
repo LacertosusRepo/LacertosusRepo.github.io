@@ -132,6 +132,24 @@ Depiction: https://lacertosusrepo.github.io/depictions/com.lacertosusrepo.libell
 Name: Libellum
 Sileodepiction: https://lacertosusrepo.github.io/depictions/com.lacertosusrepo.libellum/
 
+Package: com.lacertosusrepo.libellum
+Version: 1.5.3
+Architecture: iphoneos-arm
+Maintainer: LacertosusDeus <LacertosusThemes@gmail.com>
+Installed-Size: 868
+Depends: mobilesubstrate, ws.hbang.common (>= 1.16), ws.hbang.alderis (>= 1.0)
+Filename: LacertosusRepo.github.io/debs/com.lacertosusrepo.libellum_1.5.3_iphoneos-arm.deb
+Size: 361942
+MD5sum: 2887f5a5766f61e9a6c7d8b4dc96b90c
+SHA1: 8f0e2edfda49a874213addafb8e792468273ae78
+SHA256: f01e271c60bdceb532d1c959a8205487f536633ffd9b24604853ff95191757f3
+Section: Tweaks
+Description: Notes on your lockscreen and notification center...
+Author: LacertosusDeus <LacertosusThemes@gmail.com>
+Depiction: https://lacertosusrepo.github.io/depictions/com.lacertosusrepo.libellum/
+Name: Libellum
+Sileodepiction: https://lacertosusrepo.github.io/depictions/com.lacertosusrepo.libellum/
+
 Package: com.lacertosusrepo.nonut
 Version: 1.1
 Architecture: iphoneos-arm
