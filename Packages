@@ -49,16 +49,16 @@ Depiction: http://lacertosusrepo.github.io/depictions/com.lacertosusrepo.customr
 Name: Custom Reach
 
 Package: com.lacertosusrepo.flashnotify
-Version: 1.0
+Version: 1.0.1
 Architecture: iphoneos-arm
 Maintainer: LacertosusDeus <LacertosusThemes@gmail.com>
-Installed-Size: 520
+Installed-Size: 516
 Depends: mobilesubstrate, ws.hbang.common (>= 1.13)
-Filename: LacertosusRepo.github.io/debs/com.lacertosusrepo.flashnotify_1.0_iphoneos-arm.deb
-Size: 64690
-MD5sum: 6e7054c38e099f447e87437e10d207e5
-SHA1: f1f6db521181a41ab4b3d52273fb0184b35f2b90
-SHA256: 3f94b06c73efd671887e4015ed479cf94cbcfdb0abf5ac2ff8e23ec1c5dc1532
+Filename: LacertosusRepo.github.io/debs/com.lacertosusrepo.flashnotify_1.0.1_iphoneos-arm.deb
+Size: 66466
+MD5sum: 0751da60057f647d9a6ea4565d98d73a
+SHA1: 51f1f19e0d7388a83f95f05f9632476e91024dfb
+SHA256: d96a4d7541a475034178699f25e2213c0360b4faab866c43f8fbb6780ba8e7d2
 Section: Tweaks
 Description: Don't forget about your flashlight...
 Author: LacertosusDeus <LacertosusThemes@gmail.com>
