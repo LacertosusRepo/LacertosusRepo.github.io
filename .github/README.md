@@ -10,6 +10,7 @@ What exactly does that mean to me? Dunno, sounded cool! Unfortunately, it sounds
 |---------------|
 | [iPhoneDevWiki](http://iphonedevwiki.net/index.php/Main_Page) |
 | [Objective-C in 24 Days](https://github.com/uroboro/Learn-Objective-C-in-24-Days-Clone) |
+| [Objective-C General Information](https://www.tutorialspoint.com/objective_c/index.htm) |
 | [r/JailbreakDevelopers](https://www.reddit.com/r/jailbreakdevelopers/) |
 | [iOS Headers](http://developer.limneos.net) |
 
