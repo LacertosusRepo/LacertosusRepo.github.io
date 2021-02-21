@@ -233,6 +233,23 @@ Depiction: https://lacertosusrepo.github.io/depictions/com.lacertosusrepo.return
 Name: Return2Sender2
 Sileodepiction: https://lacertosusrepo.github.io/depictions/com.lacertosusrepo.return2sender2/
 
+Package: com.lacertosusrepo.skipbtforgetconfirmation
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: LacertosusDeus <LacertosusThemes@gmail.com>
+Installed-Size: 136
+Depends: mobilesubstrate
+Filename: LacertosusRepo.github.io/debs/com.lacertosusrepo.skipbtforgetconfirmation_1.0_iphoneos-arm.deb
+Size: 2944
+MD5sum: 315ebfcd7df3ba2374987f9166dec480
+SHA1: cade4cd34a0acfd8d74effa9eb8c552e57e17d31
+SHA256: 4c65e0b94efa186c51b75901dc8ec7c4fc2671944c14fb06b2b9c5fefe340937
+Section: Tweaks
+Description: Skip the forget this device confirmation...
+Author: LacertosusDeus <LacertosusThemes@gmail.com>
+Depiction: https://lacertosusrepo.github.io/depictions/com.lacertosusrepo.skipbtforgetconfirmation/
+Name: SkipBTForgetConfirmation
+
 Package: com.lacertosusrepo.soundspring
 Version: 0.3.5
 Architecture: iphoneos-arm
