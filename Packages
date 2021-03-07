@@ -283,6 +283,23 @@ Author: LacertosusDeus <LacertosusThemes@gmail.com>
 Depiction: https://lacertosusrepo.github.io/depictions/com.lacertosusrepo.spotifyaddtofavorites/
 Name: Spotify AddToFavorites
 
+Package: com.lacertosusrepo.spotlightappdelete
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: LacertosusDeus <LacertosusThemes@gmail.com>
+Installed-Size: 136
+Depends: mobilesubstrate
+Filename: LacertosusRepo.github.io/debs/com.lacertosusrepo.spotlightappdelete_1.0_iphoneos-arm.deb
+Size: 4524
+MD5sum: 7f6347a5be5a0aabe964b52b6416f612
+SHA1: 9808675cd75075d0d1e3da5c9633f78ea2896070
+SHA256: 24c35c6b7c9fae3c30813fc569200ba2d54ac4a0d5745cb8b06dc0d864877c4e
+Section: Tweaks
+Description: Remove apps from your spotlight...
+Author: LacertosusDeus <LacertosusThemes@gmail.com>
+Depiction: https://lacertosusrepo.github.io/depictions/com.lacertosusrepo.spotlightappdelete/
+Name: SpotlightAppDelete
+
 Package: com.lacertosusrepo.viewprivaterepos
 Version: 1.0
 Architecture: iphoneos-arm
