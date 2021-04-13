@@ -115,24 +115,6 @@ Depiction: http://lacertosusrepo.github.io/depictions/com.lacertosusrepo.homebut
 Name: HomeButtonLock
 
 Package: com.lacertosusrepo.libellum
-Version: 1.5.2
-Architecture: iphoneos-arm
-Maintainer: LacertosusDeus <LacertosusThemes@gmail.com>
-Installed-Size: 864
-Depends: mobilesubstrate, ws.hbang.common (>= 1.16), ws.hbang.alderis (>= 1.0)
-Filename: LacertosusRepo.github.io/debs/com.lacertosusrepo.libellum_1.5.2_iphoneos-arm.deb
-Size: 357916
-MD5sum: 3474fecaaedb345ba8acb851f3a3dbb4
-SHA1: 56ae1f218441f7a3e547b93843bd51b78f8e4c31
-SHA256: 93837898d4b1d0d3323cc3de462a55512b6e4978253834cf4f83b148a79851ec
-Section: Tweaks
-Description: Notes on your lockscreen and notification center...
-Author: LacertosusDeus <LacertosusThemes@gmail.com>
-Depiction: https://lacertosusrepo.github.io/depictions/com.lacertosusrepo.libellum/
-Name: Libellum
-Sileodepiction: https://lacertosusrepo.github.io/depictions/com.lacertosusrepo.libellum/
-
-Package: com.lacertosusrepo.libellum
 Version: 1.5.3
 Architecture: iphoneos-arm
 Maintainer: LacertosusDeus <LacertosusThemes@gmail.com>
