@@ -4,7 +4,7 @@ Architecture: iphoneos-arm
 Maintainer: LacertosusDeus <LacertosusThemes@gmail.com>
 Installed-Size: 296
 Depends: mobilesubstrate, ws.hbang.common (>= 1.13), ws.hbang.alderis
-Filename: LacertosusRepo.github.io/debs/com.lacertosusrepo.badgecolor_1.1_iphoneos-arm.deb
+Filename: debs/com.lacertosusrepo.badgecolor_1.1_iphoneos-arm.deb
 Size: 16560
 MD5sum: 22b1cc10b3e49564c91bef8a59e4cbfe
 SHA1: 64741262975a6fb77a5ec23ea9727ad4226fbf0d
@@ -21,7 +21,7 @@ Architecture: iphoneos-arm
 Maintainer: LacertosusDeus <LacertosusThemes@gmail.com>
 Installed-Size: 72
 Depends: mobilesubstrate
-Filename: LacertosusRepo.github.io/debs/com.lacertosusrepo.clauditis_1.1_iphoneos-arm.deb
+Filename: debs/com.lacertosusrepo.clauditis_1.1_iphoneos-arm.deb
 Size: 2630
 MD5sum: 81ecd3969f3e19233f2c99ae440572d4
 SHA1: 0ee172912223b591ebe50cb66a23409366ab3308
@@ -37,7 +37,7 @@ Version: 0.1.5
 Architecture: iphoneos-arm
 Maintainer: LacertosusDeus <LacertosusThemes@gmail.com>
 Depends: mobilesubstrate
-Filename: LacertosusRepo.github.io/debs/com.lacertosusrepo.customreach_0.1.5_iphoneos-arm.deb
+Filename: debs/com.lacertosusrepo.customreach_0.1.5_iphoneos-arm.deb
 Size: 27770
 MD5sum: f3512600697b7c8a1372287c24d2fed7
 SHA1: 7d38d5a3dc712cb828c7a3b3e97ab88fc1133386
@@ -54,7 +54,7 @@ Architecture: iphoneos-arm
 Maintainer: LacertosusDeus <LacertosusThemes@gmail.com>
 Installed-Size: 520
 Depends: mobilesubstrate, ws.hbang.common (>= 1.13)
-Filename: LacertosusRepo.github.io/debs/com.lacertosusrepo.flashnotify_1.0.2_iphoneos-arm.deb
+Filename: debs/com.lacertosusrepo.flashnotify_1.0.2_iphoneos-arm.deb
 Size: 68268
 MD5sum: 5442aa7b9752a00a8a1187f71917c179
 SHA1: 30e93f6b7417ee2286febff603d455f7b1cfaacd
@@ -71,7 +71,7 @@ Architecture: iphoneos-arm
 Maintainer: LacertosusDeus <LacertosusThemes@gmail.com>
 Installed-Size: 136
 Depends: mobilesubstrate, com.shmoopillc.flexible (>= 2.1.0)
-Filename: LacertosusRepo.github.io/debs/com.lacertosusrepo.flex4me_1.3_iphoneos-arm.deb
+Filename: debs/com.lacertosusrepo.flex4me_1.3_iphoneos-arm.deb
 Size: 3564
 MD5sum: ea89a29ea621b67419cdca47d3336702
 SHA1: af5c5336eaaf9e5ca538db24736f536976d2ae9f
@@ -87,7 +87,7 @@ Version: 0.2.8
 Architecture: iphoneos-arm
 Maintainer: LacertosusDeus <LacertosusThemes@gmail.com>
 Depends: mobilesubstrate
-Filename: LacertosusRepo.github.io/debs/com.lacertosusrepo.haptikcenter_0.2.8_iphoneos-arm.deb
+Filename: debs/com.lacertosusrepo.haptikcenter_0.2.8_iphoneos-arm.deb
 Size: 351910
 MD5sum: 978298ba021ac0c3c5987a59ca1dd9d6
 SHA1: 5f84b3052203624b0d55d54e4d2f7a3cbd7b6c8a
@@ -103,7 +103,7 @@ Version: 0.3.0
 Architecture: iphoneos-arm
 Maintainer: LacertosusDeus <LacertosusThemes@gmail.com>
 Depends: mobilesubstrate
-Filename: LacertosusRepo.github.io/debs/com.lacertosusrepo.homebuttonlock_0.3.0_iphoneos-arm.deb
+Filename: debs/com.lacertosusrepo.homebuttonlock_0.3.0_iphoneos-arm.deb
 Size: 60988
 MD5sum: 4463fb86fd31e334bd68b677fdeb3154
 SHA1: 6e223cb58875579ad089a514770515b71bdb4e67
@@ -120,7 +120,7 @@ Architecture: iphoneos-arm
 Maintainer: LacertosusDeus <LacertosusThemes@gmail.com>
 Installed-Size: 868
 Depends: mobilesubstrate, ws.hbang.common (>= 1.16), ws.hbang.alderis (>= 1.0)
-Filename: LacertosusRepo.github.io/debs/com.lacertosusrepo.libellum_1.5.3_iphoneos-arm.deb
+Filename: debs/com.lacertosusrepo.libellum_1.5.3_iphoneos-arm.deb
 Size: 361942
 MD5sum: 2887f5a5766f61e9a6c7d8b4dc96b90c
 SHA1: 8f0e2edfda49a874213addafb8e792468273ae78
@@ -137,7 +137,7 @@ Version: 1.1
 Architecture: iphoneos-arm
 Maintainer: LacertosusDeus <LacertosusThemes@gmail.com>
 Depends: mobilesubstrate
-Filename: LacertosusRepo.github.io/debs/com.lacertosusrepo.nonut_1.1_iphoneos-arm.deb
+Filename: debs/com.lacertosusrepo.nonut_1.1_iphoneos-arm.deb
 Size: 33714
 MD5sum: 2e778f84d336fb32824cd3fd86b9005f
 SHA1: 6bb301d3baf5aef0194f1454e73a969f98d754a8
@@ -153,7 +153,7 @@ Version: 0.1.2
 Architecture: iphoneos-arm
 Maintainer: LacertosusDeus <LacertosusThemes@gmail.com>
 Depends: mobilesubstrate
-Filename: LacertosusRepo.github.io/debs/com.lacertosusrepo.obscurite_0.1.2_iphoneos-arm.deb
+Filename: debs/com.lacertosusrepo.obscurite_0.1.2_iphoneos-arm.deb
 Size: 60924
 MD5sum: d2dc5e7876202c03ae5dcf8a9f28c972
 SHA1: 71dd5543ed0f9c2035ee34b53a318d568752cc7d
@@ -169,7 +169,7 @@ Version: 0.1.1
 Architecture: iphoneos-arm
 Maintainer: LacertosusDeus <LacertosusThemes@gmail.com>
 Depends: mobilesubstrate
-Filename: LacertosusRepo.github.io/debs/com.lacertosusrepo.popuponstart_0.1.1_iphoneos-arm.deb
+Filename: debs/com.lacertosusrepo.popuponstart_0.1.1_iphoneos-arm.deb
 Size: 50934
 MD5sum: dacff8d3b0f65a6c14ee11e7bdb0cbca
 SHA1: 95df02d18cbb1b143bf9a5a69ddf6bb20fbb3773
@@ -186,7 +186,7 @@ Architecture: iphoneos-arm
 Maintainer: LacertosusDeus <LacertosusThemes@gmail.com>
 Installed-Size: 304
 Depends: mobilesubstrate, ws.hbang.common (>= 1.13), ws.hbang.alderis
-Filename: LacertosusRepo.github.io/debs/com.lacertosusrepo.recentshue_1.0_iphoneos-arm.deb
+Filename: debs/com.lacertosusrepo.recentshue_1.0_iphoneos-arm.deb
 Size: 21066
 MD5sum: 0a855244028397f2f4b98156164f2c64
 SHA1: 9fdb093d229d9ec618fad380184099848cbbcd56
@@ -203,7 +203,7 @@ Architecture: iphoneos-arm
 Maintainer: LacertosusDeus <LacertosusThemes@gmail.com>
 Installed-Size: 136
 Depends: mobilesubstrate
-Filename: LacertosusRepo.github.io/debs/com.lacertosusrepo.return2sender2_1.0_iphoneos-arm.deb
+Filename: debs/com.lacertosusrepo.return2sender2_1.0_iphoneos-arm.deb
 Size: 3522
 MD5sum: 83dc15dad4037edb85362c78e6730d6b
 SHA1: c0ff149b2d4a6de31bc7d821c28ab19998a06a52
@@ -221,7 +221,7 @@ Architecture: iphoneos-arm
 Maintainer: LacertosusDeus <LacertosusThemes@gmail.com>
 Installed-Size: 136
 Depends: mobilesubstrate
-Filename: LacertosusRepo.github.io/debs/com.lacertosusrepo.skipbtforgetconfirmation_1.0_iphoneos-arm.deb
+Filename: debs/com.lacertosusrepo.skipbtforgetconfirmation_1.0_iphoneos-arm.deb
 Size: 2944
 MD5sum: 315ebfcd7df3ba2374987f9166dec480
 SHA1: cade4cd34a0acfd8d74effa9eb8c552e57e17d31
@@ -237,7 +237,7 @@ Version: 0.3.5
 Architecture: iphoneos-arm
 Maintainer: LacertosusDeus <LacertosusThemes@gmail.com>
 Depends: mobilesubstrate
-Filename: LacertosusRepo.github.io/debs/com.lacertosusrepo.soundspring_0.3.5_iphoneos-arm.deb
+Filename: debs/com.lacertosusrepo.soundspring_0.3.5_iphoneos-arm.deb
 Size: 1535914
 MD5sum: ccac1f6664a3e7cf045917cfddb2574e
 SHA1: 50ee4e62c5062789268e8a3050f31ac5c3f956f6
@@ -254,7 +254,7 @@ Architecture: iphoneos-arm
 Maintainer: LacertosusDeus <LacertosusThemes@gmail.com>
 Installed-Size: 136
 Depends: mobilesubstrate, ws.hbang.common (>= 1.13)
-Filename: LacertosusRepo.github.io/debs/com.lacertosusrepo.spotifyaddtofavorites_1.0.7_iphoneos-arm.deb
+Filename: debs/com.lacertosusrepo.spotifyaddtofavorites_1.0.7_iphoneos-arm.deb
 Size: 11744
 MD5sum: d956a80b3a12bc9936bfd25045be8611
 SHA1: bc929dfb15cfeefad20c8324dcfa8ee3d06ba79a
@@ -271,7 +271,7 @@ Architecture: iphoneos-arm
 Maintainer: LacertosusDeus <LacertosusThemes@gmail.com>
 Installed-Size: 136
 Depends: mobilesubstrate
-Filename: LacertosusRepo.github.io/debs/com.lacertosusrepo.spotlightappdelete_1.0_iphoneos-arm.deb
+Filename: debs/com.lacertosusrepo.spotlightappdelete_1.0_iphoneos-arm.deb
 Size: 4524
 MD5sum: 7f6347a5be5a0aabe964b52b6416f612
 SHA1: 9808675cd75075d0d1e3da5c9633f78ea2896070
@@ -288,7 +288,7 @@ Architecture: iphoneos-arm
 Maintainer: LacertosusDeus <LacertosusThemes@gmail.com>
 Installed-Size: 136
 Depends: mobilesubstrate
-Filename: LacertosusRepo.github.io/debs/com.lacertosusrepo.viewprivaterepos_1.0_iphoneos-arm.deb
+Filename: debs/com.lacertosusrepo.viewprivaterepos_1.0_iphoneos-arm.deb
 Size: 2482
 MD5sum: d00c3a5f7ce681791bf81ed12e36c8df
 SHA1: e65dca0657b2a7c0711786d73a80bbf583ba2ab7
@@ -304,7 +304,7 @@ Version: 0.1.4
 Architecture: iphoneos-arm
 Maintainer: LacertosusDeus <LacertosusThemes@gmail.com>
 Depends: mobilesubstrate
-Filename: LacertosusRepo.github.io/debs/com.lacertosusrepo.volbrate_0.1.4_iphoneos-arm.deb
+Filename: debs/com.lacertosusrepo.volbrate_0.1.4_iphoneos-arm.deb
 Size: 55542
 MD5sum: 4630fa7554062c5d86b0f6d782870ec8
 SHA1: 3f8f7e3c79ee72939fa4522a4cea198d7ab652c4
