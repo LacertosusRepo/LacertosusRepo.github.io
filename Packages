@@ -249,16 +249,16 @@ Depiction: http://lacertosusrepo.github.io/depictions/com.lacertosusrepo.soundsp
 Name: SoundSpring
 
 Package: com.lacertosusrepo.spotifyaddtofavorites
-Version: 1.0.7
+Version: 1.0.8
 Architecture: iphoneos-arm
 Maintainer: LacertosusDeus <LacertosusThemes@gmail.com>
 Installed-Size: 136
-Depends: mobilesubstrate, ws.hbang.common (>= 1.13)
-Filename: debs/com.lacertosusrepo.spotifyaddtofavorites_1.0.7_iphoneos-arm.deb
-Size: 11744
-MD5sum: d956a80b3a12bc9936bfd25045be8611
-SHA1: bc929dfb15cfeefad20c8324dcfa8ee3d06ba79a
-SHA256: a6e14f202e0e70ce54801893cb363b1b962c14c12e4cb1fea2d06bd5eda5f560
+Depends: mobilesubstrate
+Filename: debs/com.lacertosusrepo.spotifyaddtofavorites_1.0.8_iphoneos-arm.deb
+Size: 12402
+MD5sum: 8a4b1d80525f14263d054b0fa2aab634
+SHA1: 10f98dcd7f6d086a3c600d7d02c2222d7d284691
+SHA256: 8816f5113eaa92858395e8dca20d9f394358dcd51eb8a467f0a189f516920d4b
 Section: Tweaks
 Description: Favorite songs easier in Spotify...
 Author: LacertosusDeus <LacertosusThemes@gmail.com>
