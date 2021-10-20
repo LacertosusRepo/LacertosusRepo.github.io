@@ -1,0 +1,8 @@
+#!/bin/bash
+
+rm Packages.bz2
+
+arch -x86_64 dpkg-scanpackages debs > Packages
+bzip2 -fks Packages
+
+find . -name '.DS_Store' -type f -delete
