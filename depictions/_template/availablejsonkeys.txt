@@ -1,0 +1,33 @@
+  /*
+   * Depiction
+   */
+name            string            name of package
+description     string            description of pack
+source          url               source code url
+tint            hex code          depiction page tint color
+preview         image file        preview image (for featured page only)
+hasicon         bool              indicates if icon exists in folder
+
+compatibility   dictionary        holds package compatibility information
+  miniOSVerion  string (number)   minimum iOS version
+  maxiOSVersion string (number)   maximum iOS version
+  appName       string            target application name
+  appVersion    string            target application version
+
+screenshots     integer           number of screenshots in screenshots folder
+
+changelog       dictionary        holds changelog information in the form of arrays
+  EXAMPLE ITEM:
+  "1.0": [
+    "Change Item One",
+    "Change Item Two"
+  ]
+
+  /*
+   * Featured
+   */
+name            string            name of item
+description     string            description of item
+link            url               link or source code of item
+tint            hex code          tint color for item
+preview         url/file          preview for item

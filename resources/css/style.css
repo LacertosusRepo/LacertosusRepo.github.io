@@ -281,6 +281,7 @@ label.subtitle {
   display: block;
   font-size: 15px;
   opacity: 0.9;
+  text-align: left;
 }
 
 img.avatar {

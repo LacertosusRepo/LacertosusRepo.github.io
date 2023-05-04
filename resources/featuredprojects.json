@@ -2,19 +2,22 @@
   "projects": [
     {
       "name" : "GitHub",
-      "description" : "Did you know that almost every one of my tweaks is open source? Wanna take a looksy?",
+      "description" : "Did you know that almost every one of my tweaks is open source? Take a peek?",
       "link" : "https://github.com/LacertosusRepo/Open-Source-Tweaks",
       "tint" : "#4078C0",
       "icon" : "./icons/github.png"
     },
 
     {
-      "packageidentifier": "spotifyaddtofavorites",
-      "preview": "https://lacertosusrepo.github.io/depictions/resources/previews/Improvify/preview.png"
+      "packageidentifier": "libellum"
     },
 
     {
-      "packageidentifier": "libellum"
+      "packageidentifier": "nowplayingicon"
+    },
+
+    {
+      "packageidentifier": "spotifyaddtofavorites"
     }
   ]
 }

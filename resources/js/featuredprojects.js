@@ -20,7 +20,11 @@ async function loadJSONForFeaturedProjects() {
           project.description = (!project.description) ? packageData.description : project.description;
           project.link = (!project.link) ? packageData.source : project.link;
           project.tint = (!project.tint) ? packageData.tint : project.tint;
-          project.preview = (!project.preview) ? packageData.preview : project.preview;
+          
+          if (packageData.preview) {
+            const previewImage = '/depictions/&ID!/preview.png'.replace('&ID!', project.packageidentifier);
+            project.preview = previewImage;
+          }
 
           if (packageData.hasicon) {
             const existingIcon = '/depictions/&ID!/icon.png'.replace('&ID!', project.packageidentifier);

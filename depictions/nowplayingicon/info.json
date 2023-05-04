@@ -1,0 +1,8 @@
+{
+  "name": "NowPlayingIcon",
+  "description": "Set the current song's artwork as the icon for the now playing app.",
+  "source": "https://github.com/LacertosusRepo/Open-Source-Tweaks/tree/master/NowPlayingIconn",
+  "tint": "#79353B",
+  "preview": "preview.png",
+  "hasicon": true
+}
