@@ -18,6 +18,4 @@ What exactly does that mean to me? Dunno, sounded cool! Unfortunately, it sounds
 
 By using a couple different sources:
 1. [Tyler Crawford's Tutorial](https://www.youtube.com/watch?v=XqkTnxyiiOc) to create the initial repo.
-2. Thanks to Elijah and Andrew, I could have some appealing package depictions.
-3. Some modifications to the style.css file was done by me (and a bit of googling) to get it where I wanted.
-4. Finally, the animations are by [Daniel Eden](https://github.com/daneden) and his amazing work [animate.css](https://daneden.github.io/animate.css/)
+2. Built from scratch, with frequent google visits
