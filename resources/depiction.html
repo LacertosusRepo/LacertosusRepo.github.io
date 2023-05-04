@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script type="module" src="./js/theming.js"></script>
+  <script type="module" src="./js/depiction.js"></script>
+  <script type="module" src="./js/collapsibles.js"></script>
+  <link rel="stylesheet" type="text/css" href="./css/style.css">
+  <link rel="stylesheet" type="text/css" href="./css/depiction.css">
+  <link rel="stylesheet" type="text/css" href="./css/animations.css">
+  <meta charset="UTF-8">
+  <title id="depiction-name">LacertosusDeus's Repo</title>
+  <link rel="icon" type="image/x-icon" href="./favicon.ico">
+  <meta name="description" content="Depiction Page">
+  <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0">
+  <meta name="format-detection" content="telephone=no">
+</head>
+
+<body class="fadeInAnimation">
+  <div id="depiction-compatibility" class="compatibility hidden"></div>
+
+  <label class="group">ABOUT</label>
+  <fieldset>
+    <div class="description-container">
+      <img id='package-icon' class="package-icon hidden">
+      <p id="depiction-description" class="package-description"></p>
+    </div>
+    
+    <div id="depiction-screenshot-carousel" class="screenshot-carousel"></div>
+  </fieldset>
+
+  <label class="group">PACKAGE INFO</label>
+  <fieldset>
+    <div id="depiction-last-update" class="last-changelog"></div>
+
+    <a class="collapsible" id="version-collapsible">
+      <div class="cell">
+        <img class="icon" src="./icons/changelog.png" alt="">
+        <img class="arrow" alt="">
+        <label>Full Version History</label>
+      </div>
+    </a>
+    <div id="depiction-changelog" class="collapsible-content changelog"></div>
+
+    <a id="depiction-source-url" class="hidden" href="" target="_blank" rel="noopener noreferrer">
+      <div class="cell">
+        <img class="icon" src="./icons/sourcecode.png">
+        <img class="arrow" alt="">
+        <label>Source Code</label>
+      </div>
+    </a>
+
+    <a id="depiction-report-bug" href="https://github.com/LacertosusRepo/LacertosusRepo.github.io/issues/new" target="_blank" rel="noopener noreferrer">
+      <div class="cell">
+        <img class="icon" src="./icons/github.png">
+        <img class="arrow" alt="">
+        <label>Report a Bug</label>
+      </div>
+    </a>
+  </fieldset>
+
+  <label class="group">SUPPORT</label>
+  <fieldset>
+    <a href="#contactPoints">
+      <a class="collapsible" id="contact-collapsible">
+      <div class="cell">
+        <img class="icon" src="./icons/contact.png" alt="">
+        <img class="arrow" alt="">
+        <label>Contact Me</label>
+      </div>
+    </a>
+    <div class="collapsible-content">
+      <p>Services that you can use to contact me.</p>
+      <a href="https://github.com/LacertosusRepo" target="_blank" rel="noopener noreferrer">
+        <div class="cell">
+          <img class="icon" src="./icons/github.png" alt="">
+          <label>Github</label>
+        </div>
+      </a>
+      <a href="https://twitter.com/LacertosusDeus" target="_blank" rel="noopener noreferrer">
+        <div class="cell">
+          <img class="icon" src="./icons/twitter.png" alt="">
+          <label>Twitter</label>
+        </div>
+      </a>
+      <a href="mailto:LacertosusThemes@gmail.com" target="_blank" rel="noopener noreferrer">
+        <div class="cell">
+          <img class="icon" src="./icons/contact.png" alt="">
+          <label>Email</label>
+        </div>
+      </a>
+      <a href="https://reddit.com/user/Bezerk_Jesus" target="_blank" rel="noopener noreferrer">
+        <div class="cell">
+          <img class="icon" src="./icons/reddit.png" alt="">
+          <label>Reddit</label>
+        </div>
+      </a>
+    </div>
+
+      <a href="https://paypal.me/Lacertosus" target="_blank" rel="noopener noreferrer">
+        <div class="cell">
+          <img class="icon" src="./icons/donate.png">
+          <img class="arrow" alt="">
+          <label>Support Me</label>
+        </div>
+      </a>
+    </a>
+  </fieldset>
+</body>
+</html>

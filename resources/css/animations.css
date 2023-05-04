@@ -1,0 +1,83 @@
+  /*
+   * Fade In Animation
+   */
+
+.fadeInAnimation {
+  animation: fadeIn ease-in-out 300ms;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+  /*
+   * Fade Out Animation
+   */
+
+.fadeOutAnimation {
+  animation: fadeOut ease-in-out 1100ms;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+  /*
+   * Zoom In Animation
+   */
+
+.swoopZoomAnimation {
+  animation: swoopZoom cubic-bezier(0.68, -0.6, 0.32, 1.6) 500ms;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-delay: 50ms;
+}
+
+@keyframes swoopZoom {
+  from {
+    filter: blur(3px);
+    transform: translate3d(0, -10%, 0) scale(0.9);
+  }
+
+  to {
+    filter: blur(0px);
+    transform: translate3d(0, 0, 0) scale(1.0);
+  }
+}
+
+  /*
+   * Fade In Blurred
+   */
+.fadeInBlurredAnimation {
+  animation: fadeInBlurred cubic-bezier(0.55, 0.085, 0.68, 0.53) 1000ms;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeInBlurred {
+  0% {
+    filter: blur(3px);
+    opacity: 0;
+  }
+
+  100% {
+    filter: blur(0px);
+    opacity: 1;
+  }
+}

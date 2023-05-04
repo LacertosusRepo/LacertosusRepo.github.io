@@ -1,0 +1,147 @@
+{
+  "name": "Libellum",
+  "description": "Notepad on your lockscreen and notification center. This version of Libellum is deprecated. New versions will be hosted on Chariz!",
+  "source": "https://github.com/LacertosusRepo/Open-Source-Tweaks/tree/master/Libellum",
+  "tint": "#f58f2e",
+  "hasicon" : true,
+  
+  "compatibility": {
+    "miniOSVersion": "12.0",
+    "maxiOSVersion": "14.4"
+  },
+
+  "screenshots": 4,
+
+  "changelog": {
+    "1.5.3": [
+      "Fixed background color disappearing when locked",
+      "Can now set a custom size for the notes with the + button next to the sizes",
+      "Can now hide the camera/flashlight buttons when in potrait (setting in the General Options)"
+    ],
+    
+    "1.5.2": [
+      "Fixed font color not automatically switching to black when on adaptive mode",
+      "Size of Libellum now updates without requiring a respring"
+    ],
+
+    "1.5": [
+      "Some bug fixes & slight optimizations",
+      "Changed how I hanlde preferences"
+    ],
+    
+    "1.4.8": [
+      "New preference look"
+    ],
+
+    "1.4.7": [
+      "Allow bold, italics, and underlined text",
+      "New method to save notes, might have to rewrite them (shouldnt have to)"
+    ],
+
+    "1.4.6": [
+      "Option to hide \"No Older Notifications\" text",
+      "Fixed blurs not correctly being set on iOS 13"
+    ],
+
+    "1.4.5": [
+      "New backup manager in preferences",
+      "Fixed tint color getting reset",
+      "Kalm tint compatibility"
+    ],
+
+    "1.4.2": [
+      "Fix crash on iOS 12"
+    ],
+
+    "1.4.1": [
+      "Blur now matches iOS's",
+      "Added AutoUnlockX compatibility toggle"
+    ],
+
+    "1.4": [
+      "Added AutoUnlockX support",
+      "Switched to Alderis Color Picker. Requires Chariz repo.",
+      "Fixed text flickering when hidding notes",
+      "Fixed some other general bugs"
+    ],
+
+    "1.3": [
+      "Fix for text color resetting",
+      "Added ability to toggle gestures",
+      "Now remembers if notes were hidden on respring"
+    ],
+
+    "1.2-1": [
+      "Fix endless notes"
+    ],
+
+    "1.2": [
+      "Added option to add Undo/Redo buttons to toolbar",
+      "Added option to enabled endless lines in notes",
+      "Fixes toolbar color when in light mode",
+      "Fixed several preference bugs"
+    ],
+
+    "1.1-1": [
+      "Fix preferences crash for devices below iOS 13"
+    ],
+
+    "1.1": [
+      "Beautify the preferences",
+      "Can now set tint color of caret and toolbar",
+      "Can now view the contents of your backup"
+    ],
+
+    "1.0": [
+      "Figured its time for 1.0",
+      "Adaptive mode now automatically switches between dark/light mode correctly",
+      "Optionally, you can leave the adaptive blur but use different lock/font colors"
+    ],
+    
+    "1.0~b9": [
+      "Fix crash in settings",
+      "Fancy settings upgrades"
+    ],
+
+    "1.0~b8": [
+      "Change position of noteview above or below media player",
+      "Fix notes not updating with restored notes",
+      "Can now set color of lock icon (iOS 13 only)",
+      "Adjustments to icon and preference colors"
+    ],
+
+    "1.0~b7": [
+      "iOS 12 support"
+    ],
+
+    "1.0~b6": [
+      "Added ability to have a border around notes",
+      "Fixed typing not working due to not setting allowed amount of lines",
+      "Reorganized settings",
+      "New icon"
+    ],
+    
+    "1.0~b5": [
+      "Lock icon when notes are not unlocked"
+    ],
+
+    "1.0~b4": [
+      "Fix sizeToMimic crash",
+      "Make hide/show gesture require 3 taps",
+      "When on adaptive mode, now correctly updates between white/black font colors"
+    ],
+
+    "1.0~b3": [
+      "Hide/Show gestures now implemented",
+      "Ability to back up notes"
+    ],
+
+    "1.0~b2": [
+      "Fix bug not allowing users to type"
+    ],
+
+    "1.0~b1": [
+      "Initial Release"
+    ]
+  }
+}

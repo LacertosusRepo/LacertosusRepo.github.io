@@ -1,0 +1,144 @@
+.description-container {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  padding: 7px 7px;
+}
+
+.package-icon {
+  width: 58px;
+  height: 58px;
+}
+
+.package-description {
+  text-align: left;
+  color: var(--text-color);
+  font-weight: 500;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+  /*
+   * Compatibility Element Styling
+   */
+
+.compatibility {
+  background-color: var(--fieldset-bg-color);
+  border-radius: 6px;
+  padding: 5px 5px;
+}
+
+.compatibility .item {
+  display: block;
+  width: 100%;
+  color: var(--label-color);
+  text-align: center;
+  font-weight: 500;
+  margin-top: 10px;
+}
+
+.compatibility .item strong {
+  color: var(--tint-color);
+}
+
+.compatibility .item:first-child {
+  margin-top: 0px;
+}
+
+.compatibility .device-support {
+  font-weight: 600;
+  font-size: 20px;
+  background-color: var(--bg-color);
+  border-radius: 6px;
+  padding: 5px 0px;
+}
+
+  /*
+   * Hidden Element Class
+   */
+
+.hidden {
+  display: none;
+}
+
+  /*
+   * Screenshot Carousel
+   * https://reddit.com/r/webdev/comments/v1rjlk/how_do_nike_and_apple_make_such_smooth_and_touch/
+   */
+
+.screenshot-carousel {
+  display: flex;
+  overflow: auto;
+  scroll-snap-type: x mandatory;
+  align-items: center;
+  justify-content: center;
+
+  -webkit-overflow-scrolling: touch;
+}
+
+.screenshot-carousel .item {
+  width: 35%;
+  flex-shrink: 0;
+  padding: 3px 5px;
+  border-radius: 15px;
+  transition: width 250ms ease-in-out;
+}
+
+.screenshot-carousel .item-zoom {
+  width: 95% !important;
+  scroll-snap-align: center;
+}
+
+  /*
+   * Changelog Additions
+   */
+
+.last-changelog {
+  color: var(--text-color);
+  cursor: default;
+}
+
+.last-changelog > p {
+  margin: 3px 14px 5px 14px;
+  text-align: left;
+}
+
+.last-changelog > label {
+  display: block;
+  margin-left: 7px;
+  margin-top: 7px;
+  color: var(--tint-color);
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.last-changelog > p::before {
+  content: '• ';
+  color: var(--tint-color);
+}
+
+.changelog {
+  color: var(--text-color);
+  cursor: default;
+}
+
+.changelog > p {
+  margin: 3px 6px;
+  text-align: left;
+}
+
+.changelog>p::before {
+  content: '• ';
+  color: var(--tint-color);
+}
+
+.changelog > label {
+  display: block;
+  margin-top: 10px;
+  color: var(--tint-color);
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.changelog > label:first-child {
+  margin-top: 5px;
+}

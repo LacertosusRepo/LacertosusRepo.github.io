@@ -1,0 +1,50 @@
+{
+  "name": "Spotify AddToFavorites",
+  "description": "Quickly favorite songs from the now playing view. Set a playlist as your favorite by long pressing on it to bring up the context menu while on the Library page, the same way you would pin a playlist. A heart icon will appear to the right of the playlist image and title.",
+  "source": "https://github.com/LacertosusRepo/Open-Source-Tweaks/tree/master/SpotifyAddToFavorites",
+  "tint": "#1DB954",
+  
+  "compatibility": {
+    "appName": "Spotify",
+    "appVersion": "8.6.60"
+  },
+
+  "screenshots": 2,
+
+  "changelog": {
+    "1.1.0": [
+      "Fix button not working on Spotify v8.6.72"
+    ],
+
+    "1.0.9": [
+      "Fix button not working on Spotify v8.6.60",
+      "Removed button from now playing bar"
+    ],
+
+    "1.0.8": [
+      "Fix crash on Spotify v8.6.46",
+      "Adjusted favorite playlist button, tap and hold a playlist and the button appears next to the header"
+    ],
+
+    "1.0.7": [
+      "Hide favorite button while viewing songs context menu"
+    ],
+
+    "1.0.5": [
+      "Fixed crash on latest version of Spotify v8.5.77"
+    ],
+
+    "1.0.4": [
+      "Fixed add to playlist button not functioning, now requires at least Spotify v8.5.75"
+    ],
+
+    "1.0.3": [
+      "Fixed crash for specific types of playlists (e.g. Tony Hawk's Pro Skater 1+2)"
+    ],
+
+    "1.0.2": [
+      "Fixed crashes on Spotify v8.5.65",
+      "Added error message if trying to save song without setting a playlist"
+    ]
+  }
+}

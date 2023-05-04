@@ -1,0 +1,53 @@
+fieldset {
+  margin-top: 15px;
+  position: relative;
+}
+
+fieldset:first-child {
+  margin-top: 0px;
+}
+
+label.heading {
+  color: var(--header-label-color);
+  font-weight: bold;
+  font-size: 25px;
+  padding: 5px 10px;
+  top: -2px;
+  left: -2px;
+  position: absolute;
+  background-color: var(--tint-color);
+  border-bottom-right-radius: 10px;
+}
+
+div.cell {
+  margin-left: 11px;
+}
+
+div.cell > label {
+  margin-left: 5px;
+  color: var(--label-color);
+}
+
+a {
+  border-top: none;
+  color: var(--header-label-color);
+}
+
+fieldset > p {
+  text-align: left;
+  margin: 5px 5px 5px 11px;
+}
+
+img.preview {
+  display: block;
+  width: 95%;
+  border-radius: 12px;
+  margin: 12px auto;
+}
+
+div.accent {
+  width: 6px;
+  height: 100%;
+  background-color: var(--tint-color);
+  position: absolute;
+}

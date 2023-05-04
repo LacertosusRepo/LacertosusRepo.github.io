@@ -1,0 +1,23 @@
+{
+  "name": "NoNut",
+  "description": "Give yourself a second chance from failing No Nut November! Now with customizable message. Requested by /u/hereforthesnap.",
+  "source": "https://github.com/LacertosusRepo/Open-Source-Tweaks/",
+  
+  "compatibility": {
+    "miniOSVersion": "10.0",
+    "maxiOSVersion": "11.4"
+  },
+
+  "screenshots": 3,
+
+  "changelog": {
+    "1.1": [
+      "Preferences",
+      "Custom alert options"
+    ],
+
+    "1.0": [
+      "Initial Release"
+    ]
+  }
+}

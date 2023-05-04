@@ -1,0 +1,314 @@
+@import './inter/inter.css';
+
+  /*
+   * Theming Variables
+   */
+
+html {
+  --tint-color: rgba(243, 59, 76, 1);
+  --divider-color: rgba(148, 148, 148, .65);
+  --cell-hover-color: rgba(255, 255, 255, .15);
+  --label-color: rgba(218, 214, 214, 1);
+  --alert-bg-color: rgba(20, 20, 20, 1);
+  --fieldset-bg-color: rgba(20, 20, 20, 1);
+  --collapsible-bg-color: rgba(28, 28, 28, 1);
+  --text-color: rgba(255, 255, 255, .85);
+  --group-label-color: rgba(218, 214, 214, .75);
+  --header-label-color: rgba(218, 214, 214, 1);
+  --bg-color: rgba(10, 10, 10, 1);
+  
+  background-color: var(--bg-color);
+  transition: all var(--theme-animation-timing) ease-out;
+  overflow-x: hidden;
+}
+
+html[data-theme='light'] {
+  --tint-color: rgba(53, 128, 185, 1);
+  --divider-color: rgba(50, 50, 50, .65);
+  --cell-hover-color: rgba(10, 10, 10, .15);
+  --label-color: rgba(44, 44, 44, .95);
+  --alert-bg-color: rgba(242, 242, 242, 1);
+  --fieldset-bg-color: rgba(242, 242, 242, 1);
+  --collapsible-bg-color: rgba(230, 230, 230, 1);
+  --text-color: rgba(0, 0, 0, .85);
+  --group-label-color: rgba(44, 44, 44, .95);
+  --header-label-color: rgba(44, 44, 44, 1);
+  --bg-color: rgba(218, 218, 218, 1);
+  
+  background-color: var(--bg-color);
+  transition: all var(--theme-animation-timing) ease-out;
+}
+
+  /*
+   * General Style
+   */
+
+* {
+  border: 0;
+  font-family: 'Inter var', 'Inter', sans-serif;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+body {
+  margin: 0 auto;
+  padding: 15px 10px;
+  max-width: 512px;
+
+  -webkit-touch-callout: none;
+}
+
+fieldset {
+  background-color: var(--fieldset-bg-color);
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+fieldset > a:first-child {
+  border-top: none;
+}
+
+a {
+  border-top: 1px solid var(--divider-color);
+  display: block;
+  position: relative;
+  transition: 100ms ease-out;
+}
+
+a:is(:hover, :focus-visible) {
+  background-color: var(--cell-hover-color);
+}
+
+p {
+  line-height: 1.29412;
+  text-align: center;
+  margin: 7px;
+  color: var(--text-color);
+  font-weight: 500;
+}
+
+div.cell {
+  margin-left: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+div.cell > img.arrow {
+  content: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAANCAYAAACQN/8FAAAAUElEQVQoz2NggILOzs46EGbAB6CK/kNxHT6FLUgKQbiaaorb0RRXUK4YKCENxG+RFD4BYiFsim6jKVKhnSIWID6CVxGSYhWoAtyK0BTjVAQADpCNh/CoZr0AAAAASUVORK5CYII=');
+  position: absolute;
+  width: 10px;
+  height: 13px;
+  top: 0;
+  bottom: 0;
+  right: 5%;
+  margin-top: auto;
+  margin-bottom: auto;
+  transition: 100ms ease-in-out;
+}
+
+div.cell:is(:hover, :focus-visible) > img.arrow {
+  right: 3%;
+  transition: 100ms ease-in-out;
+}
+
+div.cell > label {
+  color: var(--tint-color);
+  display: inline;
+  font-weight: bold;
+  font-size: 17px;
+  
+  pointer-events: none;
+}
+
+div.cell > img.icon {
+  height: auto;
+  margin: 0px 1px;
+  max-height: 30px;
+  min-width: 30px;
+  width: 30px;
+  vertical-align: middle;
+}
+
+  /*
+   * General Classes
+   */
+
+.group {
+  display: block;
+  color: var(--group-label-color);
+  font-size: 14px;
+  margin: 5px 15px;
+  margin-top: 15px;
+}
+
+.no-scroll {
+  overflow: hidden;
+}
+
+  /*
+   * Theme Switching Styling
+   * https://web.dev/building-a-theme-switch-component
+   */
+
+.theme-toggle {
+  --size: 32px;
+
+  background: none;
+  border: none;
+  margin-top: 15px;
+
+  inline-size: var(--size);
+  block-size: var(--size);
+  aspect-ratio: 1;
+  border-radius: 50%;
+
+  cursor: pointer;
+  touch-action: manipulation;
+  -webkit-tap-highlight-color: transparent;
+
+  outline-offset: 5px;
+}
+
+.theme-toggle > svg {
+  inline-size: 100%;
+  block-size: 100%;
+  stroke-linecap: round;
+}
+
+.sun-and-moon > :is(.moon, .sun, .sun-beams) {
+  transform-origin: center center;
+}
+
+.sun-and-moon > :is(.moon, .sun) {
+  fill: var(--label-color);
+}
+
+.sun-and-moon > .sun-beams {
+  stroke: var(--label-color);
+  stroke-width: 2px;
+}
+
+.theme-toggle:is(:hover, :focus-visible) > .sun-and-moon > :is(.moon, .sun) {
+  fill: var(--tint-color);
+}
+
+.theme-toggle:is(:hover, :focus-visible) > .sun-and-moon > .sun-beams {
+  stroke: var(--tint-color);
+}
+
+[data-theme="dark"] .sun-and-moon > .sun {
+  transform: scale(1.75);
+  transition-timing-function: ease-in-out;
+  transition-duration: 250ms;
+}
+
+[data-theme="dark"] .sun-and-moon > .sun-beams {
+  opacity: 0;
+  transform: rotateZ(-25deg);
+  transition-duration: 150ms;
+}
+
+[data-theme="dark"] .sun-and-moon > .moon > circle {
+  transform: translateX(-7px);
+  transition-delay: 250ms;
+  transition-duration: 500ms;
+}
+
+@supports (cx: 1) {
+  [data-theme="dark"] .sun-and-moon > .moon > circle {
+    transform: translateX(0);
+    cx: 17;
+  }
+}
+
+.sun {
+  transition: transform 500ms ease-out;
+}
+
+.sun-beams {
+  transition: transform 500ms ease-out, opacity 500ms ease-out;
+}
+
+.moon > circle {
+  transition: cx 250ms ease-out;
+}
+
+@supports (cx: 1) {
+  .moon > circle {
+    transition: cx 250ms ease-out;
+  }
+}
+
+  /*
+   * Header
+   */
+
+.header {
+  align-items: center;
+  background-color: var(--fieldset-bg-color);
+  border-radius: 6px;
+  display: flex;
+  flex-direction: row;
+  padding: 7px 7px;
+  width: fit-content;
+}
+
+.header .label-stack {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  padding-left: 10px;
+  mask-image: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 5%, rgb(0, 0, 0, 1) 100%);
+  -webkit-mask-image: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 5%, rgb(0, 0, 0, 1) 100%);
+}
+
+label.title {
+  color: var(--header-label-color);
+  font-weight: bold;
+  font-size: 25px;
+  vertical-align: middle;
+}
+
+label.subtitle {
+  color: var(--tint-color);
+  display: block;
+  font-size: 15px;
+  opacity: 0.9;
+}
+
+img.avatar {
+  display: inline;
+  height: 70px;
+  width: 70px;
+  vertical-align: middle;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+}
+
+  /*
+   * Collapsible
+   */
+
+.collapsible-content {
+  max-height: 0px;
+  overflow: hidden;
+  padding-left: 15px;
+  padding-right: 15px;
+  background-color: var(--collapsible-bg-color);
+  transition: max-height 180ms ease-in-out;
+}
+
+.collapsible-open > div.cell > img.arrow {
+  transform: rotate(90deg);
+}
+
+.collapsible.collapsible-open + .collapsible-content {
+  padding-bottom: 5px;
+}

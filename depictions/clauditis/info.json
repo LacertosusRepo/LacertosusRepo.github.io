@@ -1,0 +1,20 @@
+{
+  "name": "Clauditis",
+  "description": "Simple tweak that allows users to lock device with a double tap on the homescreen. Mostly an example tweak.",
+  "source": "https://github.com/LacertosusRepo/Open-Source-Tweaks/tree/master/Clauditis",
+  
+  "compatibility": {
+    "miniOSVersion": "11.0",
+    "maxiOSVersion": "14.4"
+  },
+
+  "changelog": {
+    "1.1": [
+      "Stops device locking when in wiggle mode"
+    ],
+
+    "1.0": [
+      "Initial Release"
+    ]
+  }
+}

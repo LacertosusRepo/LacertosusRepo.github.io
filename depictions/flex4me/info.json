@@ -1,0 +1,29 @@
+{
+  "name": "FLEX4Me",
+  "description": "Show the FLEX toolbar on the fly by force touching the status bar, the app doesn't need to be enabled in FLEXible preferences. No options to configure.",
+  "source": "https://github.com/LacertosusRepo/Open-Source-Tweaks/tree/master/FLEX4Me",
+  
+  "compatibility": {
+    "miniOSVersion": "12.0",
+    "maxiOSVersion": "12.1.2"
+  },
+
+  "changelog": {
+    "1.3": [
+      "Updates for FLEXible 2.1.0 (Shmoopi changed the FLEXible.dylib directory)"
+    ],
+
+    "1.2": [
+      "Now can use on the lockscreen (use TouchID or FaceID to 'unlock' and it will appear)"
+    ],
+
+    "1.1": [
+      "Now loads into all apps",
+      "Added FLEXible dependency"
+    ],
+
+    "1.0": [
+      "Initial Release"
+    ]
+  }
+}

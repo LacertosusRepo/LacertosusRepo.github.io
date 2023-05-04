@@ -1,0 +1,22 @@
+{
+  "name": "HaptikCenter",
+  "description": "Haptic Feedback in your control center & notification center, customize the vibration in settings. Requires device with vibration motor.",
+  "source": "https://github.com/LacertosusRepo/Open-Source-Tweaks/tree/master/HaptikCenter",
+  
+  "compatibility": {
+    "miniOSVersion": "10.0",
+    "maxiOSVersion": "10.3.3"
+  },
+
+  "screenshots": 1,
+
+  "changelog": {
+    "0.2.8-7": [
+      "UI Changes"
+    ],
+
+    "0.0.1": [
+      "Initial Release"
+    ]
+  }
+}

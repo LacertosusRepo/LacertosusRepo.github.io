@@ -1,0 +1,24 @@
+{
+  "name": "Obscurite",
+  "description": "Simple tweak that will blur your screen when auto-locking instead of dimming. Blur is customizable in settings.",
+  "source": "https://github.com/LacertosusRepo/Open-Source-Tweaks/",
+  
+  "compatibility": {
+    "miniOSVersion": "10.0",
+    "maxiOSVersion": "10.3.3"
+  },
+
+  "screenshots": 2,
+
+  "changelog": {
+    "1.2": [
+      "New blur ",
+      "Homescreen option",
+      "Bug fixes"
+    ],
+
+    "1.0": [
+      "Initial Release"
+    ]
+  }
+}

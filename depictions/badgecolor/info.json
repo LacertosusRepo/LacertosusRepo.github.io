@@ -1,0 +1,18 @@
+{
+  "name": "BadgeColor",
+  "description": "Small tweak to change the color of your badges.",
+  "source": "https://github.com/LacertosusRepo/Open-Source-Tweaks/tree/master/BadgeColor",
+  
+  "compatibility": {
+    "miniOSVersion": "13.0",
+    "maxiOSVersion": "14.4"
+  },
+
+  "screenshots": 2,
+
+  "changelog": {
+    "1.0": [
+      "Initial Release"
+    ]
+  }
+}

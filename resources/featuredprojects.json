@@ -1,0 +1,20 @@
+{
+  "projects": [
+    {
+      "name" : "GitHub",
+      "description" : "Did you know that almost every one of my tweaks is open source? Wanna take a looksy?",
+      "link" : "https://github.com/LacertosusRepo/Open-Source-Tweaks",
+      "tint" : "#4078C0",
+      "icon" : "./icons/github.png"
+    },
+
+    {
+      "packageidentifier": "spotifyaddtofavorites",
+      "preview": "https://lacertosusrepo.github.io/depictions/resources/previews/Improvify/preview.png"
+    },
+
+    {
+      "packageidentifier": "libellum"
+    }
+  ]
+}

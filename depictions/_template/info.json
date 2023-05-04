@@ -1,0 +1,21 @@
+{
+  "name": "Name",
+  "description": "Description.",
+  "source": "https://github.com/LacertosusRepo/Open-Source-Tweaks/",
+  "tint": "#FFFFFF",
+  
+  "compatibility": {
+    "miniOSVersion": "1.0.0",
+    "maxiOSVersion": "10.0.0",
+    "appName": "App",
+    "appVersion": "1.0"
+  },
+
+  "screenshots": 1,
+
+  "changelog": {
+    "1.0": [
+      "Initial Release"
+    ]
+  }
+}

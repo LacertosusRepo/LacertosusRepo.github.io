@@ -1,0 +1,21 @@
+{
+  "name": "HomeButtonLock",
+  "description": "Home Button stuck or broken? Causing accidental app closing, activating Siri, or the app switcher? Assign an action to HomeButtonLock to disable the home button actions (additional options in preferences).",
+  
+  "compatibility": {
+    "miniOSVersion": "10.0",
+    "maxiOSVersion": "10.3.3"
+  },
+
+  "screenshots": 1,
+
+  "changelog": {
+    "0.1.2-20": [
+      "Fixed preferences"
+    ],
+
+    "0.0.1": [
+      "Initial Release"
+    ]
+  }
+}

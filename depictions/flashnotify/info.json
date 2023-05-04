@@ -1,0 +1,28 @@
+{
+  "name": "FlashNotify",
+  "description": "Send a reminder to turn off your flashlight after a set amount of time. Also includes an alternate delay when charging, face up/face down detection to turn off flashlight, and automatic flashlight disable after time.",
+  "source": "https://github.com/LacertosusRepo/Open-Source-Tweaks/tree/master/FlashNotify",
+  "tint": "#f8bd1e",
+  "hasicon": true,
+  
+  "compatibility": {
+    "miniOSVersion": "13.0",
+    "maxiOSVersion": "14.4"
+  },
+
+  "screenshots": 2,
+
+  "changelog": {
+    "1.0.2": [
+      "Oops I broke everything, fixed my mistake"
+    ],
+
+    "1.0.1": [
+      "Preferences update"
+    ],
+
+    "1.0": [
+      "Initial Release"
+    ]
+  }
+}

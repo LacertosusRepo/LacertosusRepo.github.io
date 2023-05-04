@@ -1,169 +1,165 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="utf-8">
-	<title>LacertosusDeus's Repository</title>
-	<base target="_top">
-	<link rel="stylesheet" type="text/css" href="./depictions/resources/css/style.css"/>
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
-	<meta name="description" content="LacertosusDeus Personal Repository">
-	<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
-	<meta name="format-detection" content="telephone=no">
-	<meta name="theme-color" content="#0B0B0B">
-	<script type="text/javascript" src="./depictions/resources/js/thankssaurik.js"></script>
-	<script type="text/javascript" src="./depictions/resources/js/themeswitch.js"></script>
-	<!--<script src="./depictions/resources/js/snowstorm.js"></script> -->
-	<link rel="icon" type="image/png" href="./depictions/resources/logo/16.png" sizes="16x16">
-	<link rel="icon" type="image/png" href="./depictions/resources/logo/32.png" sizes="32x32">
-	<link rel="icon" type="image/png" href="./depictions/resources/logo/48.png" sizes="48x48">
-	<link rel="icon" type="image/png" href="./depictions/resources/logo/64.png" sizes="64x64">
-	<link rel="icon" type="image/png" href="./depictions/resources/logo/128.png" sizes="128x128">
-	<link rel="icon" type="image/png" href="./depictions/resources/logo/256.png" sizes="256x256">
-	<link rel="apple-touch-icon" sizes="120x120" href="./depictions/resources/logo/120.png">
+  <script type="module" src="./resources/js/landingpage.js"></script>
+  <script type="module" src="./resources/js/collapsibles.js"></script>
+  <script type="module" src="./resources/js/theming.js"></script>
+  <link rel="stylesheet" type="text/css" href="./resources/css/style.css">
+  <link rel="stylesheet" type="text/css" href="./resources/css/animations.css">
+  <meta charset="UTF-8">
+  <title>LacertosusDeus's Repo</title>
+  <link rel="icon" type="image/x-icon" href="./resources/favicon.ico">
+  <meta name="description" content="LacertosusDeus Personal Repository">
+  <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="theme-color" content="#0B0B0B">
 </head>
 
-<br>
-<body class="pinstripe animate__animated animate__fadeIn">
+<body class="fadeInAnimation">
+  <center>
+    <div class="header swoopZoomAnimation">
+      <img class="avatar" src="https://avatars.githubusercontent.com/u/14306024?v=4" alt="">
+      <div class="label-stack">
+        <label class="title">LacertosusDeus</label>
+        <label class="subtitle" id="handle-subtitle">@LacertosusDeus</label>
+      </div>
+    </div>
+  </center>
 
-<panel>
-<center>
-<div class="animate__animated animate__fadeInDownBig">
-<img id="Header" class="headerImg" src="./depictions/resources/logo/Header/Repo Header.png" alt="LacertosusRepository" style="width:320px;height:94.07867494824px;">
-</div>
-</center>
+  <label class="group"></label>
+  <fieldset>
+    <a class="collapsible" id="repo-collapsible">
+      <div class="cell">
+        <img class="icon" src="./resources/icons/cydia.png" alt="">
+        <img class="arrow" alt="">
+        <label>Add Repo</label>
+      </div>
+    </a>
+    <div class="collapsible-content">
+      <p>Choose your package manager to automatically add this repo. Alternatively, you can copy the repo URL.</p>
+      <a href="zbra://sources/add/https://LacertosusRepo.github.io" target="_blank" rel="noopener noreferrer">
+        <div class="cell">
+          <img class="icon" src="./resources/icons/cydia.png" alt="">
+          <label>Zebra</label>
+        </div>
+      </a>
+      <a href="sileo://source/https://LacertosusRepo.github.io" target="_blank" rel="noopener noreferrer">
+        <div class="cell">
+          <img class="icon" src="./resources/icons/cydia.png" alt="">
+          <label>Sileo</label>
+        </div>
+      </a>
+      <a href="cydia://url/https://cydia.saurik.com/api/share#?source=https://LacertosusRepo.github.io" target="_blank" rel="noopener noreferrer">
+        <div class="cell">
+          <img class="icon" src="./resources/icons/cydia.png" alt="">
+          <label>Cydia</label>
+        </div>
+      </a>
+      <a id="copyRepoURL">
+        <div class="cell">
+          <img class="icon" src="./resources/icons/url.png" alt="">
+          <label>Copy URL</label>
+        </div>
+      </a>
+    </div>
+  </fieldset>
 
-<block>
-<fieldset>
-<label style="font-size:18px">
-<center>
-<strong>Lacertosus's Repository</strong>
-</center>
-</label>
-</fieldset>
-</block>
+  <label class="group">ABOUT</label>
+  <fieldset>
+    <p>Personal repo for projects still in development, smaller tweaks, and legacy projects.</p>
 
-<label>Recent:</label>
-<fieldset>
-<div>
-<div>
-<label>
-<center>
-  <p>Hosting finished tweaks on Chariz and Packix now! Libellum, NowPlayingIcon, Navale, & more availible for free.
-  <br><br>
-  <p><a class="link" href="https://canijailbreak.com/">CanIJailbreak.com</a></p>
-</center>
-</label>
-</div>
-</div>
-<a href="./depictions/resources/featured.html">
-<img class="icon" src="./depictions/resources/icons/featured.png">
-<div>
-<div>
-<label>
-<p>Featured</p>
-</label>
-</div>
-</div>
-</a>
-</fieldset>
+    <a href="./resources/featuredprojects.html">
+      <div class="cell">
+        <img class="icon" src="./resources/icons/featured.png" alt="">
+        <img class="arrow" alt="">
+        <label>Featured Projects</label>
+      </div>
+    </a>
 
-<label>Add Repo:</label>
-<fieldset>
-<a href="cydia://url/https://cydia.saurik.com/api/share#?source=https://LacertosusRepo.github.io">
-<img class="icon" src="./depictions/resources/icons/cydia.png">
-<div>
-<div>
-<label>
-<p>Add to Cydia</p>
-</label>
-</div>
-</div>
-</a>
-<a href="sileo://source/https://LacertosusRepo.github.io">
-<img class="icon" src="./depictions/resources/icons/sileo.png">
-<div>
-<div>
-<label>
-<p>Add to Sileo</p>
-</label>
-</div>
-</div>
-</a>
-<a>
-<img class="icon" src="./depictions/resources/icons/url.png">
-<div>
-<div>
-<label>
-<p>URL</p>
-</label>
-<input type="text" value="http://LacertosusRepo.github.io" onclick="setSelectionRange(0,31)" style="width: 210px;" readonly>
-</div>
-</div>
-</a>
-</fieldset>
+    <a href="https://ios.cfw.guide/" target="_blank" rel="noopener noreferrer">
+      <div class="cell">
+        <img class="icon" src="./resources/icons/url.png" alt="">
+        <img class="arrow" alt="">
+        <label>About Jailbreaking</label>
+      </div>
+    </a>
+  </fieldset>
 
-<label>Other:</label>
-<fieldset>
+  <label class="group">OTHER</label>
+  <fieldset>
+    <a href="https://github.com/LacertosusRepo" target="_blank" rel="noopener noreferrer">
+      <div class="cell">
+        <img class="icon" src="./resources/icons/github.png" alt="">
+        <img class="arrow" alt="">
+        <label>GitHub</label>
+      </div>
+    </a>
 
-<a href="https://github.com/LacertosusRepo">
-<img class="icon" src="./depictions/resources/icons/github.png" width="58" height="58">
-<div>
-<div>
-<label>
-<p>GitHub</p>
-</label>
-</div>
-</div>
-</a>
-<a href="./depictions/resources/donate.html">
-<img class="icon" src="./depictions/resources/icons/donate.png" width="58" height="58">
-<div>
-<div>
-<label>
-<p>Donate</p>
-</label>
-</div>
-</div>
-</a>
-<a href="./depictions/resources/contact.html">
-<img class="icon" src="./depictions/resources/icons/contact.png" width="58" height="58">
-<div>
-<div>
-<label>
-<p>Contact Me</p>
-</label>
-</div>
-</div>
-</a>
-<a href="./depictions/resources/help.html">
-<img class="icon" src="./depictions/resources/icons/help.png" width="58" height="58">
-<div>
-<div>
-<label>
-<p>Help</p>
-</label>
-</div>
-</div>
-</a>
-</fieldset>
+    <a class="collapsible" id="contact-collapsible">
+      <div class="cell">
+        <img class="icon" src="./resources/icons/contact.png" alt="">
+        <img class="arrow" alt="">
+        <label>Contact Me</label>
+      </div>
+    </a>
+    <div class="collapsible-content">
+      <p>Services that you can use to contact me.</p>
+      <a href="https://github.com/LacertosusRepo" target="_blank" rel="noopener noreferrer">
+        <div class="cell">
+          <img class="icon" src="./resources/icons/github.png" alt="">
+          <label>Github</label>
+        </div>
+      </a>
+      <a href="https://twitter.com/LacertosusDeus" target="_blank" rel="noopener noreferrer">
+        <div class="cell">
+          <img class="icon" src="./resources/icons/twitter.png" alt="">
+          <label>Twitter</label>
+        </div>
+      </a>
+      <a href="mailto:LacertosusThemes@gmail.com" target="_blank" rel="noopener noreferrer">
+        <div class="cell">
+          <img class="icon" src="./resources/icons/contact.png" alt="">
+          <label>Email</label>
+        </div>
+      </a>
+      <a href="https://reddit.com/user/Bezerk_Jesus" target="_blank" rel="noopener noreferrer">
+        <div class="cell">
+          <img class="icon" src="./resources/icons/reddit.png" alt="">
+          <label>Reddit</label>
+        </div>
+      </a>
+    </div>
 
+      <a href="https://paypal.me/Lacertosus" target="_blank" rel="noopener noreferrer">
+        <div class="cell">
+          <img class="icon" src="./resources/icons/donate.png" alt="">
+          <img class="arrow" alt="">
+          <label>Support Me</label>
+        </div>
+      </a>
+    </a>
+  </fieldset>
 
-<label>Thanks:</label>
-<fieldset>
-<div>
-<div>
-<label>
-<p>Thank you to Elijah and Andrew for the depiction styles!</p>
-</label>
-</div>
-</div>
-</fieldset>
-
-<center>
-<button id="ThemeButton" class="button" onclick="switchTheme()">Dark Mode</button>
-</center>
-<br>
-</div>
-</panel>
+  <center>
+    <button id="theme-toggle" class="theme-toggle" title="Theme Switch Button">
+      <svg class="sun-and-moon" width="24" height="24" viewBox="0 0 24 24">
+        <circle class="sun" cx="12" cy="12" r="6" mask="url(#moon-mask)" fill="currentColor"/>
+        <g class="sun-beams" stroke="currentColor">
+          <line x1="12" y1="1" x2="12" y2="3"/>
+          <line x1="12" y1="21" x2="12" y2="23"/>
+          <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/>
+          <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/>
+          <line x1="1" y1="12" x2="3" y2="12"/>
+          <line x1="21" y1="12" x2="23" y2="12"/>
+          <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/>
+          <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/>
+        </g>
+        <mask class="moon" id="moon-mask">
+          <rect x="0" y="0" width="100%" height="100%" fill="white"/>
+          <circle cx="24" cy="10" r="6" fill="black"/>
+        </mask>
+      </svg>
+    </button>
+  </center>
 </body>
 </html>
